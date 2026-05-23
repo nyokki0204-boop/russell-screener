@@ -1,0 +1,4815 @@
+ticker,sector,industry
+AXTI,Technology,Semiconductor Equipment & Materials
+BW,Industrials,Specialty Industrial Machinery
+TERN,Healthcare,Biotechnology
+CELC,Healthcare,Biotechnology
+LITE,Technology,Communication Equipment
+PL,Industrials,Aerospace & Defense
+RLMD,Healthcare,Biotechnology
+AEHR,Technology,Semiconductor Equipment & Materials
+MXL,Technology,Semiconductors
+TE,Industrials,Electrical Equipment & Parts
+LPTH,Technology,Electronic Components
+OSS,Technology,Computer Hardware
+TSEM,Technology,Semiconductors
+NVTS,Technology,Semiconductors
+SIF,Industrials,Aerospace & Defense
+VICR,Technology,Electronic Components
+MVLL,その他,
+SATS,Communication Services,Telecom Services
+RLYB,Healthcare,Biotechnology
+XMAX,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+DOCN,Technology,Software - Infrastructure
+EVC,Communication Services,Advertising Agencies
+NRGV,Utilities,Utilities - Renewable
+NBIS,Communication Services,Internet Content & Information
+LASR,Technology,Semiconductors
+AIP,Technology,Semiconductors
+DGXX,Utilities,Utilities - Independent Power Producers
+DLLL,その他,
+HYLN,Consumer Cyclical,Auto Parts
+SYRE,Healthcare,Biotechnology
+COHR,Technology,Scientific & Technical Instruments
+DNTH,Healthcare,Biotechnology
+TER,Technology,Semiconductor Equipment & Materials
+FCEL,Industrials,Electrical Equipment & Parts
+GSAT,Communication Services,Telecom Services
+OCC,Technology,Communication Equipment
+BAND,Technology,Software - Infrastructure
+VISN,Technology,Communication Equipment
+SIMO,Technology,Semiconductors
+NESR,Energy,Oil & Gas Equipment & Services
+VPG,Technology,Scientific & Technical Instruments
+TOYO,Technology,Solar
+RFIL,Industrials,Electrical Equipment & Parts
+UCTT,Technology,Semiconductor Equipment & Materials
+SMTC,Technology,Semiconductors
+ICHR,Technology,Semiconductor Equipment & Materials
+SLS,Healthcare,Biotechnology
+BLDP,Industrials,Electrical Equipment & Parts
+GLW,Technology,Electronic Components
+HYDR,その他,
+QUIK,Technology,Semiconductors
+STRL,Industrials,Engineering & Construction
+LQDA,Healthcare,Drug Manufacturers - Specialty & Generic
+FET,Energy,Oil & Gas Equipment & Services
+BELFA,Technology,Electronic Components
+CTNM,Healthcare,Biotechnology
+ELA,Consumer Cyclical,Luxury Goods
+RVMD,Healthcare,Biotechnology
+ASMG,その他,
+CVGI,Consumer Cyclical,Auto Parts
+BELFB,Technology,Electronic Components
+SITM,Technology,Semiconductors
+AMKR,Technology,Semiconductor Equipment & Materials
+OUST,Technology,Electronic Components
+ACRS,Healthcare,Biotechnology
+TSMX,その他,
+VSH,Technology,Semiconductors
+CYD,Consumer Cyclical,Auto Manufacturers
+AP,Industrials,Metal Fabrication
+TSAT,Technology,Communication Equipment
+TSMU,その他,
+INDV,Healthcare,Drug Manufacturers - Specialty & Generic
+LXRX,Healthcare,Biotechnology
+WTI,Energy,Oil & Gas E&P
+GCTS,Technology,Semiconductors
+AGX,Industrials,Engineering & Construction
+MRVL,Technology,Semiconductors
+SION,Healthcare,Biotechnology
+FLEX,Technology,Electronic Components
+EWY,その他,
+AMDY,その他,
+VRT,Industrials,Electrical Equipment & Parts
+INTT,Technology,Semiconductor Equipment & Materials
+VECO,Technology,Semiconductor Equipment & Materials
+CNTA,Healthcare,Biotechnology
+LSCC,Technology,Semiconductors
+FTXL,その他,
+SILC,Technology,Communication Equipment
+PUMP,Energy,Oil & Gas Equipment & Services
+PENG,Technology,Information Technology Services
+MGNX,Healthcare,Biotechnology
+CECO,Industrials,Pollution & Treatment Controls
+NEXA,Basic Materials,Other Industrial Metals & Mining
+SSL,Basic Materials,Specialty Chemicals
+NOK,Technology,Communication Equipment
+SANM,Technology,Electronic Components
+SATL,Industrials,Aerospace & Defense
+ONTO,Technology,Semiconductor Equipment & Materials
+NWPX,Basic Materials,Steel
+ON,Technology,Semiconductors
+IMOS,Technology,Semiconductors
+TVTX,Healthcare,Biotechnology
+VAL,Energy,Oil & Gas Drilling
+LBRT,Energy,Oil & Gas Equipment & Services
+STM,Technology,Semiconductors
+COHU,Technology,Semiconductor Equipment & Materials
+RIG,Energy,Oil & Gas Drilling
+CMPS,Healthcare,Medical Care Facilities
+KEN,Utilities,Utilities - Independent Power Producers
+ACLS,Technology,Semiconductor Equipment & Materials
+RMBS,Technology,Semiconductors
+HIMX,Technology,Semiconductors
+XMTR,Industrials,Industrial Distribution
+PRM,Basic Materials,Specialty Chemicals
+AVR,Healthcare,Medical Instruments & Supplies
+SHIP,Industrials,Marine Shipping
+ECG,Industrials,Engineering & Construction
+INOD,Technology,Information Technology Services
+KALU,Basic Materials,Aluminum
+CCCC,Healthcare,Biotechnology
+YOU,Technology,Software - Application
+ELVN,Healthcare,Biotechnology
+CGON,Healthcare,Biotechnology
+CYTK,Healthcare,Biotechnology
+BTSG,Healthcare,Health Information Services
+PDFS,Technology,Software - Application
+THR,Industrials,Specialty Industrial Machinery
+EDC,その他,
+TEN,Energy,Oil & Gas Midstream
+OBE,Energy,Oil & Gas E&P
+SCHL,Communication Services,Publishing
+TH,Industrials,Specialty Business Services
+WTTR,Energy,Oil & Gas Equipment & Services
+CMPR,Industrials,Specialty Business Services
+BHE,Technology,Electronic Components
+ARM,Technology,Semiconductors
+CORZ,Technology,Software - Infrastructure
+IMVT,Healthcare,Biotechnology
+LPG,Energy,Oil & Gas Midstream
+NE,Energy,Oil & Gas Drilling
+ATEX,Communication Services,Telecom Services
+GFS,Technology,Semiconductors
+KALV,Healthcare,Biotechnology
+NXT,Technology,Solar
+CYRX,Industrials,Integrated Freight & Logistics
+EWTX,Healthcare,Biotechnology
+PDS,Energy,Oil & Gas Drilling
+IMTX,Healthcare,Biotechnology
+LFUS,Technology,Electronic Components
+LION,その他,
+AXSM,Healthcare,Biotechnology
+MIRM,Healthcare,Biotechnology
+CGNX,Technology,Scientific & Technical Instruments
+ASRT,Healthcare,Drug Manufacturers - Specialty & Generic
+BWLP,Energy,Oil & Gas Midstream
+KGS,Energy,Oil & Gas Equipment & Services
+WCC,Industrials,Industrial Distribution
+CCO,Communication Services,Advertising Agencies
+JAZZ,Healthcare,Biotechnology
+DIOD,Technology,Semiconductors
+SDRL,Energy,Oil & Gas Drilling
+LINC,Consumer Defensive,Education & Training Services
+KVHI,Communication Services,Telecom Services
+AAPU,その他,
+GNRC,Industrials,Specialty Industrial Machinery
+CERS,Healthcare,Medical Devices
+KEYS,Technology,Scientific & Technical Instruments
+SHLS,Technology,Solar
+QCML,その他,
+CTOS,Industrials,Rental & Leasing Services
+HAL,Energy,Oil & Gas Equipment & Services
+NAT,Energy,Oil & Gas Midstream
+INVX,Energy,Oil & Gas Equipment & Services
+DCO,Industrials,Aerospace & Defense
+VTRS,Healthcare,Drug Manufacturers - Specialty & Generic
+VUZI,Technology,Consumer Electronics
+FRO,Energy,Oil & Gas Midstream
+BB,Technology,Software - Infrastructure
+COCO,Consumer Defensive,Beverages - Non-Alcoholic
+ECPG,Financial Services,Credit Services
+FSTR,Industrials,Railroads
+QCLN,その他,
+CABA,Healthcare,Biotechnology
+MAMA,Consumer Defensive,Packaged Foods
+BWMX,Consumer Cyclical,Specialty Retail
+TAN,その他,
+CNXT,その他,
+ROG,Technology,Electronic Components
+ATNI,Communication Services,Telecom Services
+CEVA,Technology,Semiconductors
+APGE,Healthcare,Biotechnology
+CPSH,Technology,Electronic Components
+BWA,Consumer Cyclical,Auto Parts
+ERX,その他,
+GRC,Industrials,Specialty Industrial Machinery
+TRMD,Energy,Oil & Gas Midstream
+AOSL,Technology,Semiconductors
+NAMS,Healthcare,Biotechnology
+RELL,Technology,Electronic Components
+ADTN,Technology,Communication Equipment
+AVNS,Healthcare,Medical Devices
+KURA,Healthcare,Biotechnology
+TS,Energy,Oil & Gas Equipment & Services
+SPIR,Industrials,Specialty Business Services
+VLO,Energy,Oil & Gas Refining & Marketing
+MRVI,Healthcare,Biotechnology
+KNSA,Healthcare,Drug Manufacturers - Specialty & Generic
+SNX,Technology,Electronics & Computer Distribution
+SNEX,Financial Services,Capital Markets
+VSTS,Industrials,Rental & Leasing Services
+DDD,Technology,Computer Hardware
+NHC,Healthcare,Medical Care Facilities
+ELMD,Healthcare,Medical Devices
+DDOG,Technology,Software - Application
+AKAM,Technology,Software - Infrastructure
+FATE,Healthcare,Biotechnology
+CGEN,Healthcare,Biotechnology
+DHX,Technology,Software - Application
+EGY,Energy,Oil & Gas E&P
+SEB,Industrials,Conglomerates
+KW,Real Estate,Real Estate Services
+EWT,その他,
+ECVT,Basic Materials,Specialty Chemicals
+HAFN,Industrials,Marine Shipping
+IX,Financial Services,Financial Conglomerates
+FLXS,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+ORA,Utilities,Utilities - Renewable
+PII,Consumer Cyclical,Recreational Vehicles
+MGA,Consumer Cyclical,Auto Parts
+SKM,Communication Services,Telecom Services
+DRIV,その他,
+KOS,Energy,Oil & Gas E&P
+CASY,Consumer Cyclical,Specialty Retail
+GASS,Industrials,Marine Shipping
+PACK,Consumer Cyclical,Packaging & Containers
+PHVS,Healthcare,Biotechnology
+ARW,Technology,Electronics & Computer Distribution
+MSGS,Communication Services,Entertainment
+CHRW,Industrials,Integrated Freight & Logistics
+DSX,Industrials,Marine Shipping
+UTHR,Healthcare,Drug Manufacturers - Specialty & Generic
+TALK,Healthcare,Health Information Services
+MDAI,Healthcare,Medical Devices
+MPTI,Technology,Electronic Components
+XENE,Healthcare,Biotechnology
+ROKU,Communication Services,Entertainment
+ESEA,Industrials,Marine Shipping
+PANL,Industrials,Marine Shipping
+GTE,Energy,Oil & Gas E&P
+NTCT,Technology,Software - Infrastructure
+SLAB,Technology,Semiconductors
+GGB,Basic Materials,Steel
+INFU,Healthcare,Medical Devices
+DTCR,その他,
+PBR,Energy,Oil & Gas Integrated
+CXDO,Communication Services,Telecom Services
+KMT,Industrials,Tools & Accessories
+LIVN,Healthcare,Medical Devices
+PKOH,Industrials,Specialty Industrial Machinery
+APEI,Consumer Defensive,Education & Training Services
+GRDN,Healthcare,Medical Care Facilities
+QQQU,その他,
+TX,Basic Materials,Steel
+NATL,Technology,Software - Application
+NN,Technology,Software - Infrastructure
+ARKO,Consumer Cyclical,Specialty Retail
+SLX,その他,
+FROG,Technology,Software - Application
+ATEN,Technology,Software - Infrastructure
+CM,Financial Services,Banks - Diversified
+OLPX,Consumer Cyclical,Specialty Retail
+CARE,Financial Services,Banks - Regional
+ATLO,Financial Services,Banks - Regional
+EQNR,Energy,Oil & Gas Integrated
+MCY,Financial Services,Insurance - Property & Casualty
+CW,Industrials,Aerospace & Defense
+CHRD,Energy,Oil & Gas E&P
+HLIT,Technology,Communication Equipment
+PLOW,Consumer Cyclical,Auto Parts
+MITK,Technology,Software - Application
+ANET,Technology,Computer Hardware
+OPPJ,その他,
+NVGS,Energy,Oil & Gas Midstream
+RNG,Technology,Software - Application
+PKBK,Financial Services,Banks - Regional
+MEC,Industrials,Metal Fabrication
+LPL,Technology,Consumer Electronics
+QCOM,Technology,Semiconductors
+WWD,Industrials,Aerospace & Defense
+SBLK,Industrials,Marine Shipping
+XOMA,Healthcare,Biotechnology
+WDS,Energy,Oil & Gas E&P
+EXTR,Technology,Communication Equipment
+ESOA,Industrials,Engineering & Construction
+IXN,その他,
+RRBI,Financial Services,Banks - Regional
+ETON,Healthcare,Drug Manufacturers - Specialty & Generic
+CRGY,Energy,Oil & Gas E&P
+HSBC,Financial Services,Banks - Diversified
+VVX,Industrials,Aerospace & Defense
+FSLR,Technology,Solar
+SHG,Financial Services,Banks - Regional
+SGHC,Consumer Cyclical,Gambling
+RXO,Industrials,Trucking
+FLNG,Energy,Oil & Gas Midstream
+ERIC,Technology,Communication Equipment
+CVEO,Consumer Cyclical,Lodging
+DAL,Industrials,Airlines
+BP,Energy,Oil & Gas Integrated
+AGIX,その他,
+OPLN,Consumer Cyclical,Auto & Truck Dealerships
+DHT,Energy,Oil & Gas Midstream
+FRST,Financial Services,Banks - Regional
+CMP,Basic Materials,Other Industrial Metals & Mining
+REPX,Energy,Oil & Gas E&P
+SFST,Financial Services,Banks - Regional
+WS,Basic Materials,Steel
+PBI,Industrials,Integrated Freight & Logistics
+FAN,その他,
+DTIL,Healthcare,Biotechnology
+GBTG,Consumer Cyclical,Travel Services
+AIQ,その他,
+OMCL,Healthcare,Health Information Services
+AESI,Energy,Oil & Gas Equipment & Services
+DBD,Technology,Software - Application
+FXN,その他,
+IHS,Real Estate,Real Estate Services
+OGN,Healthcare,Drug Manufacturers - General
+DVN,Energy,Oil & Gas E&P
+ISTR,Financial Services,Banks - Regional
+MTUS,Basic Materials,Steel
+TDC,Technology,Software - Infrastructure
+BNS,Financial Services,Banks - Diversified
+OCS,Healthcare,Biotechnology
+COKE,Consumer Defensive,Beverages - Non-Alcoholic
+AES,Utilities,Utilities - Diversified
+LOCO,Consumer Cyclical,Restaurants
+PLSE,Healthcare,Medical Instruments & Supplies
+IXC,その他,
+HEWJ,その他,
+RBB,Financial Services,Banks - Regional
+SENEA,Consumer Defensive,Packaged Foods
+LAUR,Consumer Defensive,Education & Training Services
+FANG,Energy,Oil & Gas E&P
+VIST,Energy,Oil & Gas E&P
+FLOC,Energy,Oil & Gas Equipment & Services
+F,Consumer Cyclical,Auto Manufacturers
+PEBK,Financial Services,Banks - Regional
+RJET,Industrials,Airlines
+SM,Energy,Oil & Gas E&P
+CLDX,Healthcare,Biotechnology
+FXZ,その他,
+SNDA,Healthcare,Medical Care Facilities
+VDE,その他,
+WSBF,Financial Services,Banks - Regional
+ZIM,Industrials,Marine Shipping
+LXFR,Industrials,Specialty Industrial Machinery
+GRID,その他,
+LYTS,Technology,Electronic Components
+SUPN,Healthcare,Drug Manufacturers - Specialty & Generic
+MX,Technology,Semiconductors
+RNGR,Energy,Oil & Gas Equipment & Services
+RY,Financial Services,Banks - Diversified
+XLE,その他,
+JOE,Real Estate,Real Estate - Diversified
+AROW,Financial Services,Banks - Regional
+AMCX,Communication Services,Entertainment
+ING,Financial Services,Banks - Diversified
+VPL,その他,
+MBIN,Financial Services,Banks - Regional
+AVEM,その他,
+OOMA,Technology,Software - Application
+TDVI,その他,
+CADL,Healthcare,Biotechnology
+KB,Financial Services,Banks - Regional
+FLYW,Technology,Software - Infrastructure
+EEM,その他,
+UNF,Industrials,Specialty Business Services
+CRWD,Technology,Software - Infrastructure
+JHG,Financial Services,Asset Management
+LSTR,Industrials,Integrated Freight & Logistics
+OXY,Energy,Oil & Gas E&P
+DUOT,Technology,Software - Application
+IMAX,Communication Services,Entertainment
+ESGE,その他,
+VCTR,Financial Services,Asset Management
+VTWV,その他,
+MCB,Financial Services,Banks - Regional
+MCRI,Consumer Cyclical,Resorts & Casinos
+GMED,Healthcare,Medical Devices
+WBS,Financial Services,Banks - Regional
+CLBK,Financial Services,Banks - Regional
+AD,Communication Services,Telecom Services
+AFK,その他,
+ACA,Industrials,Engineering & Construction
+STEL,Financial Services,Banks - Regional
+FTGC,その他,
+IMXI,Technology,Software - Infrastructure
+VTWO,その他,
+VLN,Technology,Semiconductors
+SHEN,Communication Services,Telecom Services
+PXF,その他,
+IMUX,Healthcare,Biotechnology
+TBLA,Communication Services,Internet Content & Information
+BVS,Healthcare,Medical Devices
+GLNG,Energy,Oil & Gas Midstream
+NKSH,Financial Services,Banks - Regional
+ZD,Communication Services,Advertising Agencies
+IFRX,Healthcare,Biotechnology
+APLY,その他,
+FXNC,Financial Services,Banks - Regional
+FVCB,Financial Services,Banks - Regional
+CF,Basic Materials,Agricultural Inputs
+EWBC,Financial Services,Banks - Regional
+VIOV,その他,
+PANW,Technology,Software - Infrastructure
+LECO,Industrials,Tools & Accessories
+RL,Consumer Cyclical,Apparel Manufacturing
+INGM,Technology,Information Technology Services
+ETR,Utilities,Utilities - Regulated Electric
+IFS,Financial Services,Banks - Regional
+MISL,その他,
+MCFT,Consumer Cyclical,Recreational Vehicles
+RLGT,Industrials,Integrated Freight & Logistics
+SIRI,Communication Services,Entertainment
+HAS,Consumer Cyclical,Leisure
+OBT,Financial Services,Banks - Regional
+HAFC,Financial Services,Banks - Regional
+CATY,Financial Services,Banks - Regional
+PDEX,Healthcare,Medical Instruments & Supplies
+TSBK,Financial Services,Banks - Regional
+NET,Technology,Software - Infrastructure
+EBMT,Financial Services,Banks - Regional
+NVEC,Technology,Semiconductors
+ZWS,Industrials,Pollution & Treatment Controls
+ATOM,Technology,Semiconductor Equipment & Materials
+AAON,Industrials,Building Products & Equipment
+THD,その他,
+AGRO,Consumer Defensive,Farm Products
+CPA,Industrials,Airlines
+LYB,Basic Materials,Specialty Chemicals
+SPYG,その他,
+FDD,その他,
+HBCP,Financial Services,Banks - Regional
+ABUS,Healthcare,Biotechnology
+PNRG,Energy,Oil & Gas E&P
+CWB,その他,
+KOP,Basic Materials,Specialty Chemicals
+ESML,その他,
+LFST,Healthcare,Medical Care Facilities
+NEE,Utilities,Utilities - Regulated Electric
+PAVE,その他,
+RTO,Industrials,Specialty Business Services
+TECX,Healthcare,Biotechnology
+CNOB,Financial Services,Banks - Regional
+JBSS,Consumer Defensive,Packaged Foods
+SHEL,Energy,Oil & Gas Integrated
+ACNB,Financial Services,Banks - Regional
+FBT,その他,
+SMBC,Financial Services,Banks - Regional
+CBAN,Financial Services,Banks - Regional
+EFIV,その他,
+ZM,Technology,Software - Application
+EWW,その他,
+OEF,その他,
+RLY,その他,
+ARMK,Industrials,Specialty Business Services
+ITA,その他,
+ATKR,Industrials,Electrical Equipment & Parts
+IHG,Consumer Cyclical,Lodging
+MGC,その他,
+STRZ,Communication Services,Entertainment
+AEP,Utilities,Utilities - Regulated Electric
+AIZ,Financial Services,Insurance - Property & Casualty
+GTLS,Industrials,Specialty Industrial Machinery
+RYZ,Industrials,Metal Fabrication
+YPF,Energy,Oil & Gas Integrated
+MXI,その他,
+ENB,Energy,Oil & Gas Midstream
+EWJ,その他,
+TEX,Industrials,Farm & Heavy Construction Machinery
+UMBF,Financial Services,Banks - Regional
+OSW,Consumer Cyclical,Leisure
+AVBP,Healthcare,Biotechnology
+SWX,Utilities,Utilities - Regulated Gas
+FTQI,その他,
+BKV,Energy,Oil & Gas E&P
+DFJ,その他,
+LYG,Financial Services,Banks - Regional
+SPYM,その他,
+SNDK,Technology,Computer Hardware
+MUU,その他,
+MULL,その他,
+INTW,その他,
+BE,Industrials,Electrical Equipment & Parts
+LWLG,Basic Materials,Specialty Chemicals
+SOXL,その他,
+AMDL,その他,
+AMUU,その他,
+KOD,Healthcare,Biotechnology
+AAOI,Technology,Communication Equipment
+SLGL,Healthcare,Biotechnology
+WDC,Technology,Computer Hardware
+CLYM,Healthcare,Biotechnology
+ERAS,Healthcare,Biotechnology
+PRAX,Healthcare,Biotechnology
+OVID,Healthcare,Biotechnology
+DMRA,Healthcare,Biotechnology
+VSAT,Technology,Communication Equipment
+MU,Technology,Semiconductors
+INBX,Healthcare,Biotechnology
+STX,Technology,Computer Hardware
+CIEN,Technology,Communication Equipment
+URGN,Healthcare,Biotechnology
+NKTR,Healthcare,Biotechnology
+TTMI,Technology,Electronic Components
+HUT,Financial Services,Capital Markets
+CIFR,Technology,Information Technology Services
+TROO,Financial Services,Credit Services
+APLD,Technology,Information Technology Services
+OPTX,Technology,Electronic Components
+PUSA,Consumer Cyclical,Leisure
+INTC,Technology,Semiconductors
+AMPX,Industrials,Electrical Equipment & Parts
+WULF,Financial Services,Capital Markets
+STTK,Healthcare,Biotechnology
+MOVE,Technology,Software - Infrastructure
+ORKA,Healthcare,Biotechnology
+EQ,Healthcare,Biotechnology
+MRAM,Technology,Semiconductors
+VIAV,Technology,Communication Equipment
+ASYS,Technology,Semiconductor Equipment & Materials
+RKLB,Industrials,Aerospace & Defense
+EDSA,Healthcare,Biotechnology
+TRT,Technology,Semiconductor Equipment & Materials
+TLYS,Consumer Cyclical,Apparel Retail
+ARWR,Healthcare,Biotechnology
+PLUG,Industrials,Electrical Equipment & Parts
+ALTO,Basic Materials,Specialty Chemicals
+POWL,Industrials,Electrical Equipment & Parts
+PVLA,Healthcare,Biotechnology
+RLAY,Healthcare,Biotechnology
+LIXT,Healthcare,Biotechnology
+BKSY,Industrials,Specialty Business Services
+IMMX,Healthcare,Biotechnology
+FLNC,Utilities,Utilities - Renewable
+ASTS,Technology,Communication Equipment
+ANAB,Healthcare,Biotechnology
+AVTX,Healthcare,Biotechnology
+GGLL,その他,
+ALXO,Healthcare,Biotechnology
+FORM,Technology,Semiconductor Equipment & Materials
+AMD,Technology,Semiconductors
+CENX,Basic Materials,Aluminum
+ANTX,Healthcare,Biotechnology
+SKYT,Technology,Semiconductors
+ARTV,Healthcare,Biotechnology
+NBR,Energy,Oil & Gas Drilling
+SPRO,Healthcare,Biotechnology
+KORE,Communication Services,Telecom Services
+FIX,Industrials,Engineering & Construction
+MKSI,Technology,Scientific & Technical Instruments
+PACS,Healthcare,Medical Care Facilities
+KYTX,Healthcare,Biotechnology
+KOPN,Technology,Electronic Components
+TTI,Industrials,Conglomerates
+LRCX,Technology,Semiconductor Equipment & Materials
+ASX,Technology,Semiconductors
+RXT,Technology,Software - Infrastructure
+UUU,Industrials,Building Products & Equipment
+SEDG,Technology,Solar
+AXGN,Healthcare,Medical Devices
+GPRE,Basic Materials,Chemicals
+USD,その他,
+VELO,Technology,Computer Hardware
+RILY,Financial Services,Financial Conglomerates
+WYY,Technology,Information Technology Services
+NERV,Healthcare,Biotechnology
+IHRT,Communication Services,Broadcasting
+FEIM,Technology,Communication Equipment
+CRDO,Technology,Semiconductors
+LABU,その他,
+TYRA,Healthcare,Biotechnology
+RAPP,Healthcare,Biotechnology
+WATT,Technology,Communication Equipment
+SPHR,Communication Services,Entertainment
+INTG,Consumer Cyclical,Lodging
+ZNTL,Healthcare,Biotechnology
+LUNR,Industrials,Aerospace & Defense
+KLIC,Technology,Semiconductor Equipment & Materials
+UMAC,Technology,Computer Hardware
+CYPH,Financial Services,Asset Management
+SIDU,Industrials,Aerospace & Defense
+ACMR,Technology,Semiconductor Equipment & Materials
+LTRX,Technology,Communication Equipment
+ALAB,Technology,Semiconductors
+TECL,その他,
+BTE,Energy,Oil & Gas E&P
+MTSI,Technology,Semiconductors
+SIFY,Communication Services,Telecom Services
+GH,Healthcare,Diagnostics & Research
+GTX,Consumer Cyclical,Auto Parts
+PGEN,Healthcare,Biotechnology
+SEPN,Healthcare,Biotechnology
+CLS,Technology,Electronic Components
+FN,Technology,Electronic Components
+BBGI,Communication Services,Broadcasting
+SNSE,Healthcare,Biotechnology
+WBD,Communication Services,Entertainment
+GSIT,Technology,Semiconductors
+ENS,Industrials,Electrical Equipment & Parts
+SND,Energy,Oil & Gas Equipment & Services
+MOD,Consumer Cyclical,Auto Parts
+TXG,Healthcare,Health Information Services
+DSGN,Healthcare,Biotechnology
+GILT,Technology,Communication Equipment
+RIOT,Financial Services,Capital Markets
+AEIS,Industrials,Electrical Equipment & Parts
+LCUT,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+IBRX,Healthcare,Biotechnology
+FIGS,Consumer Cyclical,Apparel Manufacturing
+MYRG,Industrials,Engineering & Construction
+CLNN,Consumer Defensive,Packaged Foods
+GLSI,Healthcare,Biotechnology
+MTRN,Basic Materials,Other Industrial Metals & Mining
+BWAY,Healthcare,Medical Devices
+FOSL,Consumer Cyclical,Footwear & Accessories
+SEI,Energy,Oil & Gas Equipment & Services
+STRO,Healthcare,Biotechnology
+AMAT,Technology,Semiconductor Equipment & Materials
+HBM,Basic Materials,Copper
+ROIV,Healthcare,Biotechnology
+NVMI,Technology,Semiconductor Equipment & Materials
+EDRY,Industrials,Marine Shipping
+IESC,Industrials,Engineering & Construction
+HLIO,Industrials,Specialty Industrial Machinery
+PARR,Energy,Oil & Gas Refining & Marketing
+APYX,Healthcare,Medical Devices
+ATRO,Industrials,Aerospace & Defense
+HP,Energy,Oil & Gas Drilling
+DELL,Technology,Computer Hardware
+PLAB,Technology,Semiconductor Equipment & Materials
+ABCL,Healthcare,Biotechnology
+REMX,その他,
+NVRI,Industrials,Waste Management
+PLPC,Industrials,Electrical Equipment & Parts
+RCUS,Healthcare,Biotechnology
+PKE,Industrials,Aerospace & Defense
+CAT,Industrials,Farm & Heavy Construction Machinery
+GHM,Industrials,Specialty Industrial Machinery
+SSRM,Basic Materials,Gold
+AA,Basic Materials,Aluminum
+TIGO,Communication Services,Telecom Services
+WHWK,Healthcare,Biotechnology
+NVT,Industrials,Electrical Equipment & Parts
+FBRX,Healthcare,Biotechnology
+AVL,その他,
+EZPW,Financial Services,Credit Services
+KLAC,Technology,Semiconductor Equipment & Materials
+MTZ,Industrials,Engineering & Construction
+UMC,Technology,Semiconductors
+ABOS,Healthcare,Biotechnology
+CALY,Consumer Cyclical,Leisure
+SQM,Basic Materials,Specialty Chemicals
+AAMI,Financial Services,Asset Management
+SYNA,Technology,Semiconductors
+SMH,その他,
+INSW,Energy,Oil & Gas Midstream
+WFRD,Energy,Oil & Gas Equipment & Services
+MPWR,Technology,Semiconductors
+CLMT,Basic Materials,Specialty Chemicals
+FTI,Energy,Oil & Gas Equipment & Services
+CGAU,Basic Materials,Gold
+ENTA,Healthcare,Biotechnology
+APA,Energy,Oil & Gas E&P
+PPIH,Industrials,Building Products & Equipment
+DBI,Consumer Cyclical,Footwear & Accessories
+KRYS,Healthcare,Biotechnology
+BRUN,Technology,Software - Infrastructure
+TQQQ,その他,
+SLDB,Healthcare,Biotechnology
+VSCO,Consumer Cyclical,Apparel Retail
+REX,Basic Materials,Chemicals
+TWIN,Industrials,Specialty Industrial Machinery
+BCAX,Healthcare,Biotechnology
+MG,Industrials,Security & Protection Services
+TNA,その他,
+DK,Energy,Oil & Gas Refining & Marketing
+IOVA,Healthcare,Biotechnology
+IONS,Healthcare,Biotechnology
+LIT,その他,
+RSI,Consumer Cyclical,Gambling
+GOOGL,Communication Services,Internet Content & Information
+PTEN,Energy,Oil & Gas Drilling
+FSLY,Technology,Software - Application
+BWEN,Industrials,Specialty Industrial Machinery
+KN,Technology,Electronic Components
+CTEC,その他,
+LGND,Healthcare,Biotechnology
+ASML,Technology,Semiconductor Equipment & Materials
+TRVI,Healthcare,Biotechnology
+GOOG,Communication Services,Internet Content & Information
+RYAM,Basic Materials,Chemicals
+GEV,Industrials,Specialty Industrial Machinery
+CVE,Energy,Oil & Gas Integrated
+AAPB,その他,
+ZYME,Healthcare,Biotechnology
+FTAI,Industrials,Aerospace & Defense
+HPE,Technology,Communication Equipment
+TDAY,Communication Services,Publishing
+GOLD,Financial Services,Capital Markets
+JBL,Technology,Electronic Components
+MT,Basic Materials,Steel
+PODC,Communication Services,Internet Content & Information
+AMPG,Technology,Communication Equipment
+PBYI,Healthcare,Biotechnology
+SVCO,Technology,Software - Application
+PTGX,Healthcare,Biotechnology
+NUE,Basic Materials,Steel
+PWR,Industrials,Engineering & Construction
+SABS,Healthcare,Biotechnology
+NVDU,その他,
+ADEA,Technology,Software - Application
+NVDL,その他,
+ATI,Industrials,Metal Fabrication
+TWST,Healthcare,Diagnostics & Research
+GCT,Technology,Software - Infrastructure
+TSM,Technology,Semiconductors
+NVDG,その他,
+ROLR,Consumer Cyclical,Gambling
+ANDE,Consumer Defensive,Food Distribution
+DAN,Consumer Cyclical,Auto Parts
+CNRG,その他,
+ATAI,Healthcare,Biotechnology
+OIH,その他,
+MRCY,Industrials,Aerospace & Defense
+USEA,Industrials,Marine Shipping
+BBIO,Healthcare,Biotechnology
+VATE,Industrials,Engineering & Construction
+COPX,その他,
+SCCO,Basic Materials,Copper
+ARCB,Industrials,Trucking
+BFLY,Healthcare,Medical Devices
+CMI,Industrials,Specialty Industrial Machinery
+DGII,Technology,Communication Equipment
+SGMT,Healthcare,Biotechnology
+STNG,Energy,Oil & Gas Midstream
+WT,Financial Services,Asset Management
+PLXS,Technology,Electronic Components
+FIVE,Consumer Cyclical,Specialty Retail
+XOMX,その他,
+OII,Energy,Oil & Gas Equipment & Services
+VIR,Healthcare,Biotechnology
+DINO,Energy,Oil & Gas Refining & Marketing
+ESLT,Industrials,Aerospace & Defense
+NVDX,その他,
+TPC,Industrials,Engineering & Construction
+OIS,Energy,Oil & Gas Equipment & Services
+XPRO,Energy,Oil & Gas Equipment & Services
+TALO,Energy,Oil & Gas E&P
+LIND,Consumer Cyclical,Travel Services
+CMRE,Industrials,Marine Shipping
+TDW,Energy,Oil & Gas Equipment & Services
+TEVA,Healthcare,Drug Manufacturers - Specialty & Generic
+TENX,Healthcare,Biotechnology
+IRDM,Communication Services,Telecom Services
+PAYS,Technology,Software - Infrastructure
+GHRS,Healthcare,Biotechnology
+GOOY,その他,
+BKCH,その他,
+ESTA,Healthcare,Medical Devices
+ASC,Industrials,Marine Shipping
+ST,Technology,Scientific & Technical Instruments
+CSCO,Technology,Communication Equipment
+IVZ,Financial Services,Asset Management
+STLD,Basic Materials,Steel
+PRLB,Industrials,Metal Fabrication
+PPSI,Industrials,Electrical Equipment & Parts
+VTVT,Healthcare,Biotechnology
+MDGL,Healthcare,Biotechnology
+CMBT,Energy,Oil & Gas Midstream
+ESI,Basic Materials,Specialty Chemicals
+VIK,Consumer Cyclical,Travel Services
+SU,Energy,Oil & Gas Integrated
+ADI,Technology,Semiconductors
+SPXL,その他,
+PBD,その他,
+NPKI,Energy,Oil & Gas Equipment & Services
+MYE,Consumer Cyclical,Packaging & Containers
+MSGE,Communication Services,Entertainment
+UPRO,その他,
+EFOI,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+JBHT,Industrials,Integrated Freight & Logistics
+MUR,Energy,Oil & Gas E&P
+CRS,Industrials,Metal Fabrication
+ALLO,Healthcare,Biotechnology
+AUPH,Healthcare,Biotechnology
+GNK,Industrials,Marine Shipping
+ELSE,Technology,Scientific & Technical Instruments
+ENTG,Technology,Semiconductor Equipment & Materials
+VALE,Basic Materials,Other Industrial Metals & Mining
+M,Consumer Cyclical,Department Stores
+FDX,Industrials,Integrated Freight & Logistics
+DAR,Consumer Defensive,Packaged Foods
+AMPY,Energy,Oil & Gas E&P
+SB,Industrials,Marine Shipping
+BKTI,Technology,Communication Equipment
+QLD,その他,
+IPGP,Technology,Semiconductor Equipment & Materials
+EME,Industrials,Engineering & Construction
+IRMD,Healthcare,Medical Devices
+CVV,Industrials,Specialty Industrial Machinery
+INNV,Healthcare,Medical Care Facilities
+BKR,Energy,Oil & Gas Equipment & Services
+TPR,Consumer Cyclical,Luxury Goods
+DY,Industrials,Engineering & Construction
+AVGO,Technology,Semiconductors
+TK,Energy,Oil & Gas Midstream
+ICLN,その他,
+MOV,Consumer Cyclical,Luxury Goods
+AIR,Industrials,Aerospace & Defense
+SRTA,Healthcare,Medical Care Facilities
+MGTX,Healthcare,Biotechnology
+ALGM,Technology,Semiconductors
+PIII,Healthcare,Medical Care Facilities
+PYPD,Healthcare,Biotechnology
+FCFS,Financial Services,Credit Services
+TXN,Technology,Semiconductors
+ILMN,Healthcare,Diagnostics & Research
+TNK,Energy,Oil & Gas Midstream
+TBN,Energy,Oil & Gas E&P
+NGS,Energy,Oil & Gas Equipment & Services
+PHIN,Consumer Cyclical,Auto Parts
+RIO,Basic Materials,Other Industrial Metals & Mining
+LXU,Basic Materials,Chemicals
+NOV,Energy,Oil & Gas Equipment & Services
+TKR,Industrials,Tools & Accessories
+KPTI,Healthcare,Biotechnology
+MLI,Industrials,Metal Fabrication
+PKX,Basic Materials,Steel
+GCO,Consumer Cyclical,Apparel Retail
+AVT,Technology,Electronics & Computer Distribution
+CGEM,Healthcare,Biotechnology
+CX,Basic Materials,Building Materials
+KFFB,Financial Services,Banks - Regional
+NPO,Industrials,Specialty Industrial Machinery
+SXI,Industrials,Specialty Industrial Machinery
+TRGP,Energy,Oil & Gas Midstream
+RCKY,Consumer Cyclical,Footwear & Accessories
+SLB,Energy,Oil & Gas Equipment & Services
+ATLC,Financial Services,Credit Services
+SHOO,Consumer Cyclical,Footwear & Accessories
+C,Financial Services,Banks - Diversified
+REI,Energy,Oil & Gas E&P
+DD,Basic Materials,Specialty Chemicals
+NVDY,その他,
+DC,Basic Materials,Gold
+STAA,Healthcare,Medical Instruments & Supplies
+ENVA,Financial Services,Credit Services
+AMG,Financial Services,Asset Management
+MSBI,Financial Services,Banks - Regional
+AMRX,Healthcare,Drug Manufacturers - Specialty & Generic
+ORN,Industrials,Engineering & Construction
+XPO,Industrials,Trucking
+NKTX,Healthcare,Biotechnology
+SWBI,Industrials,Aerospace & Defense
+BFH,Financial Services,Credit Services
+ITRN,Technology,Scientific & Technical Instruments
+NVDW,その他,
+BHP,Basic Materials,Other Industrial Metals & Mining
+ROST,Consumer Cyclical,Apparel Retail
+SAIA,Industrials,Trucking
+TECK,Basic Materials,Other Industrial Metals & Mining
+UFCS,Financial Services,Insurance - Property & Casualty
+MCHP,Technology,Semiconductors
+CVLG,Industrials,Trucking
+BLBD,Industrials,Farm & Heavy Construction Machinery
+RPRX,Healthcare,Biotechnology
+AIRG,Technology,Communication Equipment
+CRUS,Technology,Semiconductors
+BWXT,Industrials,Aerospace & Defense
+JOUT,Consumer Cyclical,Leisure
+GS,Financial Services,Capital Markets
+TRST,Financial Services,Banks - Regional
+GSL,Industrials,Marine Shipping
+HXL,Industrials,Aerospace & Defense
+EC,Energy,Oil & Gas Integrated
+IBLC,その他,
+ADM,Consumer Defensive,Farm Products
+OVV,Energy,Oil & Gas E&P
+MATX,Industrials,Marine Shipping
+TD,Financial Services,Banks - Diversified
+SD,Energy,Oil & Gas E&P
+UNFI,Consumer Defensive,Food Distribution
+BC,Consumer Cyclical,Recreational Vehicles
+CHAU,その他,
+NXPI,Technology,Semiconductors
+NXTG,その他,
+PR,Energy,Oil & Gas E&P
+R,Industrials,Rental & Leasing Services
+KODK,Industrials,Specialty Business Services
+KNX,Industrials,Trucking
+ESE,Technology,Scientific & Technical Instruments
+VCYT,Healthcare,Diagnostics & Research
+VMI,Industrials,Conglomerates
+HTLD,Industrials,Trucking
+TWLO,Technology,Software - Infrastructure
+AIRR,その他,
+FAI,その他,
+STT,Financial Services,Asset Management
+HZO,Consumer Cyclical,Specialty Retail
+CTRN,Consumer Cyclical,Apparel Retail
+HLX,Energy,Oil & Gas Equipment & Services
+CFG,Financial Services,Banks - Regional
+MPC,Energy,Oil & Gas Refining & Marketing
+STRS,Real Estate,Real Estate - Diversified
+NVDA,Technology,Semiconductors
+PSX,Energy,Oil & Gas Refining & Marketing
+HG,Financial Services,Insurance - Reinsurance
+CODA,Industrials,Aerospace & Defense
+GM,Consumer Cyclical,Auto Manufacturers
+MRK,Healthcare,Drug Manufacturers - General
+MS,Financial Services,Capital Markets
+EBAY,Consumer Cyclical,Internet Retail
+NGVT,Basic Materials,Specialty Chemicals
+PRSU,Consumer Cyclical,Travel Services
+NTRS,Financial Services,Asset Management
+VLY,Financial Services,Banks - Regional
+CTRI,Utilities,Utilities - Regulated Gas
+UDOW,その他,
+LEA,Consumer Cyclical,Auto Parts
+CIB,Financial Services,Banks - Regional
+LZM,Basic Materials,Other Industrial Metals & Mining
+RES,Energy,Oil & Gas Equipment & Services
+FCX,Basic Materials,Copper
+PGC,Financial Services,Banks - Regional
+SRRK,Healthcare,Biotechnology
+BG,Consumer Defensive,Farm Products
+ESP,Industrials,Electrical Equipment & Parts
+CNQ,Energy,Oil & Gas E&P
+XLK,その他,
+XWEL,Healthcare,Diagnostics & Research
+OSCR,Healthcare,Healthcare Plans
+PSMT,Consumer Defensive,Discount Stores
+BNY,Financial Services,Banks - Diversified
+CVS,Healthcare,Healthcare Plans
+ODC,Basic Materials,Specialty Chemicals
+AAPL,Technology,Consumer Electronics
+QTEC,その他,
+SPUU,その他,
+TRS,Consumer Cyclical,Packaging & Containers
+BWFG,Financial Services,Banks - Regional
+IBKR,Financial Services,Capital Markets
+CHGG,Consumer Defensive,Education & Training Services
+LILA,Communication Services,Telecom Services
+SSO,その他,
+ALOT,Technology,Computer Hardware
+ROBO,その他,
+CMC,Industrials,Metal Fabrication
+BMO,Financial Services,Banks - Diversified
+CTS,Technology,Electronic Components
+PAGP,Energy,Oil & Gas Midstream
+JNJ,Healthcare,Drug Manufacturers - General
+DAC,Industrials,Marine Shipping
+WERN,Industrials,Trucking
+P,Technology,Computer Hardware
+HOFT,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+ISSC,Industrials,Aerospace & Defense
+LILAK,Communication Services,Telecom Services
+MD,Healthcare,Medical Care Facilities
+QBTS,Technology,Computer Hardware
+VGT,その他,
+RMR,Real Estate,Real Estate Services
+AZZ,Industrials,Specialty Business Services
+NPK,Industrials,Aerospace & Defense
+FSBC,Financial Services,Banks - Regional
+ASTH,Healthcare,Medical Care Facilities
+HWM,Industrials,Aerospace & Defense
+AGL,Healthcare,Medical Care Facilities
+DXJ,その他,
+FRAF,Financial Services,Banks - Regional
+AVAL,Financial Services,Banks - Regional
+CODI,Industrials,Conglomerates
+EONR,Energy,Oil & Gas E&P
+RBC,Industrials,Tools & Accessories
+ICCC,Healthcare,Biotechnology
+XOM,Energy,Oil & Gas Integrated
+CBOE,Financial Services,Financial Data & Stock Exchanges
+MEI,Technology,Electronic Components
+AROC,Energy,Oil & Gas Equipment & Services
+BYFC,Financial Services,Banks - Regional
+EVR,Financial Services,Capital Markets
+WST,Healthcare,Medical Instruments & Supplies
+ACHV,Healthcare,Biotechnology
+SENEB,Consumer Defensive,Packaged Foods
+BIIB,Healthcare,Drug Manufacturers - General
+INSG,Technology,Communication Equipment
+YETI,Consumer Cyclical,Leisure
+TLN,Utilities,Utilities - Independent Power Producers
+BTI,Consumer Defensive,Tobacco
+ASND,Healthcare,Biotechnology
+BEN,Financial Services,Asset Management
+AVIR,Healthcare,Biotechnology
+PALU,その他,
+AMTX,Basic Materials,Specialty Chemicals
+CRC,Energy,Oil & Gas E&P
+SFL,Industrials,Marine Shipping
+NDSN,Industrials,Specialty Industrial Machinery
+TOI,Healthcare,Medical Care Facilities
+WHD,Energy,Oil & Gas Equipment & Services
+UVE,Financial Services,Insurance - Property & Casualty
+UBS,Financial Services,Banks - Diversified
+EGBN,Financial Services,Banks - Regional
+MSGM,Communication Services,Electronic Gaming & Multimedia
+CHMG,Financial Services,Banks - Regional
+AMX,Communication Services,Telecom Services
+INCY,Healthcare,Biotechnology
+NBN,Financial Services,Banks - Regional
+DCOM,Financial Services,Banks - Regional
+ROK,Industrials,Specialty Industrial Machinery
+RRX,Industrials,Specialty Industrial Machinery
+BPOP,Financial Services,Banks - Regional
+LLY,Healthcare,Drug Manufacturers - General
+CMT,Basic Materials,Specialty Chemicals
+AMZZ,その他,
+CSX,Industrials,Railroads
+SMFG,Financial Services,Banks - Diversified
+VOD,Communication Services,Telecom Services
+DTM,Energy,Oil & Gas Midstream
+FNGG,その他,
+IMKTA,Consumer Defensive,Grocery Stores
+MANU,Communication Services,Entertainment
+VTOL,Energy,Oil & Gas Equipment & Services
+GVA,Industrials,Engineering & Construction
+CUBI,Financial Services,Banks - Regional
+SOBO,Energy,Oil & Gas Midstream
+CVX,Energy,Oil & Gas Integrated
+QUAD,Industrials,Specialty Business Services
+TDIV,その他,
+COP,Energy,Oil & Gas E&P
+TILE,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+CRWL,その他,
+TMP,Financial Services,Banks - Regional
+WAVE,Utilities,Utilities - Renewable
+FSEA,Financial Services,Banks - Regional
+CFFN,Financial Services,Banks - Regional
+SMHI,Industrials,Marine Shipping
+SNDR,Industrials,Trucking
+FBNC,Financial Services,Banks - Regional
+KRNY,Financial Services,Banks - Regional
+BSRR,Financial Services,Banks - Regional
+CVU,Industrials,Aerospace & Defense
+FISI,Financial Services,Banks - Regional
+NRC,Healthcare,Health Information Services
+CCNE,Financial Services,Banks - Regional
+NTAP,Technology,Software - Infrastructure
+LQDT,Consumer Cyclical,Internet Retail
+MAR,Consumer Cyclical,Lodging
+POWI,Technology,Semiconductors
+XSOE,その他,
+AMZU,その他,
+IEMG,その他,
+ILDR,その他,
+ULS,Industrials,Specialty Business Services
+KOMP,その他,
+KEY,Financial Services,Banks - Regional
+SHBI,Financial Services,Banks - Regional
+VIV,Communication Services,Telecom Services
+HCSG,Healthcare,Medical Care Facilities
+OBK,Financial Services,Banks - Regional
+FCVT,その他,
+TRP,Energy,Oil & Gas Midstream
+BOKF,Financial Services,Banks - Regional
+DVA,Healthcare,Medical Care Facilities
+FFIC,Financial Services,Banks - Regional
+FPXI,その他,
+MUFG,Financial Services,Banks - Diversified
+OSUR,Healthcare,Medical Instruments & Supplies
+ESCA,Consumer Cyclical,Leisure
+SRBK,Financial Services,Banks - Regional
+ANIP,Healthcare,Drug Manufacturers - Specialty & Generic
+VNM,その他,
+NCSM,Energy,Oil & Gas Equipment & Services
+QQQJ,その他,
+QRVO,Technology,Semiconductors
+EXPD,Industrials,Integrated Freight & Logistics
+RUSHA,Consumer Cyclical,Auto & Truck Dealerships
+FPX,その他,
+ILF,その他,
+VFC,Consumer Cyclical,Apparel Manufacturing
+IWM,その他,
+AMAL,Financial Services,Banks - Regional
+ITWO,その他,
+JCI,Industrials,Building Products & Equipment
+NVYY,その他,
+IOO,その他,
+QQQM,その他,
+DKS,Consumer Cyclical,Specialty Retail
+LSBK,Financial Services,Banks - Regional
+QQQ,その他,
+TNL,Consumer Cyclical,Travel Services
+GDOT,Financial Services,Credit Services
+RSVR,Communication Services,Entertainment
+AMBA,Technology,Semiconductor Equipment & Materials
+DBRG,Financial Services,Asset Management
+FIBK,Financial Services,Banks - Regional
+NC,Energy,Thermal Coal
+EPOL,その他,
+MSM,Industrials,Industrial Distribution
+VTWG,その他,
+PLGO,Financial Services,Insurance - Diversified
+WLFC,Industrials,Rental & Leasing Services
+RNRG,その他,
+THFF,Financial Services,Banks - Regional
+BANC,Financial Services,Banks - Regional
+ALRS,Financial Services,Banks - Regional
+NVST,Healthcare,Medical Instruments & Supplies
+PFG,Financial Services,Asset Management
+AVUV,その他,
+PFS,Financial Services,Banks - Regional
+ABCB,Financial Services,Banks - Regional
+OVLY,Financial Services,Banks - Regional
+OVBC,Financial Services,Banks - Regional
+PDLB,Financial Services,Banks - Regional
+CAR,Industrials,Rental & Leasing Services
+FFIV,Technology,Software - Infrastructure
+IBB,その他,
+LNTH,Healthcare,Drug Manufacturers - Specialty & Generic
+BLX,Financial Services,Banks - Regional
+IONQ,Technology,Computer Hardware
+HUM,Healthcare,Healthcare Plans
+OLN,Basic Materials,Chemicals
+SPB,Consumer Defensive,Household & Personal Products
+TCBI,Financial Services,Banks - Regional
+NUVL,Healthcare,Biotechnology
+TGT,Consumer Defensive,Discount Stores
+NVS,Healthcare,Drug Manufacturers - General
+AIT,Industrials,Industrial Distribution
+IQQQ,その他,
+LOB,Financial Services,Banks - Regional
+SOTK,Technology,Scientific & Technical Instruments
+EWZ,その他,
+APT,Industrials,Building Products & Equipment
+EBC,Financial Services,Banks - Regional
+EGHT,Technology,Software - Application
+FXL,その他,
+MGY,Energy,Oil & Gas E&P
+PUK,Financial Services,Insurance - Life
+RBKB,Financial Services,Banks - Regional
+BURL,Consumer Cyclical,Apparel Retail
+STGW,Communication Services,Advertising Agencies
+BKU,Financial Services,Banks - Regional
+GSK,Healthcare,Drug Manufacturers - General
+VC,Consumer Cyclical,Auto Parts
+FITB,Financial Services,Banks - Regional
+IWMI,その他,
+ZTO,Industrials,Integrated Freight & Logistics
+BCS,Financial Services,Banks - Diversified
+ZION,Financial Services,Banks - Regional
+MAGS,その他,
+NTB,Financial Services,Banks - Diversified
+NTLA,Healthcare,Biotechnology
+AUB,Financial Services,Banks - Regional
+FGD,その他,
+UVSP,Financial Services,Banks - Regional
+WSFS,Financial Services,Banks - Regional
+EA,Communication Services,Electronic Gaming & Multimedia
+WMB,Energy,Oil & Gas Midstream
+H,Consumer Cyclical,Lodging
+ARGX,Healthcare,Biotechnology
+FOR,Real Estate,Real Estate - Development
+MNST,Consumer Defensive,Beverages - Non-Alcoholic
+APG,Industrials,Engineering & Construction
+NYT,Communication Services,Publishing
+EZA,その他,
+JXN,Financial Services,Insurance - Life
+NWE,Utilities,Utilities - Regulated Electric
+CLST,Financial Services,Banks - Regional
+RF,Financial Services,Banks - Regional
+JCSE,Industrials,Specialty Industrial Machinery
+LOGI,Technology,Computer Hardware
+CTBI,Financial Services,Banks - Regional
+MRBK,Financial Services,Banks - Regional
+CEPI,その他,
+CPF,Financial Services,Banks - Regional
+SMBK,Financial Services,Banks - Regional
+DOW,Basic Materials,Chemicals
+SMP,Consumer Cyclical,Auto Parts
+WMG,Communication Services,Entertainment
+PBA,Energy,Oil & Gas Midstream
+BEPC,Utilities,Utilities - Renewable
+TUSK,Industrials,Conglomerates
+HUN,Basic Materials,Chemicals
+JLL,Real Estate,Real Estate Services
+URI,Industrials,Rental & Leasing Services
+VOOG,その他,
+AZN,Healthcare,Drug Manufacturers - General
+CRON,Healthcare,Drug Manufacturers - Specialty & Generic
+CWEN,Utilities,Utilities - Renewable
+FEPI,その他,
+QCRH,Financial Services,Banks - Regional
+WSBK,Financial Services,Banks - Regional
+LEE,Communication Services,Publishing
+MTDR,Energy,Oil & Gas E&P
+RDW,Industrials,Aerospace & Defense
+TRN,Industrials,Railroads
+HTB,Financial Services,Banks - Regional
+QYLG,その他,
+INDB,Financial Services,Banks - Regional
+AVUS,その他,
+AMTB,Financial Services,Banks - Regional
+GLDM,その他,
+SPSM,その他,
+VIOO,その他,
+BAR,その他,
+FCCO,Financial Services,Banks - Regional
+FTK,Energy,Oil & Gas Equipment & Services
+IJR,その他,
+MDU,Utilities,Utilities - Regulated Gas
+UAL,Industrials,Airlines
+YMAG,その他,
+FHI,Financial Services,Asset Management
+IAU,その他,
+FONR,Healthcare,Diagnostics & Research
+GLD,その他,
+GNW,Financial Services,Insurance - Life
+EVRG,Utilities,Utilities - Regulated Electric
+FDM,その他,
+ITT,Industrials,Specialty Industrial Machinery
+KEX,Industrials,Marine Shipping
+MATW,Industrials,Conglomerates
+NSC,Industrials,Railroads
+PH,Industrials,Specialty Industrial Machinery
+VBK,その他,
+BMY,Healthcare,Drug Manufacturers - General
+AMN,Healthcare,Medical Care Facilities
+FNKO,Consumer Cyclical,Leisure
+BKH,Utilities,Utilities - Regulated Gas
+EIX,Utilities,Utilities - Regulated Electric
+FFBC,Financial Services,Banks - Regional
+MTX,Basic Materials,Specialty Chemicals
+USB,Financial Services,Banks - Regional
+COLB,Financial Services,Banks - Regional
+NOVT,Technology,Scientific & Technical Instruments
+TCBK,Financial Services,Banks - Regional
+BOTZ,その他,
+EOG,Energy,Oil & Gas E&P
+ALCO,Consumer Defensive,Farm Products
+AMZN,Consumer Cyclical,Internet Retail
+QQQI,その他,
+ANIK,Healthcare,Drug Manufacturers - Specialty & Generic
+MGK,その他,
+MO,Consumer Defensive,Tobacco
+BMRC,Financial Services,Banks - Regional
+VEA,その他,
+GL,Financial Services,Insurance - Life
+PNC,Financial Services,Banks - Regional
+TFSL,Financial Services,Banks - Regional
+VIRT,Financial Services,Capital Markets
+CCSI,Technology,Software - Infrastructure
+SPDW,その他,
+HLT,Consumer Cyclical,Lodging
+TRMK,Financial Services,Banks - Regional
+BBJP,その他,
+ODFL,Industrials,Trucking
+AIPI,その他,
+ETSY,Consumer Cyclical,Internet Retail
+MRTN,Industrials,Trucking
+GOLF,Consumer Cyclical,Leisure
+BUSE,Financial Services,Banks - Regional
+EFSI,Financial Services,Banks - Regional
+TEL,Technology,Electronic Components
+VEU,その他,
+VXUS,その他,
+FNB,Financial Services,Banks - Regional
+RMAX,Real Estate,Real Estate Services
+VUG,その他,
+BCAL,Financial Services,Banks - Regional
+NBIX,Healthcare,Drug Manufacturers - Specialty & Generic
+CAC,Financial Services,Banks - Regional
+IVV,その他,
+OSBC,Financial Services,Banks - Regional
+VOO,その他,
+BY,Financial Services,Banks - Regional
+NJR,Utilities,Utilities - Regulated Gas
+SPTM,その他,
+VT,その他,
+VV,その他,
+ACWI,その他,
+NFBK,Financial Services,Banks - Regional
+VTHR,その他,
+VONV,その他,
+TUR,その他,
+VIOG,その他,
+COSO,Financial Services,Banks - Regional
+IVOG,その他,
+PFIS,Financial Services,Banks - Regional
+VONG,その他,
+IDHQ,その他,
+NFXS,その他,
+CCBG,Financial Services,Banks - Regional
+VIS,その他,
+CPRX,Healthcare,Biotechnology
+ELDN,Healthcare,Biotechnology
+LEVI,Consumer Cyclical,Apparel Manufacturing
+RDVI,その他,
+GLRE,Financial Services,Insurance - Reinsurance
+STBA,Financial Services,Banks - Regional
+SPEM,その他,
+LBTYA,Communication Services,Telecom Services
+DGS,その他,
+FAF,Financial Services,Insurance - Specialty
+NNBR,Industrials,Conglomerates
+CLH,Industrials,Waste Management
+RDWR,Technology,Software - Infrastructure
+GMF,その他,
+LLYVA,Communication Services,Entertainment
+EE,Energy,Oil & Gas Midstream
+SRCE,Financial Services,Banks - Regional
+MFC,Financial Services,Insurance - Life
+BFC,Financial Services,Banks - Regional
+D,Utilities,Utilities - Regulated Electric
+DHS,その他,
+SPYI,その他,
+CIG,Utilities,Utilities - Regulated Electric
+MTCH,Communication Services,Internet Content & Information
+ALKS,Healthcare,Drug Manufacturers - Specialty & Generic
+HDV,その他,
+GKOS,Healthcare,Medical Devices
+MPB,Financial Services,Banks - Regional
+VNOM,Energy,Oil & Gas Midstream
+BAK,Basic Materials,Chemicals
+COM,その他,
+WASH,Financial Services,Banks - Regional
+ACTG,Industrials,Business Equipment & Supplies
+PEBO,Financial Services,Banks - Regional
+WDIV,その他,
+RUSHB,Consumer Cyclical,Auto & Truck Dealerships
+WCMI,その他,
+PPH,その他,
+DRN,その他,
+FCF,Financial Services,Banks - Regional
+POR,Utilities,Utilities - Regulated Electric
+BHB,Financial Services,Banks - Regional
+SDVD,その他,
+HBT,Financial Services,Banks - Regional
+PLBC,Financial Services,Banks - Regional
+SXT,Basic Materials,Specialty Chemicals
+LNT,Utilities,Utilities - Regulated Electric
+EWM,その他,
+POWW,Industrials,Aerospace & Defense
+EXI,その他,
+NRXP,Healthcare,Biotechnology
+DGRW,その他,
+MCBS,Financial Services,Banks - Regional
+FBIZ,Financial Services,Banks - Regional
+HFWA,Financial Services,Banks - Regional
+NWBI,Financial Services,Banks - Regional
+IXP,その他,
+BATRA,Communication Services,Entertainment
+RAMP,Technology,Software - Infrastructure
+AAP,Consumer Cyclical,Auto Parts
+ESGD,その他,
+IVOV,その他,
+LMAT,Healthcare,Medical Instruments & Supplies
+FFEB,その他,
+MNSB,Financial Services,Banks - Regional
+FMAO,Financial Services,Banks - Regional
+MRX,Financial Services,Capital Markets
+NGG,Utilities,Utilities - Regulated Electric
+BFST,Financial Services,Banks - Regional
+SFD,Consumer Defensive,Packaged Foods
+FTHI,その他,
+XYLD,その他,
+BBRE,その他,
+HEZU,その他,
+LBTYK,Communication Services,Telecom Services
+FAUG,その他,
+FCBC,Financial Services,Banks - Regional
+WABC,Financial Services,Banks - Regional
+NTR,Basic Materials,Agricultural Inputs
+SPYD,その他,
+CIBR,その他,
+DEC,Energy,Oil & Gas Integrated
+WEST,Consumer Defensive,Packaged Foods
+IEV,その他,
+MASI,Healthcare,Medical Devices
+AUR,Consumer Cyclical,Auto Parts
+EPP,その他,
+SAH,Consumer Cyclical,Auto & Truck Dealerships
+ENIC,Utilities,Utilities - Regulated Electric
+NBHC,Financial Services,Banks - Regional
+DDI,Communication Services,Electronic Gaming & Multimedia
+IBOC,Financial Services,Banks - Regional
+AFG,Financial Services,Insurance - Property & Casualty
+EFSC,Financial Services,Banks - Regional
+SPFI,Financial Services,Banks - Regional
+VTMX,Real Estate,Real Estate - Development
+PFBC,Financial Services,Banks - Regional
+KYIV,Communication Services,Telecom Services
+FEZ,その他,
+GABC,Financial Services,Banks - Regional
+JAKK,Consumer Cyclical,Leisure
+TNC,Industrials,Specialty Industrial Machinery
+FELE,Industrials,Specialty Industrial Machinery
+HACK,その他,
+SLF,Financial Services,Insurance - Diversified
+NIC,Financial Services,Banks - Regional
+SEM,Healthcare,Medical Care Facilities
+FMAY,その他,
+RBCAA,Financial Services,Banks - Regional
+IXG,その他,
+PKG,Consumer Cyclical,Packaging & Containers
+HEDJ,その他,
+PCEF,その他,
+IAC,Communication Services,Internet Content & Information
+CPIX,Healthcare,Drug Manufacturers - Specialty & Generic
+KOF,Consumer Defensive,Beverages - Non-Alcoholic
+YYY,その他,
+RTH,その他,
+HTO,Utilities,Utilities - Regulated Water
+SMC,Energy,Oil & Gas Midstream
+USCB,Financial Services,Banks - Regional
+UTI,Consumer Defensive,Education & Training Services
+MOO,その他,
+CACC,Financial Services,Credit Services
+CLFD,Technology,Communication Equipment
+RDCM,Communication Services,Telecom Services
+FMNB,Financial Services,Banks - Regional
+GIII,Consumer Cyclical,Apparel Manufacturing
+NNI,Financial Services,Credit Services
+VCR,その他,
+CEPT,Financial Services,Shell Companies
+FTV,Technology,Scientific & Technical Instruments
+SON,Consumer Cyclical,Packaging & Containers
+FF,Basic Materials,Specialty Chemicals
+RDN,Financial Services,Insurance - Specialty
+TEO,Communication Services,Telecom Services
+CVBF,Financial Services,Banks - Regional
+QSR,Consumer Cyclical,Restaurants
+IBCP,Financial Services,Banks - Regional
+WRLD,Financial Services,Credit Services
+EMB,その他,
+OFG,Financial Services,Banks - Regional
+LTH,Consumer Cyclical,Leisure
+FDN,その他,
+EMBD,その他,
+ELD,その他,
+HYEM,その他,
+FALN,その他,
+TBRG,Healthcare,Health Information Services
+SEIC,Financial Services,Asset Management
+EMLC,その他,
+LEMB,その他,
+HYZD,その他,
+CHCO,Financial Services,Banks - Regional
+UNM,Financial Services,Insurance - Life
+ELV,Healthcare,Healthcare Plans
+PRK,Financial Services,Banks - Regional
+JNK,その他,
+KFRC,Industrials,Staffing & Employment Services
+PPL,Utilities,Utilities - Regulated Electric
+BANR,Financial Services,Banks - Regional
+TOWN,Financial Services,Banks - Regional
+HYG,その他,
+MSFD,その他,
+VEON,Communication Services,Telecom Services
+SPMB,その他,
+FTCB,その他,
+HYLS,その他,
+USIG,その他,
+DAX,その他,
+AGGY,その他,
+LNG,Energy,Oil & Gas Midstream
+BKLN,その他,
+SRLN,その他,
+SPIB,その他,
+FTSL,その他,
+SPAB,その他,
+BBAG,その他,
+EBND,その他,
+FSIG,その他,
+IGSB,その他,
+SPIP,その他,
+SPSB,その他,
+FACT,その他,
+ACEL,Consumer Cyclical,Gambling
+SPTS,その他,
+VGSH,その他,
+GPAT,Financial Services,Shell Companies
+KTB,Consumer Cyclical,Apparel Manufacturing
+IAGG,その他,
+AWR,Utilities,Utilities - Regulated Water
+CBNK,Financial Services,Banks - Regional
+UTL,Utilities,Utilities - Diversified
+MGRC,Industrials,Rental & Leasing Services
+GRVY,Communication Services,Electronic Gaming & Multimedia
+RELY,Technology,Software - Infrastructure
+CCIX,Financial Services,Shell Companies
+CGNT,Technology,Software - Infrastructure
+KRT,Consumer Cyclical,Packaging & Containers
+SOGP,Communication Services,Internet Content & Information
+TNGX,Healthcare,Biotechnology
+HYMC,Basic Materials,Gold
+ONDS,Technology,Communication Equipment
+NUAI,Technology,Software - Infrastructure
+CRML,Basic Materials,Other Industrial Metals & Mining
+BNAI,Technology,Software - Infrastructure
+ANRO,Healthcare,Biotechnology
+IRWD,Healthcare,Drug Manufacturers - Specialty & Generic
+COGT,Healthcare,Biotechnology
+ANL,Healthcare,Biotechnology
+IREN,Financial Services,Capital Markets
+VRTL,その他,
+CURR,Technology,Software - Application
+LAR,Basic Materials,Other Industrial Metals & Mining
+PHOE,Industrials,Engineering & Construction
+PRLD,Healthcare,Biotechnology
+GLUE,Healthcare,Biotechnology
+KEEL,Technology,Information Technology Services
+ALMS,Healthcare,Biotechnology
+ARMP,Healthcare,Biotechnology
+RDNW,Consumer Cyclical,Auto & Truck Dealerships
+GRDX,Healthcare,Biotechnology
+CGTX,Healthcare,Biotechnology
+IRD,Healthcare,Biotechnology
+TYGO,Technology,Solar
+BIOA,Healthcare,Drug Manufacturers - Specialty & Generic
+IPSC,Healthcare,Biotechnology
+ESPR,Healthcare,Drug Manufacturers - Specialty & Generic
+KZIA,Healthcare,Biotechnology
+CNTX,Healthcare,Biotechnology
+CHRN,Technology,Information Technology Services
+OMER,Healthcare,Biotechnology
+USAS,Basic Materials,Other Industrial Metals & Mining
+CRVS,Healthcare,Biotechnology
+QTTB,Healthcare,Biotechnology
+IMRX,Healthcare,Biotechnology
+NAUT,Healthcare,Biotechnology
+ASTI,Technology,Solar
+UUUU,Energy,Uranium
+UAMY,Basic Materials,Other Industrial Metals & Mining
+SRZN,Healthcare,Biotechnology
+AG,Basic Materials,Silver
+MP,Basic Materials,Other Industrial Metals & Mining
+FTRE,Healthcare,Biotechnology
+RHLD,Industrials,Specialty Business Services
+DWSN,Energy,Oil & Gas Equipment & Services
+JBIO,Healthcare,Biotechnology
+STOK,Healthcare,Biotechnology
+CNTB,Healthcare,Biotechnology
+TRON,Consumer Cyclical,Leisure
+ALB,Basic Materials,Specialty Chemicals
+BODI,Communication Services,Internet Content & Information
+VNCE,Consumer Cyclical,Apparel Manufacturing
+PHAT,Healthcare,Biotechnology
+CAPR,Healthcare,Biotechnology
+PTHS,Healthcare,Biotechnology
+HYPR,Healthcare,Medical Devices
+NMRA,Healthcare,Biotechnology
+USAR,Basic Materials,Other Industrial Metals & Mining
+IDR,Basic Materials,Gold
+KYMR,Healthcare,Biotechnology
+MUX,Basic Materials,Other Precious Metals & Mining
+TCMD,Healthcare,Medical Devices
+SY,Healthcare,Health Information Services
+MBX,Healthcare,Biotechnology
+CNTN,Healthcare,Biotechnology
+CAMT,Technology,Semiconductor Equipment & Materials
+ALOY,Basic Materials,Other Industrial Metals & Mining
+AMLX,Healthcare,Drug Manufacturers - Specialty & Generic
+IMNM,Healthcare,Biotechnology
+LUMN,Communication Services,Telecom Services
+SGML,Basic Materials,Other Industrial Metals & Mining
+ANNX,Healthcare,Biotechnology
+AXG,Financial Services,Capital Markets
+MAZE,Healthcare,Biotechnology
+FDMT,Healthcare,Biotechnology
+PRPO,Healthcare,Diagnostics & Research
+IAG,Basic Materials,Gold
+SA,Basic Materials,Gold
+NRXS,Healthcare,Biotechnology
+PALI,Healthcare,Biotechnology
+LIDR,Technology,Software - Infrastructure
+WILC,Consumer Defensive,Food Distribution
+SLNH,Financial Services,Capital Markets
+FBYD,Industrials,Conglomerates
+AMRC,Industrials,Engineering & Construction
+BVN,Basic Materials,Other Precious Metals & Mining
+SHIM,Industrials,Engineering & Construction
+EYPT,Healthcare,Biotechnology
+CDE,Basic Materials,Gold
+PAAS,Basic Materials,Gold
+CAMP,Healthcare,Biotechnology
+BLTE,Healthcare,Biotechnology
+SLV,その他,
+ONMD,Healthcare,Health Information Services
+B,Basic Materials,Gold
+SII,Financial Services,Asset Management
+BDSX,Healthcare,Diagnostics & Research
+NCEW,Industrials,Integrated Freight & Logistics
+AU,Basic Materials,Gold
+JMIA,Consumer Cyclical,Internet Retail
+AENT,Communication Services,Entertainment
+ASM,Basic Materials,Other Precious Metals & Mining
+CHRS,Healthcare,Biotechnology
+ALNT,Technology,Electronic Components
+RUN,Technology,Solar
+CC,Basic Materials,Specialty Chemicals
+SSP,Communication Services,Broadcasting
+GORO,Basic Materials,Other Precious Metals & Mining
+MBAI,Healthcare,Diagnostics & Research
+ASMB,Healthcare,Biotechnology
+SIL,その他,
+BKD,Healthcare,Medical Care Facilities
+QS,Consumer Cyclical,Auto Parts
+ADAG,Healthcare,Biotechnology
+CRBU,Healthcare,Biotechnology
+AMSC,Industrials,Specialty Industrial Machinery
+NAK,Basic Materials,Other Industrial Metals & Mining
+PBF,Energy,Oil & Gas Refining & Marketing
+HYPD,Healthcare,Biotechnology
+RDZN,Technology,Software - Application
+NEM,Basic Materials,Gold
+GRML,Basic Materials,Other Precious Metals & Mining
+SLDP,Consumer Cyclical,Auto Parts
+SNDX,Healthcare,Biotechnology
+UEC,Energy,Uranium
+BETR,Financial Services,Mortgage Finance
+ZUMZ,Consumer Cyclical,Apparel Retail
+TSHA,Healthcare,Biotechnology
+INDI,Technology,Semiconductors
+FGI,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+DLTH,Consumer Cyclical,Apparel Retail
+KGC,Basic Materials,Gold
+DNN,Energy,Uranium
+OABI,Healthcare,Biotechnology
+ABSI,Healthcare,Biotechnology
+CMDB,Industrials,Marine Shipping
+TLS,Technology,Software - Infrastructure
+ERO,Basic Materials,Copper
+RGTI,Technology,Computer Hardware
+CPAC,Basic Materials,Building Materials
+DLX,Industrials,Conglomerates
+QQQS,その他,
+HCC,Basic Materials,Coking Coal
+DFEN,その他,
+DIBS,Communication Services,Internet Content & Information
+GRO,Basic Materials,Other Industrial Metals & Mining
+LRMR,Healthcare,Biotechnology
+RERE,Consumer Cyclical,Internet Retail
+WLDN,Industrials,Engineering & Construction
+KSS,Consumer Cyclical,Department Stores
+IMDX,Healthcare,Diagnostics & Research
+NRIX,Healthcare,Biotechnology
+NDLS,Consumer Cyclical,Restaurants
+TNYA,Healthcare,Biotechnology
+CCJ,Energy,Uranium
+NBP,Healthcare,Biotechnology
+MRNA,Healthcare,Biotechnology
+ALEC,Healthcare,Biotechnology
+URG,Energy,Uranium
+EDIT,Healthcare,Biotechnology
+ELIL,その他,
+GDXJ,その他,
+REAL,Consumer Cyclical,Luxury Goods
+TBPH,Healthcare,Biotechnology
+ELTX,Healthcare,Biotechnology
+MDB,Technology,Software - Infrastructure
+RGC,Healthcare,Drug Manufacturers - Specialty & Generic
+GPRO,Technology,Consumer Electronics
+DXPE,Industrials,Industrial Distribution
+LAC,Basic Materials,Other Industrial Metals & Mining
+BRZU,その他,
+SOPH,Healthcare,Health Information Services
+NXE,Energy,Uranium
+CLSK,Financial Services,Capital Markets
+TROX,Basic Materials,Chemicals
+BEAM,Healthcare,Biotechnology
+GDX,その他,
+CTMX,Healthcare,Biotechnology
+GRAL,Healthcare,Diagnostics & Research
+CATX,Healthcare,Medical Devices
+VRA,Consumer Cyclical,Footwear & Accessories
+PRIM,Industrials,Engineering & Construction
+CTKB,Healthcare,Medical Devices
+HOUR,Consumer Cyclical,Internet Retail
+CHCI,Real Estate,Real Estate Services
+BOTJ,Financial Services,Banks - Regional
+KLXE,Energy,Oil & Gas Equipment & Services
+PRE,Healthcare,Diagnostics & Research
+ENPH,Technology,Solar
+URA,その他,
+NGNE,Healthcare,Biotechnology
+QURE,Healthcare,Biotechnology
+GEVO,Basic Materials,Specialty Chemicals
+IPX,Basic Materials,Other Industrial Metals & Mining
+KELYB,Industrials,Staffing & Employment Services
+VNET,Technology,Information Technology Services
+WF,Financial Services,Banks - Regional
+EGO,Basic Materials,Gold
+LC,Financial Services,Banks - Regional
+AEVA,Technology,Software - Infrastructure
+INSM,Healthcare,Biotechnology
+SGHT,Healthcare,Medical Devices
+TARA,Healthcare,Biotechnology
+SRI,Consumer Cyclical,Auto Parts
+UI,Technology,Communication Equipment
+AXIA,Utilities,Utilities - Renewable
+UBOT,その他,
+DOO,Consumer Cyclical,Recreational Vehicles
+KTOS,Industrials,Aerospace & Defense
+VLRS,Industrials,Airlines
+ASRV,Financial Services,Banks - Regional
+IDYA,Healthcare,Biotechnology
+SANA,Healthcare,Biotechnology
+DPST,その他,
+ARDX,Healthcare,Biotechnology
+FBIO,Healthcare,Biotechnology
+CRBP,Healthcare,Biotechnology
+GNOM,その他,
+INKT,Healthcare,Biotechnology
+NATR,Consumer Defensive,Packaged Foods
+BIDU,Communication Services,Internet Content & Information
+NTWK,Technology,Software - Application
+MASS,Healthcare,Medical Devices
+HFBL,Financial Services,Banks - Regional
+ADV,Communication Services,Advertising Agencies
+OPY,Financial Services,Capital Markets
+PTCT,Healthcare,Biotechnology
+WNEB,Financial Services,Banks - Regional
+PRTA,Healthcare,Biotechnology
+DCH,Consumer Cyclical,Auto Parts
+DGRE,その他,
+HAIL,その他,
+DYN,Healthcare,Biotechnology
+SPAI,Industrials,Aerospace & Defense
+IVVD,Healthcare,Biotechnology
+NEOG,Healthcare,Medical Devices
+MEDP,Healthcare,Diagnostics & Research
+WPM,Basic Materials,Gold
+AGI,Basic Materials,Gold
+UNCY,Healthcare,Biotechnology
+BLD,Industrials,Engineering & Construction
+PCVX,Healthcare,Biotechnology
+TV,Communication Services,Telecom Services
+PAHC,Healthcare,Drug Manufacturers - Specialty & Generic
+RCI,Communication Services,Telecom Services
+REZI,Industrials,Industrial Distribution
+OCGN,Healthcare,Biotechnology
+RRGB,Consumer Cyclical,Restaurants
+VNDA,Healthcare,Biotechnology
+FLS,Industrials,Specialty Industrial Machinery
+BATL,Energy,Oil & Gas E&P
+SKLZ,Communication Services,Electronic Gaming & Multimedia
+STHO,Real Estate,Real Estate Services
+IRON,Healthcare,Biotechnology
+EL,Consumer Defensive,Household & Personal Products
+CZWI,Financial Services,Banks - Regional
+NMRK,Real Estate,Real Estate Services
+MESO,Healthcare,Biotechnology
+DAO,Consumer Defensive,Education & Training Services
+TAYD,Industrials,Specialty Industrial Machinery
+MVBF,Financial Services,Banks - Regional
+STRT,Consumer Cyclical,Auto Parts
+ADCT,Healthcare,Biotechnology
+PMVP,Healthcare,Biotechnology
+DNLI,Healthcare,Biotechnology
+ARTW,Industrials,Farm & Heavy Construction Machinery
+SPXC,Industrials,Building Products & Equipment
+IBP,Consumer Cyclical,Residential Construction
+YSPY,その他,
+CVI,Energy,Oil & Gas Refining & Marketing
+NLR,その他,
+RCAT,Industrials,Aerospace & Defense
+AVAH,Healthcare,Medical Care Facilities
+SBS,Utilities,Utilities - Regulated Water
+BTG,Basic Materials,Gold
+NXDR,Communication Services,Internet Content & Information
+ATRA,Healthcare,Biotechnology
+CBNA,Financial Services,Banks - Regional
+CRSP,Healthcare,Biotechnology
+RTX,Industrials,Aerospace & Defense
+BLZE,Technology,Software - Infrastructure
+EXPE,Consumer Cyclical,Travel Services
+NIO,Consumer Cyclical,Auto Manufacturers
+APP,Communication Services,Advertising Agencies
+VSEC,Industrials,Aerospace & Defense
+CURE,その他,
+SSBI,Financial Services,Banks - Regional
+NSYS,Healthcare,Medical Devices
+FNV,Basic Materials,Gold
+GRNQ,Industrials,Consulting Services
+KWR,Basic Materials,Specialty Chemicals
+NSSC,Industrials,Security & Protection Services
+UNH,Healthcare,Healthcare Plans
+XIFR,Utilities,Utilities - Renewable
+ULCC,Industrials,Airlines
+ATMU,Consumer Cyclical,Auto Parts
+MYFW,Financial Services,Banks - Regional
+TIMB,Communication Services,Telecom Services
+CWK,Real Estate,Real Estate Services
+VREX,Healthcare,Medical Devices
+LHX,Industrials,Aerospace & Defense
+HQI,Industrials,Staffing & Employment Services
+LCII,Consumer Cyclical,Recreational Vehicles
+CAH,Healthcare,Medical Distribution
+JKS,Technology,Solar
+PIPR,Financial Services,Capital Markets
+SEG,Real Estate,Real Estate Services
+LE,Consumer Cyclical,Apparel Retail
+BCBP,Financial Services,Banks - Regional
+ORIC,Healthcare,Biotechnology
+GE,Industrials,Aerospace & Defense
+PCB,Financial Services,Banks - Regional
+ASO,Consumer Cyclical,Specialty Retail
+SIG,Consumer Cyclical,Luxury Goods
+XFOR,Healthcare,Biotechnology
+BKE,Consumer Cyclical,Apparel Retail
+CWI,その他,
+GSBC,Financial Services,Banks - Regional
+NPB,Financial Services,Banks - Regional
+SDIV,その他,
+SPY,その他,
+VTI,その他,
+SHE,その他,
+ALLY,Financial Services,Credit Services
+BSAC,Financial Services,Banks - Regional
+FULT,Financial Services,Banks - Regional
+HOPE,Financial Services,Banks - Regional
+VSS,その他,
+EEMS,その他,
+ESGU,その他,
+FTNT,Technology,Software - Infrastructure
+TQQY,その他,
+VB,その他,
+AVDE,その他,
+HBNC,Financial Services,Banks - Regional
+BBUS,その他,
+CNO,Financial Services,Insurance - Life
+HTHT,Consumer Cyclical,Lodging
+WAB,Industrials,Railroads
+BRF,その他,
+VXF,その他,
+WAFD,Financial Services,Banks - Regional
+IWB,その他,
+VONE,その他,
+AURA,Healthcare,Biotechnology
+BBD,Financial Services,Banks - Regional
+JEPQ,その他,
+VLGEA,Consumer Defensive,Grocery Stores
+BRC,Industrials,Security & Protection Services
+DES,その他,
+PBFS,Financial Services,Banks - Regional
+AMGN,Healthcare,Drug Manufacturers - General
+PLUS,Technology,Software - Application
+TFC,Financial Services,Banks - Regional
+VOYA,Financial Services,Financial Conglomerates
+WTFC,Financial Services,Banks - Regional
+BIO,Healthcare,Medical Devices
+GILD,Healthcare,Drug Manufacturers - General
+HTH,Financial Services,Financial Conglomerates
+WTS,Industrials,Specialty Industrial Machinery
+DEM,その他,
+RS,Basic Materials,Steel
+TSLY,その他,
+BCH,Financial Services,Banks - Regional
+FDL,その他,
+HWC,Financial Services,Banks - Regional
+MGV,その他,
+NTIP,Industrials,Specialty Business Services
+VYM,その他,
+AEG,Financial Services,Insurance - Diversified
+DGRS,その他,
+RDVY,その他,
+AFRI,Consumer Defensive,Farm Products
+FMBH,Financial Services,Banks - Regional
+LLYVK,Communication Services,Entertainment
+NWN,Utilities,Utilities - Regulated Gas
+ORRF,Financial Services,Banks - Regional
+TOK,その他,
+CDNA,Healthcare,Diagnostics & Research
+GFF,Industrials,Building Products & Equipment
+HGV,Consumer Cyclical,Resorts & Casinos
+TDY,Technology,Scientific & Technical Instruments
+TJX,Consumer Cyclical,Apparel Retail
+UNTY,Financial Services,Banks - Regional
+VTV,その他,
+BWB,Financial Services,Banks - Regional
+SUSA,その他,
+AME,Industrials,Specialty Industrial Machinery
+EIPI,その他,
+MCHB,Financial Services,Banks - Regional
+ISPY,その他,
+GINN,その他,
+NVAX,Healthcare,Biotechnology
+CPBI,Financial Services,Banks - Regional
+VBR,その他,
+WCME,その他,
+SPCB,Industrials,Security & Protection Services
+VWO,その他,
+IGLD,その他,
+WRBY,Healthcare,Medical Instruments & Supplies
+QQQE,その他,
+BVFL,Financial Services,Banks - Regional
+QYLD,その他,
+ASB,Financial Services,Banks - Regional
+ROBT,その他,
+KMI,Energy,Oil & Gas Midstream
+HUBG,Industrials,Integrated Freight & Logistics
+ANGO,Healthcare,Medical Instruments & Supplies
+FHN,Financial Services,Banks - Regional
+IDA,Utilities,Utilities - Regulated Electric
+TXT,Industrials,Aerospace & Defense
+VOX,その他,
+ESQ,Financial Services,Banks - Regional
+NI,Utilities,Utilities - Regulated Gas
+WMT,Consumer Defensive,Discount Stores
+TSLA,Consumer Cyclical,Auto Manufacturers
+SBUX,Consumer Cyclical,Restaurants
+ALV,Consumer Cyclical,Auto Parts
+TTC,Industrials,Tools & Accessories
+DLN,その他,
+IVOO,その他,
+SPMD,その他,
+IJH,その他,
+UBSI,Financial Services,Banks - Regional
+JAVA,その他,
+JMSB,Financial Services,Banks - Regional
+OPHC,Financial Services,Banks - Regional
+AM,Energy,Oil & Gas Midstream
+EMLP,その他,
+FBLA,Financial Services,Banks - Regional
+AMZY,その他,
+IDEV,その他,
+RYLD,その他,
+SPYV,その他,
+VOE,その他,
+VOOV,その他,
+ACT,Financial Services,Insurance - Specialty
+FID,その他,
+L,Financial Services,Insurance - Property & Casualty
+PHG,Healthcare,Medical Devices
+RNR,Financial Services,Insurance - Reinsurance
+SBSI,Financial Services,Banks - Regional
+DVY,その他,
+AER,Industrials,Rental & Leasing Services
+AAL,Industrials,Airlines
+DDL,Consumer Defensive,Grocery Stores
+SDVY,その他,
+XLI,その他,
+DIA,その他,
+ETN,Industrials,Specialty Industrial Machinery
+MBWM,Financial Services,Banks - Regional
+TBBB,Consumer Defensive,Discount Stores
+CHEF,Consumer Defensive,Food Distribution
+HUBB,Industrials,Electrical Equipment & Parts
+SRE,Utilities,Utilities - Diversified
+ACCO,Industrials,Business Equipment & Supplies
+ARCO,Consumer Cyclical,Restaurants
+FHB,Financial Services,Banks - Regional
+FSS,Industrials,Pollution & Treatment Controls
+MUSA,Consumer Cyclical,Specialty Retail
+TR,Consumer Defensive,Confectioners
+JGRO,その他,
+AFBI,Financial Services,Banks - Regional
+IART,Healthcare,Medical Devices
+GXDW,その他,
+BAC,Financial Services,Banks - Diversified
+BATRK,Communication Services,Entertainment
+CRI,Consumer Cyclical,Apparel Retail
+BCML,Financial Services,Banks - Regional
+MGM,Consumer Cyclical,Resorts & Casinos
+UNP,Industrials,Railroads
+UTMD,Healthcare,Medical Instruments & Supplies
+MTB,Financial Services,Banks - Regional
+PEN,Healthcare,Medical Devices
+EFA,その他,
+FBP,Financial Services,Banks - Regional
+OKE,Energy,Oil & Gas Midstream
+SWK,Industrials,Tools & Accessories
+BUD,Consumer Defensive,Beverages - Brewers
+VG,Energy,Oil & Gas Midstream
+PNTG,Healthcare,Medical Care Facilities
+VAW,その他,
+WEYS,Consumer Cyclical,Footwear & Accessories
+GRMN,Technology,Scientific & Technical Instruments
+AIRT,Industrials,Conglomerates
+JFLI,その他,
+THRM,Consumer Cyclical,Auto Parts
+VIG,その他,
+RRR,Consumer Cyclical,Resorts & Casinos
+RWR,その他,
+SPNT,Financial Services,Insurance - Reinsurance
+CON,Healthcare,Medical Care Facilities
+KNTK,Energy,Oil & Gas Midstream
+RNST,Financial Services,Banks - Regional
+SR,Utilities,Utilities - Regulated Gas
+TSN,Consumer Defensive,Farm Products
+BOH,Financial Services,Banks - Regional
+PEP,Consumer Defensive,Beverages - Non-Alcoholic
+BGC,Financial Services,Capital Markets
+MC,Financial Services,Capital Markets
+UCB,Financial Services,Banks - Regional
+BBT,Financial Services,Banks - Regional
+GHC,Consumer Defensive,Education & Training Services
+MLPA,その他,
+PRG,Industrials,Rental & Leasing Services
+SSD,Basic Materials,Lumber & Wood Production
+GBCI,Financial Services,Banks - Regional
+BCE,Communication Services,Telecom Services
+DIV,その他,
+EQBK,Financial Services,Banks - Regional
+RSP,その他,
+WTM,Financial Services,Insurance - Property & Casualty
+GAL,その他,
+JXI,その他,
+PCAR,Industrials,Farm & Heavy Construction Machinery
+XEL,Utilities,Utilities - Regulated Electric
+BN,Financial Services,Asset Management
+SRET,その他,
+VAC,Consumer Cyclical,Resorts & Casinos
+VGK,その他,
+FTS,Utilities,Utilities - Regulated Electric
+HWKN,Basic Materials,Specialty Chemicals
+JPM,Financial Services,Banks - Diversified
+VABK,Financial Services,Banks - Regional
+XLB,その他,
+ASH,Basic Materials,Specialty Chemicals
+NBBK,Financial Services,Banks - Regional
+CXSE,その他,
+BUFR,その他,
+AXR,Real Estate,Real Estate - Development
+DOV,Industrials,Specialty Industrial Machinery
+GATX,Industrials,Rental & Leasing Services
+EWS,その他,
+CIVB,Financial Services,Banks - Regional
+ONB,Financial Services,Banks - Regional
+VZ,Communication Services,Telecom Services
+AHCO,Healthcare,Medical Devices
+VO,その他,
+WSBC,Financial Services,Banks - Regional
+AEE,Utilities,Utilities - Regulated Electric
+PFE,Healthcare,Drug Manufacturers - General
+SNA,Industrials,Tools & Accessories
+SN,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+CAKE,Consumer Cyclical,Restaurants
+IGF,その他,
+SFNC,Financial Services,Banks - Regional
+IEX,Industrials,Specialty Industrial Machinery
+SHLD,その他,
+CDNS,Technology,Software - Application
+INVA,Healthcare,Biotechnology
+EXEL,Healthcare,Biotechnology
+JGLO,その他,
+THG,Financial Services,Insurance - Property & Casualty
+AFL,Financial Services,Insurance - Life
+BRBS,Financial Services,Banks - Regional
+TRC,Industrials,Conglomerates
+CFBK,Financial Services,Banks - Regional
+CINF,Financial Services,Insurance - Property & Casualty
+FMX,Consumer Defensive,Beverages - Brewers
+PNW,Utilities,Utilities - Regulated Electric
+CAAP,Industrials,Airports & Air Services
+OCFC,Financial Services,Banks - Regional
+OTTR,Industrials,Conglomerates
+CBU,Financial Services,Banks - Regional
+TDS,Communication Services,Telecom Services
+BZH,Consumer Cyclical,Residential Construction
+FLG,Financial Services,Banks - Regional
+BHRB,Financial Services,Banks - Regional
+FOXA,Communication Services,Entertainment
+GWW,Industrials,Industrial Distribution
+EMR,Industrials,Specialty Industrial Machinery
+SKYY,その他,
+CRNT,Technology,Communication Equipment
+TROW,Financial Services,Asset Management
+HVT,Consumer Cyclical,Home Improvement Retail
+MGYR,Financial Services,Banks - Regional
+GTES,Industrials,Specialty Industrial Machinery
+JOB,Industrials,Staffing & Employment Services
+KO,Consumer Defensive,Beverages - Non-Alcoholic
+DON,その他,
+XLC,その他,
+CNP,Utilities,Utilities - Regulated Electric
+LSAK,Technology,Software - Infrastructure
+QDIV,その他,
+CTVA,Basic Materials,Agricultural Inputs
+NWG,Financial Services,Banks - Regional
+DGX,Healthcare,Diagnostics & Research
+FXH,その他,
+FTLS,その他,
+IGIC,Financial Services,Insurance - Diversified
+ZVRA,Healthcare,Biotechnology
+BUFD,その他,
+DJIA,その他,
+SPFF,その他,
+XYZ,Technology,Software - Infrastructure
+DAVE,Technology,Software - Application
+GCBC,Financial Services,Banks - Regional
+SDY,その他,
+ACNT,Basic Materials,Chemicals
+ATO,Utilities,Utilities - Regulated Gas
+OGS,Utilities,Utilities - Regulated Gas
+CBT,Basic Materials,Specialty Chemicals
+ES,Utilities,Utilities - Regulated Electric
+CB,Financial Services,Insurance - Property & Casualty
+VPU,その他,
+UPS,Industrials,Integrated Freight & Logistics
+XLU,その他,
+CAAS,Consumer Cyclical,Auto Parts
+TRV,Financial Services,Insurance - Property & Casualty
+EBF,Industrials,Business Equipment & Supplies
+NRIM,Financial Services,Banks - Regional
+RMBI,Financial Services,Banks - Regional
+TFIN,Financial Services,Banks - Regional
+ALTG,Industrials,Rental & Leasing Services
+FTDR,Consumer Cyclical,Personal Services
+EW,Healthcare,Medical Devices
+NBTB,Financial Services,Banks - Regional
+IXJ,その他,
+LIN,Basic Materials,Specialty Chemicals
+LYV,Communication Services,Entertainment
+REM,その他,
+UBCP,Financial Services,Banks - Regional
+ABX,Financial Services,Insurance - Life
+INKM,その他,
+IYR,その他,
+XLY,その他,
+FTGS,その他,
+MKTW,Financial Services,Financial Data & Stock Exchanges
+OGE,Utilities,Utilities - Regulated Electric
+IYRI,その他,
+BLK,Financial Services,Asset Management
+CFR,Financial Services,Banks - Regional
+RGR,Industrials,Aerospace & Defense
+XLRE,その他,
+EPM,Energy,Oil & Gas E&P
+AVA,Utilities,Utilities - Diversified
+WEX,Technology,Software - Infrastructure
+HMN,Financial Services,Insurance - Property & Casualty
+ECBK,Financial Services,Banks - Regional
+EEX,Communication Services,Advertising Agencies
+NDAQ,Financial Services,Financial Data & Stock Exchanges
+VRSN,Technology,Software - Infrastructure
+HEI,Industrials,Aerospace & Defense
+LWAY,Consumer Defensive,Packaged Foods
+NEXT,Energy,Oil & Gas Equipment & Services
+OZK,Financial Services,Banks - Regional
+TGTX,Healthcare,Biotechnology
+WAL,Financial Services,Banks - Regional
+MET,Financial Services,Insurance - Life
+PENN,Consumer Cyclical,Resorts & Casinos
+DUK,Utilities,Utilities - Regulated Electric
+KROP,その他,
+FRME,Financial Services,Banks - Regional
+QETA,Financial Services,Shell Companies
+PRDO,Consumer Defensive,Education & Training Services
+TAK,Healthcare,Drug Manufacturers - Specialty & Generic
+MAS,Industrials,Building Products & Equipment
+WKC,Energy,Oil & Gas Refining & Marketing
+HON,Industrials,Conglomerates
+NOBL,その他,
+QRMI,その他,
+XRMI,その他,
+COFS,Financial Services,Banks - Regional
+NSTS,Financial Services,Banks - Regional
+BIPC,Utilities,Utilities - Regulated Gas
+GBX,Industrials,Railroads
+SPKL,Financial Services,Shell Companies
+CNI,Industrials,Railroads
+FVD,その他,
+VOT,その他,
+AMBP,Consumer Cyclical,Packaging & Containers
+BALL,Consumer Cyclical,Packaging & Containers
+BKHA,Financial Services,Shell Companies
+DGICB,Financial Services,Insurance - Property & Casualty
+DRS,Industrials,Aerospace & Defense
+CASS,Industrials,Specialty Business Services
+AXP,Financial Services,Credit Services
+VWOB,その他,
+FAST,Industrials,Industrial Distribution
+CMS,Utilities,Utilities - Regulated Electric
+CWAN,Technology,Software - Application
+KNG,その他,
+APD,Basic Materials,Specialty Chemicals
+DTE,Utilities,Utilities - Regulated Electric
+FEMB,その他,
+JEPI,その他,
+ACU,Consumer Defensive,Household & Personal Products
+BLFS,Healthcare,Medical Instruments & Supplies
+FPEI,その他,
+FPE,その他,
+PFF,その他,
+FSBW,Financial Services,Banks - Regional
+PM,Consumer Defensive,Tobacco
+SO,Utilities,Utilities - Regulated Electric
+SYY,Consumer Defensive,Food Distribution
+WEC,Utilities,Utilities - Regulated Electric
+CENTA,Consumer Defensive,Packaged Foods
+DTSQ,Financial Services,Shell Companies
+EVLV,Industrials,Security & Protection Services
+ITIC,Financial Services,Insurance - Specialty
+RGA,Financial Services,Insurance - Reinsurance
+SNN,Healthcare,Medical Devices
+CPSS,Financial Services,Credit Services
+TCBS,Financial Services,Banks - Regional
+JRSH,Consumer Cyclical,Apparel Manufacturing
+ALSN,Consumer Cyclical,Auto Parts
+ALL,Financial Services,Insurance - Property & Casualty
+PVH,Consumer Cyclical,Apparel Manufacturing
+YUM,Consumer Cyclical,Restaurants
+CENT,Consumer Defensive,Packaged Foods
+SPLB,その他,
+CP,Industrials,Railroads
+FUL,Basic Materials,Specialty Chemicals
+BA,Industrials,Aerospace & Defense
+GRNT,Energy,Oil & Gas E&P
+MCS,Communication Services,Entertainment
+SFBS,Financial Services,Banks - Regional
+CCEP,Consumer Defensive,Beverages - Non-Alcoholic
+WLY,Communication Services,Publishing
+BHF,Financial Services,Insurance - Life
+IPI,Basic Materials,Agricultural Inputs
+SPHY,その他,
+TXNM,Utilities,Utilities - Regulated Electric
+PFFD,その他,
+BBHY,その他,
+ED,Utilities,Utilities - Regulated Electric
+DYNC,Financial Services,Shell Companies
+MARM,その他,
+PAC,Industrials,Airports & Air Services
+PRAA,Financial Services,Credit Services
+CASH,Financial Services,Banks - Regional
+CPAY,Technology,Software - Infrastructure
+HIG,Financial Services,Insurance - Diversified
+HYTI,その他,
+MGOV,その他,
+SIGI,Financial Services,Insurance - Property & Casualty
+TT,Industrials,Building Products & Equipment
+IHY,その他,
+MLR,Consumer Cyclical,Auto Parts
+PRI,Financial Services,Insurance - Life
+SJNK,その他,
+VMBS,その他,
+BLV,その他,
+HYBL,その他,
+MBB,その他,
+MSCI,Financial Services,Financial Data & Stock Exchanges
+XLP,その他,
+AUDC,Technology,Communication Equipment
+CVGW,Consumer Defensive,Food Distribution
+ESNT,Financial Services,Insurance - Specialty
+IGIB,その他,
+LQD,その他,
+LMBS,その他,
+SXC,Basic Materials,Coking Coal
+VCIT,その他,
+VDC,その他,
+CME,Financial Services,Financial Data & Stock Exchanges
+KRO,Basic Materials,Specialty Chemicals
+KXI,その他,
+EG,Financial Services,Insurance - Reinsurance
+PRA,Financial Services,Insurance - Property & Casualty
+FIXD,その他,
+LQTI,その他,
+TLF,Consumer Cyclical,Specialty Retail
+YHNA,Financial Services,Shell Companies
+USFD,Consumer Defensive,Food Distribution
+ANSC,Financial Services,Shell Companies
+ACIC,Financial Services,Insurance - Property & Casualty
+CHAR,Financial Services,Shell Companies
+EWG,その他,
+LKFN,Financial Services,Banks - Regional
+USGO,Basic Materials,Other Industrial Metals & Mining
+PFFV,その他,
+EQT,Energy,Oil & Gas E&P
+AGG,その他,
+CAPN,Financial Services,Shell Companies
+OPRA,Communication Services,Internet Content & Information
+BND,その他,
+FSHP,Financial Services,Shell Companies
+KAI,Industrials,Specialty Industrial Machinery
+BJRI,Consumer Cyclical,Restaurants
+VGLT,その他,
+RFAI,Financial Services,Shell Companies
+CNC,Healthcare,Healthcare Plans
+FLRN,その他,
+MACI,Financial Services,Shell Companies
+RRC,Energy,Oil & Gas E&P
+CSV,Consumer Cyclical,Personal Services
+NTWO,Financial Services,Shell Companies
+ACGL,Financial Services,Insurance - Diversified
+TIP,その他,
+VCSH,その他,
+SCHW,Financial Services,Capital Markets
+ABNB,Consumer Cyclical,Travel Services
+ALF,Financial Services,Shell Companies
+NATH,Consumer Cyclical,Restaurants
+JPST,その他,
+NOEM,Financial Services,Shell Companies
+FTSM,その他,
+SIMA,Financial Services,Shell Companies
+VTIP,その他,
+CLIP,その他,
+HNVR,Financial Services,Banks - Regional
+GRAF,Financial Services,Shell Companies
+LPAA,Financial Services,Shell Companies
+SHV,その他,
+KFY,Industrials,Staffing & Employment Services
+LEGT,Financial Services,Shell Companies
+BSV,その他,
+CUB,Financial Services,Shell Companies
+FNWB,Financial Services,Banks - Regional
+LPBB,Financial Services,Shell Companies
+SBXD,Financial Services,Shell Companies
+FC,Consumer Defensive,Education & Training Services
+IBAC,Financial Services,Shell Companies
+SHY,その他,
+OACC,Financial Services,Shell Companies
+CZR,Consumer Cyclical,Resorts & Casinos
+DRI,Consumer Cyclical,Restaurants
+IFF,Basic Materials,Specialty Chemicals
+CNA,Financial Services,Insurance - Property & Casualty
+APAM,Financial Services,Asset Management
+COST,Consumer Defensive,Discount Stores
+CNXN,Technology,Electronics & Computer Distribution
+CHT,Communication Services,Telecom Services
+ALDF,Financial Services,Shell Companies
+CROX,Consumer Cyclical,Footwear & Accessories
+VFS,Consumer Cyclical,Auto Manufacturers
+CHD,Consumer Defensive,Household & Personal Products
+MIDD,Industrials,Specialty Industrial Machinery
+TTWO,Communication Services,Electronic Gaming & Multimedia
+AGM,Financial Services,Credit Services
+LARK,Financial Services,Banks - Regional
+SNFCA,Financial Services,Insurance - Life
+URBN,Consumer Cyclical,Apparel Retail
+FORA,Healthcare,Health Information Services
+IGOV,その他,
+CL,Consumer Defensive,Household & Personal Products
+ASIX,Basic Materials,Chemicals
+FSUN,Financial Services,Banks - Regional
+KR,Consumer Defensive,Grocery Stores
+WMK,Consumer Defensive,Grocery Stores
+NL,Industrials,Security & Protection Services
+MKL,Financial Services,Insurance - Property & Casualty
+WTRG,Utilities,Utilities - Regulated Water
+XPER,Technology,Software - Application
+APO,Financial Services,Asset Management
+MLAB,Technology,Scientific & Technical Instruments
+PRVA,Healthcare,Health Information Services
+ARTNA,Utilities,Utilities - Regulated Water
+WU,Financial Services,Credit Services
+VVV,Consumer Cyclical,Auto & Truck Dealerships
+WLYB,Communication Services,Publishing
+BUG,その他,
+SYBT,Financial Services,Banks - Regional
+WAT,Healthcare,Diagnostics & Research
+RSKD,Technology,Software - Application
+RBA,Industrials,Specialty Business Services
+BWX,その他,
+UTSI,Technology,Communication Equipment
+UFPT,Healthcare,Medical Devices
+UVV,Consumer Defensive,Tobacco
+PCG,Utilities,Utilities - Regulated Electric
+SEZL,Financial Services,Credit Services
+GLIN,その他,
+CVSA,Consumer Defensive,Education & Training Services
+METD,その他,
+CYCN,Healthcare,Biotechnology
+MSFO,その他,
+FNF,Financial Services,Insurance - Specialty
+NVCR,Healthcare,Medical Devices
+AIG,Financial Services,Insurance - Diversified
+CCRN,Healthcare,Medical Care Facilities
+EMN,Basic Materials,Specialty Chemicals
+HEPS,Consumer Cyclical,Internet Retail
+CAVA,Consumer Cyclical,Restaurants
+MCO,Financial Services,Financial Data & Stock Exchanges
+TMV,その他,
+IDN,Technology,Software - Application
+NPCE,Healthcare,Medical Devices
+SJM,Consumer Defensive,Packaged Foods
+WH,Consumer Cyclical,Lodging
+IKT,Healthcare,Biotechnology
+TPL,Energy,Oil & Gas E&P
+KINS,Financial Services,Insurance - Property & Casualty
+RCMT,Industrials,Conglomerates
+RDY,Healthcare,Drug Manufacturers - Specialty & Generic
+ROL,Consumer Cyclical,Personal Services
+FGBI,Financial Services,Banks - Regional
+YORW,Utilities,Utilities - Regulated Water
+TITN,Industrials,Industrial Distribution
+MSEX,Utilities,Utilities - Regulated Water
+BRCC,Consumer Defensive,Packaged Foods
+NWSA,Communication Services,Entertainment
+PSO,Communication Services,Publishing
+TKC,Communication Services,Telecom Services
+AR,Energy,Oil & Gas E&P
+STRA,Consumer Defensive,Education & Training Services
+FCN,Industrials,Consulting Services
+KARO,Technology,Software - Application
+BANF,Financial Services,Banks - Regional
+NWS,Communication Services,Entertainment
+AGO,Financial Services,Insurance - Specialty
+SMIN,その他,
+NFTY,その他,
+AON,Financial Services,Insurance Brokers
+FA,Industrials,Specialty Business Services
+EPI,その他,
+EPHE,その他,
+EPSN,Energy,Oil & Gas E&P
+EHC,Healthcare,Medical Care Facilities
+BOC,Industrials,Conglomerates
+TUYA,Technology,Software - Infrastructure
+SAIC,Technology,Information Technology Services
+MGEE,Utilities,Utilities - Regulated Electric
+DXCM,Healthcare,Medical Devices
+PERI,Communication Services,Internet Content & Information
+BRKU,その他,
+SPDN,その他,
+SH,その他,
+BCRX,Healthcare,Drug Manufacturers - Specialty & Generic
+HTZ,Industrials,Rental & Leasing Services
+KNF,Basic Materials,Building Materials
+NUTX,Healthcare,Medical Care Facilities
+OPEN,Real Estate,Real Estate Services
+MI,Consumer Cyclical,Internet Retail
+VOR,Healthcare,Biotechnology
+LONA,Healthcare,Biotechnology
+NEGG,Consumer Cyclical,Internet Retail
+ZEPP,Technology,Consumer Electronics
+HL,Basic Materials,Other Precious Metals & Mining
+AREC,Basic Materials,Coking Coal
+HYFT,Healthcare,Biotechnology
+MOB,Industrials,Aerospace & Defense
+FIEE,Technology,Communication Equipment
+OLMA,Healthcare,Biotechnology
+PZG,Basic Materials,Gold
+NVA,Basic Materials,Other Industrial Metals & Mining
+EXK,Basic Materials,Silver
+PROK,Healthcare,Biotechnology
+ABAT,Industrials,Waste Management
+PRME,Healthcare,Biotechnology
+JNUG,その他,
+IBIO,Healthcare,Biotechnology
+NB,Basic Materials,Other Industrial Metals & Mining
+NUGT,その他,
+NG,Basic Materials,Gold
+CMTL,Technology,Communication Equipment
+LYEL,Healthcare,Biotechnology
+RMCO,Financial Services,Asset Management
+NUVB,Healthcare,Biotechnology
+ORMP,Healthcare,Biotechnology
+TAOX,Technology,Software - Infrastructure
+OKUR,Healthcare,Biotechnology
+CSIQ,Technology,Solar
+SBSW,Basic Materials,Other Precious Metals & Mining
+SYM,Industrials,Specialty Industrial Machinery
+MLYS,Healthcare,Biotechnology
+HLF,Consumer Defensive,Packaged Foods
+LCTX,Healthcare,Biotechnology
+W,Consumer Cyclical,Internet Retail
+MNY,Communication Services,Internet Content & Information
+LMND,Financial Services,Insurance - Property & Casualty
+LXEO,Healthcare,Biotechnology
+EQX,Basic Materials,Gold
+BTU,Energy,Thermal Coal
+MNPR,Healthcare,Biotechnology
+PSNL,Healthcare,Diagnostics & Research
+SVRA,Healthcare,Biotechnology
+GFI,Basic Materials,Gold
+NDRA,Healthcare,Diagnostics & Research
+AQST,Healthcare,Drug Manufacturers - Specialty & Generic
+BOF,Consumer Defensive,Packaged Foods
+RANI,Healthcare,Biotechnology
+CLF,Basic Materials,Steel
+VERA,Healthcare,Biotechnology
+VHC,Technology,Software - Infrastructure
+ALLR,Healthcare,Biotechnology
+ELAN,Healthcare,Drug Manufacturers - Specialty & Generic
+GROY,Basic Materials,Gold
+IE,Basic Materials,Copper
+GITS,Communication Services,Internet Content & Information
+DRD,Basic Materials,Gold
+FLNT,Communication Services,Advertising Agencies
+ZBIO,Healthcare,Biotechnology
+JOBY,Industrials,Airports & Air Services
+MATV,Basic Materials,Specialty Chemicals
+BGSF,Industrials,Staffing & Employment Services
+GRWG,Consumer Cyclical,Specialty Retail
+SMRT,Technology,Software - Application
+FSM,Basic Materials,Gold
+SONO,Technology,Consumer Electronics
+WKEY,Technology,Semiconductors
+GPCR,Healthcare,Biotechnology
+AEO,Consumer Cyclical,Apparel Retail
+PYXS,Healthcare,Biotechnology
+GAU,Basic Materials,Gold
+DSWL,Technology,Electronic Components
+LEU,Energy,Uranium
+RMCF,Consumer Defensive,Confectioners
+CDZI,Utilities,Utilities - Regulated Water
+APH,Technology,Electronic Components
+ADPT,Healthcare,Diagnostics & Research
+METC,Basic Materials,Coking Coal
+ALGT,Industrials,Airlines
+KRMN,Industrials,Aerospace & Defense
+LVLU,Consumer Cyclical,Apparel Retail
+RIGL,Healthcare,Biotechnology
+LBTYB,Communication Services,Telecom Services
+ELLO,Utilities,Utilities - Renewable
+SYPR,Consumer Cyclical,Auto Parts
+AMR,Basic Materials,Coking Coal
+AEM,Basic Materials,Gold
+ACRV,Healthcare,Biotechnology
+XNCR,Healthcare,Biotechnology
+ARQT,Healthcare,Biotechnology
+BAER,Industrials,Security & Protection Services
+ADNT,Consumer Cyclical,Auto Parts
+TXMD,Healthcare,Drug Manufacturers - Specialty & Generic
+HII,Industrials,Aerospace & Defense
+TARS,Healthcare,Biotechnology
+UROY,Energy,Uranium
+DDS,Consumer Cyclical,Department Stores
+SBH,Consumer Cyclical,Specialty Retail
+USAU,Basic Materials,Gold
+FORTY,Technology,Information Technology Services
+ZETA,Technology,Software - Infrastructure
+FTCI,Technology,Solar
+RYTM,Healthcare,Biotechnology
+COMP,Real Estate,Real Estate Services
+MBI,Financial Services,Insurance - Specialty
+MNRO,Consumer Cyclical,Auto Parts
+KE,Industrials,Electrical Equipment & Parts
+OR,Basic Materials,Gold
+RDDT,Communication Services,Internet Content & Information
+WBTN,Communication Services,Internet Content & Information
+RM,Financial Services,Credit Services
+DXR,Healthcare,Medical Instruments & Supplies
+ARVN,Healthcare,Biotechnology
+DIN,Consumer Cyclical,Restaurants
+HIT,Technology,Software - Application
+LVWR,Consumer Cyclical,Auto Manufacturers
+GEOS,Energy,Oil & Gas Equipment & Services
+MB,Consumer Cyclical,Restaurants
+SOHU,Communication Services,Electronic Gaming & Multimedia
+TBH,Communication Services,Electronic Gaming & Multimedia
+MXC,Energy,Oil & Gas E&P
+OKLO,Utilities,Utilities - Independent Power Producers
+LUV,Industrials,Airlines
+CMCL,Basic Materials,Gold
+LOOP,Basic Materials,Specialty Chemicals
+SCLX,Healthcare,Drug Manufacturers - General
+JOYY,Communication Services,Internet Content & Information
+YQ,Consumer Defensive,Education & Training Services
+PI,Technology,Semiconductors
+OSK,Industrials,Farm & Heavy Construction Machinery
+PACB,Healthcare,Medical Devices
+NTRA,Healthcare,Diagnostics & Research
+AFRM,Financial Services,Credit Services
+EBS,Healthcare,Drug Manufacturers - Specialty & Generic
+DAKT,Technology,Electronic Components
+CLB,Energy,Oil & Gas Equipment & Services
+VYGR,Healthcare,Biotechnology
+AMRN,Healthcare,Drug Manufacturers - General
+MGLD,Financial Services,Asset Management
+PLX,Healthcare,Biotechnology
+BRKR,Healthcare,Medical Devices
+HSY,Consumer Defensive,Confectioners
+BCO,Industrials,Security & Protection Services
+HE,Utilities,Utilities - Regulated Electric
+SHC,Healthcare,Diagnostics & Research
+SYF,Financial Services,Credit Services
+CRNC,Technology,Software - Application
+ONC,Healthcare,Biotechnology
+JL,Consumer Cyclical,Apparel Manufacturing
+SGC,Consumer Cyclical,Apparel Manufacturing
+FRD,Basic Materials,Steel
+SES,Consumer Cyclical,Auto Parts
+DEW,その他,
+WTBA,Financial Services,Banks - Regional
+FLOW,その他,
+FERG,Industrials,Industrial Distribution
+FUNC,Financial Services,Banks - Regional
+KRMA,その他,
+STRR,Industrials,Conglomerates
+FNLC,Financial Services,Banks - Regional
+HROW,Healthcare,Drug Manufacturers - Specialty & Generic
+SBCF,Financial Services,Banks - Regional
+WLK,Basic Materials,Specialty Chemicals
+GD,Industrials,Aerospace & Defense
+VRDN,Healthcare,Biotechnology
+BBH,その他,
+BWMN,Industrials,Engineering & Construction
+ASTE,Industrials,Farm & Heavy Construction Machinery
+JVA,Consumer Defensive,Packaged Foods
+EGAN,Technology,Software - Application
+ULTA,Consumer Cyclical,Specialty Retail
+EOSE,Industrials,Electrical Equipment & Parts
+BFRI,Healthcare,Drug Manufacturers - Specialty & Generic
+XYLG,その他,
+AIRS,Healthcare,Medical Care Facilities
+HALO,Healthcare,Biotechnology
+CSTL,Healthcare,Diagnostics & Research
+LODE,Basic Materials,Other Precious Metals & Mining
+BDL,Consumer Cyclical,Restaurants
+TCBX,Financial Services,Banks - Regional
+GLXY,Financial Services,Capital Markets
+TGEN,Industrials,Electrical Equipment & Parts
+TSLW,その他,
+NEO,Healthcare,Diagnostics & Research
+FUSB,Financial Services,Banks - Regional
+WFCF,Industrials,Specialty Business Services
+IDCC,Technology,Software - Application
+SWKS,Technology,Semiconductors
+AX,Financial Services,Banks - Regional
+WSM,Consumer Cyclical,Specialty Retail
+NWFL,Financial Services,Banks - Regional
+ARRY,Technology,Solar
+CBFV,Financial Services,Banks - Regional
+DAIO,Technology,Electronic Components
+RGS,Consumer Cyclical,Personal Services
+U,Technology,Software - Application
+RGLD,Basic Materials,Gold
+TKO,Communication Services,Entertainment
+TPB,Consumer Defensive,Tobacco
+GDS,Technology,Information Technology Services
+LGCY,Consumer Defensive,Education & Training Services
+BGS,Consumer Defensive,Packaged Foods
+HWBK,Financial Services,Banks - Regional
+FBK,Financial Services,Banks - Regional
+IQV,Healthcare,Diagnostics & Research
+SLN,Healthcare,Biotechnology
+AUBN,Financial Services,Banks - Regional
+DB,Financial Services,Banks - Regional
+INDO,Energy,Oil & Gas E&P
+TATT,Industrials,Aerospace & Defense
+CING,Healthcare,Biotechnology
+INVE,Industrials,Building Products & Equipment
+MHO,Consumer Cyclical,Residential Construction
+KMDA,Healthcare,Drug Manufacturers - Specialty & Generic
+FDSB,Financial Services,Banks - Regional
+ABBV,Healthcare,Drug Manufacturers - General
+DOGG,その他,
+GEF,Consumer Cyclical,Packaging & Containers
+BPRN,Financial Services,Banks - Regional
+EMBJ,Industrials,Aerospace & Defense
+FNOV,その他,
+FDBC,Financial Services,Banks - Regional
+PGNY,Healthcare,Healthcare Plans
+FRI,その他,
+SJ,Communication Services,Internet Content & Information
+PRSO,Technology,Semiconductors
+OMEX,Basic Materials,Other Industrial Metals & Mining
+SROI,その他,
+TLRY,Healthcare,Drug Manufacturers - Specialty & Generic
+BSVN,Financial Services,Banks - Regional
+GXO,Industrials,Integrated Freight & Logistics
+PHM,Consumer Cyclical,Residential Construction
+LCNB,Financial Services,Banks - Regional
+PROV,Financial Services,Banks - Regional
+BSBK,Financial Services,Banks - Regional
+SF,Financial Services,Capital Markets
+CREX,Technology,Software - Application
+VHT,その他,
+OPBK,Financial Services,Banks - Regional
+SNAL,Communication Services,Electronic Gaming & Multimedia
+HGTY,Financial Services,Insurance - Property & Casualty
+ALTY,その他,
+MOAT,その他,
+HIFS,Financial Services,Banks - Regional
+NOAH,Financial Services,Asset Management
+CCEF,その他,
+CZNC,Financial Services,Banks - Regional
+NEU,Basic Materials,Specialty Chemicals
+XLV,その他,
+LEG,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+OWLT,Healthcare,Medical Devices
+LNC,Financial Services,Insurance - Life
+SBFG,Financial Services,Banks - Regional
+MSTZ,その他,
+DFE,その他,
+HOV,Consumer Cyclical,Residential Construction
+AXIL,Technology,Consumer Electronics
+STC,Financial Services,Insurance - Property & Casualty
+FOX,Communication Services,Entertainment
+OMF,Financial Services,Credit Services
+CCLD,Healthcare,Health Information Services
+KEP,Utilities,Utilities - Regulated Electric
+ORI,Financial Services,Insurance - Property & Casualty
+FE,Utilities,Utilities - Regulated Electric
+IPWR,Technology,Semiconductors
+POLA,Industrials,Electrical Equipment & Parts
+CFFI,Financial Services,Banks - Regional
+EUDG,その他,
+PED,Energy,Oil & Gas E&P
+TRAW,Healthcare,Biotechnology
+GSM,Basic Materials,Other Industrial Metals & Mining
+POCI,Healthcare,Medical Instruments & Supplies
+HBB,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+AGCO,Industrials,Farm & Heavy Construction Machinery
+BDTX,Healthcare,Biotechnology
+RAIL,Industrials,Railroads
+CBLL,Healthcare,Medical Devices
+CTGO,Basic Materials,Gold
+ALHC,Healthcare,Healthcare Plans
+OCUL,Healthcare,Biotechnology
+ANVS,Healthcare,Biotechnology
+GNTX,Consumer Cyclical,Auto Parts
+RDTL,その他,
+SNDL,Consumer Defensive,Beverages - Wineries & Distilleries
+DLO,Technology,Software - Infrastructure
+GRBK,Consumer Cyclical,Residential Construction
+SCSC,Technology,Electronics & Computer Distribution
+RGCO,Utilities,Utilities - Regulated Gas
+BDX,Healthcare,Medical Instruments & Supplies
+BH,Consumer Cyclical,Restaurants
+IBEX,Technology,Information Technology Services
+LAB,Healthcare,Medical Devices
+MTW,Industrials,Farm & Heavy Construction Machinery
+DTI,Energy,Oil & Gas Equipment & Services
+CNX,Energy,Oil & Gas E&P
+CWCO,Utilities,Utilities - Regulated Water
+ULTY,その他,
+TFX,Healthcare,Medical Instruments & Supplies
+TSLG,その他,
+BKKT,Technology,Software - Infrastructure
+JEF,Financial Services,Capital Markets
+CLOV,Healthcare,Healthcare Plans
+CZFS,Financial Services,Banks - Regional
+SIM,Basic Materials,Steel
+WEBL,その他,
+MAYS,Real Estate,Real Estate Services
+IFGL,その他,
+PFGC,Consumer Defensive,Food Distribution
+YMAX,その他,
+ACDC,Energy,Oil & Gas Equipment & Services
+ROAD,Industrials,Engineering & Construction
+BAYA,Financial Services,Shell Companies
+DMRC,Technology,Software - Application
+LPRO,Financial Services,Credit Services
+AQN,Utilities,Utilities - Diversified
+FCNCA,Financial Services,Banks - Regional
+MSA,Industrials,Security & Protection Services
+BYD,Consumer Cyclical,Resorts & Casinos
+FRBA,Financial Services,Banks - Regional
+NECB,Financial Services,Banks - Regional
+FLR,Industrials,Engineering & Construction
+NODK,Financial Services,Insurance - Property & Casualty
+REGN,Healthcare,Biotechnology
+RIBB,Financial Services,Shell Companies
+BZFD,Communication Services,Internet Content & Information
+KC,Technology,Software - Application
+RVTY,Healthcare,Diagnostics & Research
+EXC,Utilities,Utilities - Regulated Electric
+KVAC,Financial Services,Shell Companies
+DIT,Consumer Defensive,Food Distribution
+VCLT,その他,
+SOLV,Healthcare,Medical Instruments & Supplies
+CUE,Healthcare,Biotechnology
+LH,Healthcare,Diagnostics & Research
+CBRE,Real Estate,Real Estate Services
+CPSL,その他,
+MIND,Technology,Scientific & Technical Instruments
+HBAN,Financial Services,Banks - Regional
+BLMN,Consumer Cyclical,Restaurants
+PJT,Financial Services,Capital Markets
+RWX,その他,
+MFIN,Financial Services,Credit Services
+RXI,その他,
+CPSY,その他,
+PRU,Financial Services,Insurance - Life
+MCK,Healthcare,Medical Distribution
+AMWL,Healthcare,Health Information Services
+PATK,Consumer Cyclical,Recreational Vehicles
+WVE,Healthcare,Biotechnology
+VFH,その他,
+ITW,Industrials,Specialty Industrial Machinery
+THC,Healthcare,Medical Care Facilities
+OMC,Communication Services,Advertising Agencies
+FTCS,その他,
+CR,Industrials,Specialty Industrial Machinery
+LGOV,その他,
+NU,Financial Services,Banks - Regional
+CPK,Utilities,Utilities - Regulated Gas
+BBCP,Industrials,Engineering & Construction
+SGI,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+MMM,Industrials,Conglomerates
+AIRJ,Industrials,Building Products & Equipment
+DECK,Consumer Cyclical,Footwear & Accessories
+PSK,その他,
+RJF,Financial Services,Asset Management
+XLF,その他,
+ATLX,Basic Materials,Other Industrial Metals & Mining
+NVCT,Healthcare,Biotechnology
+SMG,Basic Materials,Agricultural Inputs
+SNPS,Technology,Software - Infrastructure
+TLK,Communication Services,Telecom Services
+DE,Industrials,Farm & Heavy Construction Machinery
+BIV,その他,
+GENC,Industrials,Farm & Heavy Construction Machinery
+SBGI,Communication Services,Broadcasting
+TOTL,その他,
+MTRX,Industrials,Engineering & Construction
+PAG,Consumer Cyclical,Auto & Truck Dealerships
+SPTL,その他,
+TWI,Industrials,Farm & Heavy Construction Machinery
+TLT,その他,
+NMG,Basic Materials,Other Industrial Metals & Mining
+LTTI,その他,
+RLX,Consumer Defensive,Tobacco
+DOLE,Consumer Defensive,Farm Products
+EDUC,Communication Services,Publishing
+MMI,Real Estate,Real Estate Services
+AN,Consumer Cyclical,Auto & Truck Dealerships
+EDV,その他,
+HNNA,Financial Services,Asset Management
+POLE,Financial Services,Shell Companies
+VEL,Financial Services,Mortgage Finance
+MWA,Industrials,Specialty Industrial Machinery
+IEF,その他,
+PIO,その他,
+NX,Industrials,Building Products & Equipment
+PEG,Utilities,Utilities - Regulated Electric
+TECH,Healthcare,Biotechnology
+CDXS,Healthcare,Biotechnology
+TM,Consumer Cyclical,Auto Manufacturers
+HSIC,Healthcare,Medical Distribution
+TREE,Financial Services,Financial Conglomerates
+USLM,Basic Materials,Building Materials
+SPTI,その他,
+VGIT,その他,
+PEPG,Healthcare,Biotechnology
+ICUI,Healthcare,Medical Instruments & Supplies
+REYN,Consumer Cyclical,Packaging & Containers
+AVAV,Industrials,Aerospace & Defense
+UGI,Utilities,Utilities - Regulated Gas
+HNRG,Energy,Thermal Coal
+AWI,Industrials,Building Products & Equipment
+CRWV,Technology,Software - Infrastructure
+CLOU,その他,
+PB,Financial Services,Banks - Regional
+SCI,Consumer Cyclical,Personal Services
+JBLU,Industrials,Airlines
+BNDX,その他,
+MTG,Financial Services,Insurance - Specialty
+COLM,Consumer Cyclical,Apparel Manufacturing
+HAYW,Industrials,Electrical Equipment & Parts
+BEAG,Financial Services,Shell Companies
+HLMN,Industrials,Tools & Accessories
+SHOP,Technology,Software - Application
+INBK,Financial Services,Banks - Regional
+BOOM,Industrials,Conglomerates
+BTDR,Technology,Software - Application
+FXI,その他,
+FBY,その他,
+CCK,Consumer Cyclical,Packaging & Containers
+HOG,Consumer Cyclical,Recreational Vehicles
+PAMT,Industrials,Trucking
+IBM,Technology,Information Technology Services
+KLIP,その他,
+NFG,Energy,Oil & Gas Integrated
+PPG,Basic Materials,Specialty Chemicals
+XTIA,Industrials,Aerospace & Defense
+DSGR,Industrials,Industrial Distribution
+PSIX,Industrials,Specialty Industrial Machinery
+AXS,Financial Services,Insurance - Specialty
+GPN,Industrials,Specialty Business Services
+ORLY,Consumer Cyclical,Auto Parts
+BDC,Technology,Communication Equipment
+CE,Basic Materials,Chemicals
+FDP,Consumer Defensive,Farm Products
+LAW,Technology,Software - Application
+NTES,Communication Services,Electronic Gaming & Multimedia
+VRTX,Healthcare,Biotechnology
+MPAA,Consumer Cyclical,Auto Parts
+RVLV,Consumer Cyclical,Internet Retail
+QXO,Industrials,Industrial Distribution
+BBBY,その他,
+FAS,その他,
+CMPX,Healthcare,Biotechnology
+LND,Consumer Defensive,Farm Products
+IBO,Healthcare,Biotechnology
+MLKN,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+AVNT,Basic Materials,Specialty Chemicals
+FIW,その他,
+NMIH,Financial Services,Insurance - Specialty
+CNS,Financial Services,Asset Management
+BCPC,Basic Materials,Specialty Chemicals
+ECL,Basic Materials,Specialty Chemicals
+INGN,Healthcare,Medical Devices
+PAM,Industrials,Conglomerates
+RVSB,Financial Services,Banks - Regional
+SITE,Industrials,Industrial Distribution
+HRTG,Financial Services,Insurance - Property & Casualty
+MYGN,Healthcare,Diagnostics & Research
+OSIS,Technology,Electronic Components
+HOMB,Financial Services,Banks - Regional
+KMTS,Healthcare,Medical Instruments & Supplies
+MSI,Technology,Communication Equipment
+ATHE,Healthcare,Biotechnology
+LAES,Technology,Semiconductors
+WOR,Industrials,Metal Fabrication
+AIN,Consumer Cyclical,Textile Manufacturing
+PCYO,Utilities,Utilities - Regulated Water
+TBI,Industrials,Staffing & Employment Services
+OFIX,Healthcare,Medical Devices
+ALLT,Technology,Software - Infrastructure
+INMD,Healthcare,Medical Devices
+MDLZ,Consumer Defensive,Confectioners
+SSTK,Communication Services,Internet Content & Information
+FFIN,Financial Services,Banks - Regional
+CLPT,Healthcare,Medical Devices
+KHC,Consumer Defensive,Packaged Foods
+CWT,Utilities,Utilities - Regulated Water
+IOSP,Basic Materials,Specialty Chemicals
+T,Communication Services,Telecom Services
+CARS,Communication Services,Internet Content & Information
+BMEA,Healthcare,Biotechnology
+DBX,Technology,Software - Infrastructure
+ALGN,Healthcare,Medical Instruments & Supplies
+LKFT,Healthcare,Biotechnology
+HHH,Real Estate,Real Estate - Development
+APOG,Industrials,Building Products & Equipment
+BOEU,その他,
+TG,Industrials,Metal Fabrication
+FABC,Consumer Cyclical,Auto Manufacturers
+SARO,Industrials,Aerospace & Defense
+TXRH,Consumer Cyclical,Restaurants
+DIS,Communication Services,Entertainment
+WRB,Financial Services,Insurance - Property & Casualty
+GLBE,Consumer Cyclical,Internet Retail
+HPQ,Technology,Computer Hardware
+JD,Consumer Cyclical,Internet Retail
+COR,Healthcare,Medical Distribution
+S,Technology,Software - Infrastructure
+MILN,その他,
+AGIO,Healthcare,Biotechnology
+AXTA,Basic Materials,Specialty Chemicals
+PRCH,Financial Services,Insurance - Property & Casualty
+NOG,Energy,Oil & Gas E&P
+SCYX,Healthcare,Drug Manufacturers - Specialty & Generic
+BMRN,Healthcare,Biotechnology
+GPGI,Industrials,Metal Fabrication
+STEP,Financial Services,Asset Management
+MED,Consumer Cyclical,Personal Services
+TGS,Energy,Oil & Gas Integrated
+V,Financial Services,Credit Services
+CDRE,Industrials,Aerospace & Defense
+LOCL,Consumer Defensive,Farm Products
+BOLD,Healthcare,Biotechnology
+CRSR,Technology,Computer Hardware
+EXP,Basic Materials,Building Materials
+PNFP,Financial Services,Banks - Regional
+BNTX,Healthcare,Biotechnology
+PBHC,Financial Services,Banks - Regional
+SAFT,Financial Services,Insurance - Property & Casualty
+WM,Industrials,Waste Management
+ZBH,Healthcare,Medical Devices
+MBUU,Consumer Cyclical,Recreational Vehicles
+TPG,Financial Services,Asset Management
+EIG,Financial Services,Insurance - Specialty
+VACH,Financial Services,Shell Companies
+GEHC,Healthcare,Medical Devices
+FLWS,Consumer Cyclical,Specialty Retail
+CSW,Industrials,Specialty Industrial Machinery
+WNC,Industrials,Farm & Heavy Construction Machinery
+CMCO,Industrials,Farm & Heavy Construction Machinery
+CAE,Industrials,Aerospace & Defense
+CI,Healthcare,Healthcare Plans
+QUBT,Technology,Computer Hardware
+ACIW,Technology,Software - Infrastructure
+J,Industrials,Engineering & Construction
+FLYX,Industrials,Airlines
+SAIL,Technology,Software - Infrastructure
+GEN,Technology,Software - Infrastructure
+BBW,Consumer Cyclical,Specialty Retail
+AVY,Consumer Cyclical,Packaging & Containers
+FG,Financial Services,Insurance - Life
+FWONA,Communication Services,Entertainment
+MCD,Consumer Cyclical,Restaurants
+PFSI,Financial Services,Mortgage Finance
+WSC,Industrials,Rental & Leasing Services
+ORGO,Healthcare,Drug Manufacturers - Specialty & Generic
+CVRX,Healthcare,Medical Devices
+BABX,その他,
+DGICA,Financial Services,Insurance - Property & Casualty
+KDP,Consumer Defensive,Beverages - Non-Alcoholic
+UPB,Healthcare,Biotechnology
+ICLR,Healthcare,Diagnostics & Research
+SILO,Healthcare,Biotechnology
+TSSI,Technology,Information Technology Services
+BILI,Communication Services,Internet Content & Information
+FWONK,Communication Services,Entertainment
+PLBY,Consumer Cyclical,Leisure
+AMP,Financial Services,Asset Management
+EYE,Consumer Cyclical,Specialty Retail
+CARG,Consumer Cyclical,Auto & Truck Dealerships
+PCRX,Healthcare,Drug Manufacturers - Specialty & Generic
+WOOD,その他,
+BEKE,Real Estate,Real Estate Services
+CARR,Industrials,Building Products & Equipment
+CRBG,Financial Services,Asset Management
+BX,Financial Services,Asset Management
+BTBD,Consumer Cyclical,Restaurants
+POST,Consumer Defensive,Packaged Foods
+XYL,Industrials,Specialty Industrial Machinery
+ZBRA,Technology,Communication Equipment
+DNOW,Industrials,Industrial Distribution
+STE,Healthcare,Medical Devices
+PG,Consumer Defensive,Household & Personal Products
+SW,Consumer Cyclical,Packaging & Containers
+AWK,Utilities,Utilities - Regulated Water
+LGIH,Consumer Cyclical,Residential Construction
+LZB,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+NTGR,Technology,Communication Equipment
+RUM,Communication Services,Internet Content & Information
+SIGA,Healthcare,Drug Manufacturers - Specialty & Generic
+SWIM,Industrials,Building Products & Equipment
+CBSH,Financial Services,Banks - Regional
+IMMR,Technology,Software - Application
+YANG,その他,
+LW,Consumer Defensive,Packaged Foods
+CHH,Consumer Cyclical,Lodging
+AZO,Consumer Cyclical,Auto Parts
+MA,Financial Services,Credit Services
+HLI,Financial Services,Capital Markets
+PSKY,Communication Services,Entertainment
+SMCI,Technology,Computer Hardware
+SUZ,Basic Materials,Paper & Paper Products
+SHW,Basic Materials,Specialty Chemicals
+PATH,Technology,Software - Infrastructure
+GERN,Healthcare,Biotechnology
+HURA,Healthcare,Biotechnology
+IR,Industrials,Specialty Industrial Machinery
+HRMY,Healthcare,Biotechnology
+NRG,Utilities,Utilities - Independent Power Producers
+AMCR,Consumer Cyclical,Packaging & Containers
+NEOV,Industrials,Electrical Equipment & Parts
+GCMG,Financial Services,Asset Management
+ICE,Financial Services,Financial Data & Stock Exchanges
+PSTV,Healthcare,Biotechnology
+PTC,Technology,Software - Application
+GEO,Industrials,Security & Protection Services
+ASTL,Basic Materials,Steel
+HSTM,Healthcare,Health Information Services
+LOVE,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+WDFC,Basic Materials,Specialty Chemicals
+EAF,Industrials,Electrical Equipment & Parts
+TRDA,Healthcare,Biotechnology
+ADT,Industrials,Security & Protection Services
+PHI,Communication Services,Telecom Services
+OTEX,Technology,Software - Application
+SPCE,Industrials,Aerospace & Defense
+APTV,Consumer Cyclical,Auto Parts
+AVNW,Technology,Communication Equipment
+ATRC,Healthcare,Medical Instruments & Supplies
+OSPN,Technology,Software - Infrastructure
+CAL,Consumer Cyclical,Apparel Retail
+CBIO,Healthcare,Biotechnology
+ONT,Industrials,Waste Management
+LYFT,Technology,Software - Application
+SKYX,Industrials,Electrical Equipment & Parts
+KRUS,Consumer Cyclical,Restaurants
+PDYN,Technology,Software - Infrastructure
+PLTU,その他,
+SNOW,Technology,Software - Application
+RNW,Utilities,Utilities - Renewable
+FIVN,Technology,Software - Infrastructure
+FRPH,Real Estate,Real Estate Services
+DERM,Healthcare,Drug Manufacturers - Specialty & Generic
+HPK,Energy,Oil & Gas E&P
+SSNC,Technology,Software - Application
+HLN,Healthcare,Drug Manufacturers - Specialty & Generic
+SID,Basic Materials,Steel
+MAX,Communication Services,Internet Content & Information
+GAP,Consumer Cyclical,Apparel Retail
+SFBC,Financial Services,Banks - Regional
+INR,Energy,Oil & Gas E&P
+VNT,Technology,Scientific & Technical Instruments
+WTW,Financial Services,Insurance Brokers
+FLGT,Healthcare,Diagnostics & Research
+CALX,Technology,Software - Infrastructure
+PZZA,Consumer Cyclical,Restaurants
+EVER,Communication Services,Internet Content & Information
+RSG,Industrials,Waste Management
+ABG,Consumer Cyclical,Auto & Truck Dealerships
+CELH,Consumer Defensive,Beverages - Non-Alcoholic
+STZ,Consumer Defensive,Beverages - Brewers
+GXAI,Communication Services,Electronic Gaming & Multimedia
+DSP,Technology,Software - Application
+FINX,その他,
+PESI,Industrials,Waste Management
+UL,Consumer Defensive,Household & Personal Products
+UNB,Financial Services,Banks - Regional
+SPGI,Financial Services,Financial Data & Stock Exchanges
+CNK,Communication Services,Entertainment
+QNST,Communication Services,Advertising Agencies
+MNKD,Healthcare,Biotechnology
+SKYH,Real Estate,Real Estate - Development
+INVZ,Consumer Cyclical,Auto Parts
+SAM,Consumer Defensive,Beverages - Brewers
+DEO,Consumer Defensive,Beverages - Wineries & Distilleries
+PLTK,Communication Services,Electronic Gaming & Multimedia
+DARE,Healthcare,Biotechnology
+CTEV,Healthcare,Health Information Services
+FUTU,Financial Services,Capital Markets
+SUNE,Technology,Solar
+AGEN,Healthcare,Biotechnology
+ICFI,Industrials,Consulting Services
+TIC,Industrials,Specialty Business Services
+BTAI,Healthcare,Drug Manufacturers - Specialty & Generic
+CMCSA,Communication Services,Telecom Services
+LSPD,Technology,Software - Application
+PGY,Technology,Software - Infrastructure
+SPWR,Technology,Solar
+CCB,Financial Services,Banks - Regional
+CRAI,Industrials,Consulting Services
+HOTH,Healthcare,Biotechnology
+KKR,Financial Services,Asset Management
+RPAY,Technology,Software - Infrastructure
+CXT,Industrials,Specialty Industrial Machinery
+GPC,Consumer Cyclical,Auto Parts
+IIIV,Technology,Software - Infrastructure
+LNN,Industrials,Farm & Heavy Construction Machinery
+DRVN,Consumer Cyclical,Auto & Truck Dealerships
+SIBN,Healthcare,Medical Devices
+TRMB,Technology,Scientific & Technical Instruments
+FMS,Healthcare,Medical Care Facilities
+TENB,Technology,Software - Infrastructure
+SST,Industrials,Specialty Business Services
+WCN,Industrials,Waste Management
+BZ,Communication Services,Internet Content & Information
+SPOT,Communication Services,Internet Content & Information
+WD,Financial Services,Mortgage Finance
+MAT,Consumer Cyclical,Leisure
+NRDS,Communication Services,Internet Content & Information
+RWAY,Financial Services,Asset Management
+JILL,Consumer Cyclical,Apparel Retail
+BBOT,Healthcare,Biotechnology
+BV,Industrials,Specialty Business Services
+COCP,Healthcare,Biotechnology
+ALC,Healthcare,Medical Instruments & Supplies
+AGYS,Technology,Software - Application
+AORT,Healthcare,Medical Devices
+PNR,Industrials,Specialty Industrial Machinery
+TZOO,Communication Services,Internet Content & Information
+BBSI,Industrials,Staffing & Employment Services
+ZH,Communication Services,Internet Content & Information
+CHE,Healthcare,Medical Care Facilities
+LUXE,Consumer Cyclical,Luxury Goods
+DT,Technology,Software - Application
+IIIN,Industrials,Metal Fabrication
+LPLA,Financial Services,Capital Markets
+FBIN,Industrials,Building Products & Equipment
+INGR,Consumer Defensive,Packaged Foods
+BROS,Consumer Cyclical,Restaurants
+ALG,Industrials,Farm & Heavy Construction Machinery
+CLBT,Technology,Software - Infrastructure
+CORT,Healthcare,Biotechnology
+MSFL,その他,
+CYH,Healthcare,Medical Care Facilities
+NKE,Consumer Cyclical,Footwear & Accessories
+PLTD,その他,
+SG,Consumer Cyclical,Restaurants
+ORBS,Consumer Cyclical,Packaging & Containers
+QMCO,Technology,Computer Hardware
+SMTI,Healthcare,Medical Instruments & Supplies
+VIVO,Technology,Software - Infrastructure
+BKNG,Consumer Cyclical,Travel Services
+QLYS,Technology,Software - Infrastructure
+REKR,Technology,Software - Infrastructure
+CLX,Consumer Defensive,Household & Personal Products
+ONFO,Communication Services,Internet Content & Information
+IDX,その他,
+METU,その他,
+SPOK,Healthcare,Health Information Services
+ATER,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+AMPH,Healthcare,Drug Manufacturers - Specialty & Generic
+RPC,Financial Services,Asset Management
+MAIA,Healthcare,Biotechnology
+WK,Technology,Software - Application
+MSFU,その他,
+AZTA,Healthcare,Medical Instruments & Supplies
+OKTA,Technology,Software - Infrastructure
+NNE,Industrials,Specialty Industrial Machinery
+BJ,Consumer Defensive,Discount Stores
+BXC,Industrials,Industrial Distribution
+GRCE,Healthcare,Biotechnology
+JRVR,Financial Services,Insurance - Specialty
+NSIT,Technology,Electronics & Computer Distribution
+RACE,Consumer Cyclical,Auto Manufacturers
+RH,Consumer Cyclical,Specialty Retail
+ITRI,Technology,Scientific & Technical Instruments
+RNAC,Healthcare,Biotechnology
+AMZD,その他,
+HOOG,その他,
+TRIP,Consumer Cyclical,Travel Services
+LFCR,Healthcare,Drug Manufacturers - Specialty & Generic
+ROBN,その他,
+FICO,Technology,Software - Application
+IONL,その他,
+LOAR,Industrials,Aerospace & Defense
+WOOF,Consumer Cyclical,Specialty Retail
+FWRG,Consumer Cyclical,Restaurants
+RCEL,Healthcare,Medical Devices
+GFL,Industrials,Waste Management
+USEG,Energy,Oil & Gas E&P
+DFIN,Technology,Software - Application
+INDL,その他,
+OSG,Financial Services,Insurance - Specialty
+WEN,Consumer Cyclical,Restaurants
+DRV,その他,
+TNDM,Healthcare,Medical Devices
+INFY,Technology,Information Technology Services
+ADP,Technology,Software - Application
+AMST,Technology,Software - Application
+HTCO,Industrials,Marine Shipping
+YI,Healthcare,Medical Distribution
+MZTI,Consumer Defensive,Packaged Foods
+ZS,Technology,Software - Infrastructure
+PEGA,Technology,Software - Application
+WIT,Technology,Information Technology Services
+AMSF,Financial Services,Insurance - Specialty
+HDSN,Basic Materials,Specialty Chemicals
+GDRX,Healthcare,Health Information Services
+EIDO,その他,
+GRPN,Communication Services,Internet Content & Information
+HURN,Industrials,Consulting Services
+AIOT,Technology,Software - Infrastructure
+ERII,Industrials,Pollution & Treatment Controls
+BSY,Technology,Software - Application
+BRZE,Technology,Software - Application
+NVO,Healthcare,Drug Manufacturers - General
+HRB,Consumer Cyclical,Personal Services
+PAL,Industrials,Integrated Freight & Logistics
+ALDX,Healthcare,Biotechnology
+ARQQ,Technology,Software - Infrastructure
+MRLN,Industrials,Aerospace & Defense
+PCOR,Technology,Software - Application
+DFH,Consumer Cyclical,Residential Construction
+MKC,Consumer Defensive,Packaged Foods
+WEBS,その他,
+VEEV,Healthcare,Health Information Services
+AMWD,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+EVTC,Technology,Software - Infrastructure
+INO,Healthcare,Biotechnology
+IOT,Technology,Software - Infrastructure
+CTSH,Technology,Information Technology Services
+TOVX,Healthcare,Biotechnology
+ONON,Consumer Cyclical,Footwear & Accessories
+OPFI,Financial Services,Credit Services
+XPOF,Consumer Cyclical,Leisure
+ABT,Healthcare,Medical Devices
+SDHC,Real Estate,Real Estate - Development
+ACM,Industrials,Engineering & Construction
+HDB,Financial Services,Banks - Regional
+OI,Consumer Cyclical,Packaging & Containers
+XRX,Industrials,Business Equipment & Supplies
+DPZ,Consumer Cyclical,Restaurants
+OLED,Technology,Electronic Components
+ATHM,Communication Services,Internet Content & Information
+GWRE,Technology,Software - Application
+MOS,Basic Materials,Agricultural Inputs
+MYSE,Technology,Software - Application
+GIS,Consumer Defensive,Packaged Foods
+OPCH,Healthcare,Medical Care Facilities
+GME,Consumer Cyclical,Specialty Retail
+KRNT,Industrials,Specialty Industrial Machinery
+ATEC,Healthcare,Medical Devices
+CRM,Technology,Software - Application
+KBR,Industrials,Engineering & Construction
+MELI,Consumer Cyclical,Internet Retail
+DCBO,Technology,Software - Application
+EDN,Utilities,Utilities - Regulated Electric
+WGS,Healthcare,Diagnostics & Research
+CXM,Technology,Software - Application
+ERIE,Financial Services,Insurance Brokers
+LIF,Technology,Software - Application
+RGNX,Healthcare,Biotechnology
+CPB,Consumer Defensive,Packaged Foods
+EXLS,Technology,Information Technology Services
+TSCO,Consumer Cyclical,Specialty Retail
+TTGT,Technology,Information Technology Services
+BR,Technology,Information Technology Services
+JBI,Industrials,Building Products & Equipment
+XGN,Healthcare,Diagnostics & Research
+DXC,Technology,Information Technology Services
+MBOT,Healthcare,Medical Instruments & Supplies
+SMMT,Healthcare,Biotechnology
+AAPD,その他,
+BZAI,Technology,Software - Application
+PYPL,Financial Services,Credit Services
+DOUG,Real Estate,Real Estate Services
+LPCN,Healthcare,Biotechnology
+NCMI,Communication Services,Advertising Agencies
+PAY,Technology,Software - Infrastructure
+ELF,Consumer Defensive,Household & Personal Products
+FRSH,Technology,Software - Application
+ULH,Industrials,Trucking
+ACB,Healthcare,Drug Manufacturers - Specialty & Generic
+EOLS,Healthcare,Drug Manufacturers - Specialty & Generic
+TONX,Technology,Software - Application
+SENS,Healthcare,Medical Devices
+PINS,Communication Services,Internet Content & Information
+INM,Healthcare,Drug Manufacturers - Specialty & Generic
+PHIO,Healthcare,Biotechnology
+CDW,Technology,Information Technology Services
+CWEB,その他,
+GETY,Communication Services,Internet Content & Information
+SDGR,Healthcare,Health Information Services
+UIS,Technology,Information Technology Services
+RMSG,Technology,Software - Application
+CVLT,Technology,Software - Application
+AJG,Financial Services,Insurance Brokers
+NCNO,Technology,Software - Application
+RELX,Industrials,Specialty Business Services
+LGVN,Healthcare,Biotechnology
+CMRC,Technology,Software - Application
+ZVIA,Consumer Defensive,Beverages - Non-Alcoholic
+MGPI,Consumer Defensive,Beverages - Wineries & Distilleries
+GO,Consumer Defensive,Grocery Stores
+MOH,Healthcare,Healthcare Plans
+ACHR,Industrials,Aerospace & Defense
+ASBP,Healthcare,Biotechnology
+SABR,Technology,Software - Infrastructure
+CLVT,Technology,Information Technology Services
+YELP,Communication Services,Internet Content & Information
+AEYE,Technology,Software - Application
+MORN,Financial Services,Financial Data & Stock Exchanges
+PLCE,Consumer Cyclical,Apparel Manufacturing
+ESTC,Technology,Software - Application
+NIU,Consumer Cyclical,Auto Manufacturers
+NTNX,Technology,Software - Infrastructure
+OWL,Financial Services,Asset Management
+REPL,Healthcare,Biotechnology
+ACN,Technology,Information Technology Services
+CRDF,Healthcare,Biotechnology
+CHKP,Technology,Software - Infrastructure
+TLSI,Healthcare,Medical Devices
+DOCU,Technology,Software - Application
+EPAM,Technology,Information Technology Services
+BIRD,Consumer Cyclical,Apparel Retail
+MVIS,Technology,Scientific & Technical Instruments
+TDUP,Consumer Cyclical,Internet Retail
+PCTY,Technology,Software - Application
+ALKT,Technology,Software - Application
+PLAY,Communication Services,Entertainment
+WHR,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+TLX,Healthcare,Biotechnology
+SDOW,その他,
+BCYC,Healthcare,Biotechnology
+ZG,Communication Services,Internet Content & Information
+TASK,Technology,Information Technology Services
+GTLB,Technology,Software - Infrastructure
+LU,Financial Services,Credit Services
+PBH,Healthcare,Drug Manufacturers - Specialty & Generic
+UPWK,Communication Services,Internet Content & Information
+LMB,Industrials,Building Products & Equipment
+UBRL,その他,
+YEXT,Technology,Software - Infrastructure
+AMPL,Technology,Software - Application
+FINV,Financial Services,Credit Services
+GDYN,Technology,Information Technology Services
+HLNE,Financial Services,Asset Management
+QTRX,Healthcare,Medical Devices
+TMDX,Healthcare,Medical Devices
+TYL,Technology,Software - Application
+LI,Consumer Cyclical,Auto Manufacturers
+VRSK,Industrials,Consulting Services
+Z,Communication Services,Internet Content & Information
+SMWB,Technology,Software - Application
+ZENA,Technology,Software - Infrastructure
+MDXG,Healthcare,Biotechnology
+CBUS,Healthcare,Biotechnology
+SRAD,Technology,Software - Application
+TOST,Technology,Software - Infrastructure
+BMBL,Communication Services,Internet Content & Information
+ARQ,Industrials,Pollution & Treatment Controls
+PAYC,Technology,Software - Application
+CCC,Technology,Software - Application
+IXHL,Healthcare,Drug Manufacturers - Specialty & Generic
+TNET,Industrials,Staffing & Employment Services
+WDAY,Technology,Software - Application
+TTEC,Technology,Information Technology Services
+TWFG,Financial Services,Insurance Brokers
+BL,Technology,Software - Application
+QTWO,Technology,Software - Application
+SHAK,Consumer Cyclical,Restaurants
+SE,Consumer Cyclical,Internet Retail
+AXON,Industrials,Aerospace & Defense
+BRO,Financial Services,Insurance Brokers
+FWRD,Industrials,Integrated Freight & Logistics
+BFAM,Consumer Cyclical,Personal Services
+BMI,Technology,Scientific & Technical Instruments
+FLO,Consumer Defensive,Packaged Foods
+JELD,Industrials,Building Products & Equipment
+TME,Communication Services,Internet Content & Information
+KSCP,Industrials,Security & Protection Services
+BGDE,Financial Services,Capital Markets
+ALT,Healthcare,Biotechnology
+NOW,Technology,Software - Application
+RVNL,その他,
+ZTS,Healthcare,Drug Manufacturers - Specialty & Generic
+WAY,Healthcare,Health Information Services
+AIFF,Technology,Software - Application
+PRCT,Healthcare,Medical Devices
+GIG,Financial Services,Shell Companies
+KMPR,Financial Services,Insurance - Property & Casualty
+KPDD,その他,
+TIGR,Financial Services,Capital Markets
+GDDY,Technology,Software - Infrastructure
+PLNT,Consumer Cyclical,Leisure
+TGLS,Basic Materials,Building Materials
+CNXC,Technology,Information Technology Services
+EVGO,Consumer Cyclical,Specialty Retail
+AVS,その他,
+PRGS,Technology,Software - Infrastructure
+EVTL,Industrials,Aerospace & Defense
+FOUR,Technology,Software - Infrastructure
+SPXS,その他,
+BLKB,Technology,Software - Application
+KULR,Technology,Electronic Components
+FRMM,Technology,Software - Application
+PODD,Healthcare,Medical Devices
+RYAN,Financial Services,Insurance - Specialty
+SRFM,Industrials,Airlines
+CWH,Consumer Cyclical,Auto & Truck Dealerships
+NABL,Technology,Information Technology Services
+TMCI,Healthcare,Medical Devices
+RCKT,Healthcare,Biotechnology
+SLQT,Financial Services,Insurance Brokers
+HCKT,Technology,Information Technology Services
+HRTX,Healthcare,Biotechnology
+GPK,Consumer Cyclical,Packaging & Containers
+MAMO,Consumer Cyclical,Recreational Vehicles
+TRAK,Technology,Software - Application
+CURI,Communication Services,Broadcasting
+CERT,Healthcare,Health Information Services
+CSGP,Real Estate,Real Estate Services
+SCNX,Healthcare,Pharmaceutical Retailers
+TRI,Industrials,Specialty Business Services
+CBZ,Industrials,Specialty Business Services
+INTU,Technology,Software - Application
+NFXL,その他,
+KVYO,Technology,Software - Application
+MTVA,Healthcare,Biotechnology
+SRPT,Healthcare,Biotechnology
+ERY,その他,
+UGRO,Industrials,Farm & Heavy Construction Machinery
+WING,Consumer Cyclical,Restaurants
+SDST,Industrials,Electrical Equipment & Parts
+HIMS,Healthcare,Drug Manufacturers - Specialty & Generic
+OSRH,Healthcare,Biotechnology
+AARD,Healthcare,Biotechnology
+NCPL,Financial Services,Capital Markets
+CLRB,Healthcare,Biotechnology
+VENU,Consumer Cyclical,Restaurants
+GGLS,その他,
+OPRX,Healthcare,Health Information Services
+ABVE,Consumer Defensive,Packaged Foods
+BLND,Technology,Software - Application
+GLMD,Healthcare,Biotechnology
+HAIN,Consumer Defensive,Packaged Foods
+HUMA,Healthcare,Biotechnology
+MMYT,Consumer Cyclical,Travel Services
+TEAM,Technology,Software - Application
+CNSP,Healthcare,Biotechnology
+AI,Technology,Software - Infrastructure
+CCOI,Communication Services,Telecom Services
+CDIO,Healthcare,Biotechnology
+IMA,Healthcare,Biotechnology
+ADMA,Healthcare,Biotechnology
+FLUT,Consumer Cyclical,Gambling
+MRAL,その他,
+GLOB,Technology,Information Technology Services
+QDEL,Healthcare,Medical Devices
+ASTC,Technology,Scientific & Technical Instruments
+FATN,Technology,Software - Infrastructure
+SKYQ,Energy,Oil & Gas Integrated
+DOCS,Healthcare,Health Information Services
+ENGN,Healthcare,Biotechnology
+GSHD,Financial Services,Insurance Brokers
+GTM,Technology,Software - Application
+ASAN,Technology,Software - Application
+LBRDK,Communication Services,Telecom Services
+SMR,Industrials,Specialty Industrial Machinery
+SPSC,Technology,Software - Application
+INTA,Technology,Software - Application
+CGTL,Consumer Cyclical,Specialty Retail
+PHR,Healthcare,Health Information Services
+NAGE,Healthcare,Biotechnology
+MVST,Consumer Cyclical,Auto Parts
+RCT,Technology,Software - Application
+AGPU,Technology,Software - Infrastructure
+EFOR,Technology,Information Technology Services
+EHTH,Financial Services,Insurance Brokers
+LFMD,Healthcare,Health Information Services
+SKIL,Consumer Defensive,Education & Training Services
+ACVA,Consumer Cyclical,Auto & Truck Dealerships
+NNOX,Healthcare,Medical Devices
+AVXL,Healthcare,Biotechnology
+AKBA,Healthcare,Drug Manufacturers - Specialty & Generic
+CHTR,Communication Services,Telecom Services
+ANGI,Communication Services,Internet Content & Information
+OLB,Technology,Software - Infrastructure
+BFRG,Healthcare,Health Information Services
+BUR,Financial Services,Asset Management
+VERX,Technology,Software - Application
+PTLO,Consumer Cyclical,Restaurants
+WIX,Technology,Software - Infrastructure
+PMNT,Consumer Cyclical,Apparel Manufacturing
+HCWB,Healthcare,Biotechnology
+LASE,Industrials,Specialty Industrial Machinery
+SMPL,Consumer Defensive,Packaged Foods
+AKTX,Healthcare,Biotechnology
+SER,Healthcare,Biotechnology
+SBFM,Healthcare,Drug Manufacturers - Specialty & Generic
+FVRR,Communication Services,Internet Content & Information
+HUBS,Technology,Software - Application
+NMAX,Communication Services,Broadcasting
+EMBC,Healthcare,Medical Instruments & Supplies
+TZA,その他,
+DOMO,Technology,Software - Application
+CYN,Technology,Software - Application
+ANNA,Energy,Oil & Gas E&P
+RPD,Technology,Software - Infrastructure
+KD,Technology,Information Technology Services
+BRLS,Consumer Defensive,Packaged Foods
+RIME,Technology,Consumer Electronics
+TPET,Energy,Oil & Gas E&P
+SAGT,Technology,Software - Application
+AKAN,Healthcare,Drug Manufacturers - Specialty & Generic
+KLC,Consumer Defensive,Education & Training Services
+THRY,Technology,Software - Application
+VITL,Consumer Defensive,Farm Products
+TTD,Communication Services,Advertising Agencies
+MOBX,Technology,Semiconductors
+STIM,Healthcare,Medical Devices
+VNRX,Healthcare,Medical Devices
+CNCK,Financial Services,Capital Markets
+PSQH,Technology,Software - Application
+EDZ,その他,
+EEIQ,Consumer Defensive,Education & Training Services
+NVD,その他,
+NXXT,Utilities,Utilities - Renewable
+GCL,Communication Services,Electronic Gaming & Multimedia
+RECT,Consumer Cyclical,Specialty Retail
+OPTU,Communication Services,Telecom Services
+MNDY,Technology,Software - Application
+SMCL,その他,
+VRAX,Healthcare,Biotechnology
+NVDQ,その他,
+BYND,Consumer Defensive,Packaged Foods
+CURV,Consumer Cyclical,Apparel Retail
+MGRX,Healthcare,Health Information Services
+FFAI,Consumer Cyclical,Auto Manufacturers
+CONL,その他,
+CRMT,Consumer Cyclical,Auto & Truck Dealerships
+MNTS,Industrials,Aerospace & Defense
+AGAE,Technology,Software - Infrastructure
+IMMP,Healthcare,Biotechnology
+FUBO,Communication Services,Broadcasting
+ACXP,Healthcare,Biotechnology
+PROP,Energy,Oil & Gas E&P
+STEX,Financial Services,Capital Markets
+DAVA,Technology,Software - Infrastructure
+BYRN,Industrials,Aerospace & Defense
+EUDA,Real Estate,Real Estate Services
+LCID,Consumer Cyclical,Auto Manufacturers
+NFE,Energy,Oil & Gas Midstream
+ABTS,Financial Services,Capital Markets
+PAR,Technology,Software - Application
+TECS,その他,
+SRXH,Consumer Defensive,Packaged Foods
+DUOL,Technology,Software - Application
+GAMB,Consumer Cyclical,Gambling
+LESL,Consumer Cyclical,Specialty Retail
+OTLK,Healthcare,Biotechnology
+RBLU,その他,
+SNBR,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+CXAI,Technology,Software - Application
+AGIG,Utilities,Utilities - Renewable
+AIOS,Technology,Information Technology Services
+GOSS,Healthcare,Biotechnology
+ADVB,Healthcare,Diagnostics & Research
+DRMA,Healthcare,Biotechnology
+LABD,その他,
+GLE,Technology,Information Technology Services
+AMDD,その他,
+AMOD,Technology,Software - Application
+ALIT,Technology,Software - Application
+XXI,Financial Services,Shell Companies
+GV,Consumer Defensive,Education & Training Services
+ENSC,Healthcare,Biotechnology
+BRBR,Consumer Defensive,Packaged Foods
+ENVB,Healthcare,Biotechnology
+GOVX,Healthcare,Biotechnology
+SPRB,Healthcare,Biotechnology
+ERNA,Healthcare,Biotechnology
+ATYR,Healthcare,Biotechnology
+BRTX,Healthcare,Biotechnology
+UPXI,Communication Services,Internet Content & Information
+FUSE,Technology,Software - Application
+YOOV,Industrials,Security & Protection Services
+AEHL,Industrials,Building Products & Equipment
+SEGG,Consumer Cyclical,Gambling
+ALBT,Real Estate,Real Estate Services
+QNCX,Healthcare,Biotechnology
+ARAI,Technology,Scientific & Technical Instruments
+FEED,Healthcare,Medical Devices
+EZRA,Financial Services,Insurance Brokers
+LNAI,Healthcare,Biotechnology
+RENX,Real Estate,Real Estate - Development
+VEEE,Consumer Cyclical,Recreational Vehicles
+MSTU,その他,
+PHGE,Healthcare,Biotechnology
+ISPC,Healthcare,Diagnostics & Research
+CYCU,Technology,Information Technology Services
+AIIO,Consumer Cyclical,Auto Manufacturers
+MIMI,Industrials,Engineering & Construction
+TSLS,その他,
+ARTL,Healthcare,Biotechnology
+GNPX,Healthcare,Biotechnology
+BDRX,Healthcare,Biotechnology
+CREG,Utilities,Utilities - Renewable
+SLE,Communication Services,Internet Content & Information
+GDC,Communication Services,Electronic Gaming & Multimedia
+ALP,Financial Services,Asset Management
+SAFX,Utilities,Utilities - Renewable
+CETX,Technology,Software - Infrastructure
+IPW,Consumer Cyclical,Internet Retail
+MRNO,Real Estate,Real Estate - Development
+WGRX,Healthcare,Pharmaceutical Retailers
+DRCT,Communication Services,Advertising Agencies
+SVRN,Industrials,Marine Shipping
+SOXS,その他,
+ATPC,Consumer Defensive,Packaged Foods
+GPUS,Industrials,Aerospace & Defense
+KITT,Industrials,Aerospace & Defense
+DBGI,Consumer Cyclical,Apparel Retail
+PBM,Healthcare,Biotechnology
+FCUV,Technology,Scientific & Technical Instruments
+BTM,Financial Services,Capital Markets
+DFNS,Industrials,Aerospace & Defense
+DGNX,Industrials,Consulting Services
+JAGX,Healthcare,Biotechnology
+FGL,Industrials,Engineering & Construction
+BNZI,Technology,Software - Application
+SDOT,Consumer Defensive,Farm Products
+KALA,Healthcare,Biotechnology
+TRNR,Consumer Cyclical,Personal Services
+ELAB,Healthcare,Biotechnology
+JTAI,Technology,Software - Application
+LNKS,Industrials,Electrical Equipment & Parts
+MUD,その他,
+JZXN,Consumer Cyclical,Auto & Truck Dealerships
+NAKA,Financial Services,Capital Markets
+CTNT,Industrials,Integrated Freight & Logistics
+EDBL,Consumer Defensive,Farm Products
+GMEX,Technology,Consumer Electronics
+ONCO,Healthcare,Biotechnology
+INHD,Basic Materials,Steel
+XXII,Consumer Defensive,Tobacco
+EZGO,Consumer Cyclical,Recreational Vehicles
+NIVF,Healthcare,Medical Care Facilities
+ADTX,Healthcare,Biotechnology
+OCG,Consumer Cyclical,Internet Retail
+WBX,Technology,Electronic Components
+BNR,Healthcare,Diagnostics & Research
+PTN,Healthcare,Biotechnology
+EVAX,Healthcare,Biotechnology
+APLM,Healthcare,Biotechnology
+GALT,Healthcare,Biotechnology
+KLRS,Healthcare,Biotechnology
+AEI,Real Estate,Real Estate - Development
+COHN,Financial Services,Capital Markets
+ACIU,Healthcare,Biotechnology
+HBIO,Healthcare,Medical Instruments & Supplies
+TLPH,Healthcare,Drug Manufacturers - Specialty & Generic
+SWAG,Communication Services,Advertising Agencies
+SPRU,Technology,Solar
+KRMD,Healthcare,Medical Instruments & Supplies
+OBIO,Healthcare,Biotechnology
+FSI,Basic Materials,Specialty Chemicals
+OESX,Industrials,Electrical Equipment & Parts
+SCOR,Technology,Software - Application
+ECOR,Healthcare,Medical Devices
+IZEA,Communication Services,Internet Content & Information
+OPXS,Industrials,Aerospace & Defense
+TOL,Consumer Cyclical,Residential Construction
+XPEL,Consumer Cyclical,Auto Parts
+CPS,Consumer Cyclical,Auto Parts
+DQ,Technology,Semiconductor Equipment & Materials
+GMAB,Healthcare,Biotechnology
+PLUT,Financial Services,Capital Markets
+NXTC,Healthcare,Biotechnology
+CIA,Financial Services,Insurance - Life
+XERS,Healthcare,Drug Manufacturers - Specialty & Generic
+HLLY,Consumer Cyclical,Auto Parts
+LVS,Consumer Cyclical,Resorts & Casinos
+SUPX,Technology,Software - Infrastructure
+UAVS,Technology,Computer Hardware
+RZLV,Technology,Software - Infrastructure
+DCI,Industrials,Specialty Industrial Machinery
+ORCL,Technology,Software - Infrastructure
+PETZ,Consumer Cyclical,Restaurants
+CRNX,Healthcare,Biotechnology
+BHC,Healthcare,Drug Manufacturers - Specialty & Generic
+VERI,Technology,Software - Infrastructure
+DHI,Consumer Cyclical,Residential Construction
+IONR,Basic Materials,Other Industrial Metals & Mining
+NPWR,Industrials,Specialty Industrial Machinery
+RR,Industrials,Specialty Industrial Machinery
+WWR,Basic Materials,Other Industrial Metals & Mining
+WMS,Industrials,Building Products & Equipment
+PCT,Industrials,Pollution & Treatment Controls
+CNR,Energy,Thermal Coal
+GIL,Consumer Cyclical,Apparel Manufacturing
+DNA,Healthcare,Biotechnology
+PLTY,その他,
+NOC,Industrials,Aerospace & Defense
+GNSS,Technology,Scientific & Technical Instruments
+SOFI,Financial Services,Credit Services
+ENSG,Healthcare,Medical Care Facilities
+NEPH,Healthcare,Medical Instruments & Supplies
+LINK,Technology,Electronic Components
+HUYA,Communication Services,Entertainment
+ATCH,Financial Services,Capital Markets
+CELZ,Healthcare,Biotechnology
+SERA,Healthcare,Medical Devices
+COLL,Healthcare,Drug Manufacturers - Specialty & Generic
+CCL,Consumer Cyclical,Travel Services
+ULBI,Industrials,Electrical Equipment & Parts
+GIC,Industrials,Industrial Distribution
+AVO,Consumer Defensive,Food Distribution
+HIPO,Financial Services,Insurance - Property & Casualty
+CRL,Healthcare,Diagnostics & Research
+PXLW,Technology,Semiconductors
+JBTM,Industrials,Specialty Industrial Machinery
+TMC,Basic Materials,Other Industrial Metals & Mining
+LMT,Industrials,Aerospace & Defense
+MCRP,Technology,Computer Hardware
+HOOD,Financial Services,Capital Markets
+MTLS,Technology,Software - Application
+AQB,Consumer Defensive,Farm Products
+PFAI,Consumer Defensive,Farm Products
+NXST,Communication Services,Broadcasting
+BBAI,Technology,Information Technology Services
+VKTX,Healthcare,Biotechnology
+FCAP,Financial Services,Banks - Regional
+TMO,Healthcare,Diagnostics & Research
+NTRP,Consumer Cyclical,Travel Services
+BLNK,Industrials,Engineering & Construction
+CATO,Consumer Cyclical,Apparel Retail
+DJCO,Technology,Software - Application
+AMTM,Industrials,Specialty Business Services
+TSLR,その他,
+CMCM,Communication Services,Internet Content & Information
+DNUT,Consumer Defensive,Grocery Stores
+WAFU,Consumer Defensive,Education & Training Services
+CVNA,Consumer Cyclical,Auto & Truck Dealerships
+KEQU,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+PSHG,Industrials,Marine Shipping
+TBCH,Technology,Consumer Electronics
+PAGS,Technology,Software - Infrastructure
+ESLA,Healthcare,Biotechnology
+GTN,Communication Services,Broadcasting
+IDXX,Healthcare,Diagnostics & Research
+NTIC,Basic Materials,Specialty Chemicals
+TSLL,その他,
+PLTR,Technology,Software - Infrastructure
+AYI,Industrials,Electrical Equipment & Parts
+MLP,Real Estate,Real Estate Services
+WHG,Financial Services,Asset Management
+AUTL,Healthcare,Biotechnology
+OMAB,Industrials,Airports & Air Services
+DLHC,Industrials,Specialty Business Services
+CPRI,Consumer Cyclical,Luxury Goods
+EVCM,Technology,Software - Application
+RVP,Healthcare,Medical Instruments & Supplies
+CLNE,Energy,Oil & Gas Refining & Marketing
+BABA,Consumer Cyclical,Internet Retail
+FBGL,Industrials,Engineering & Construction
+EMPD,Consumer Cyclical,Auto Manufacturers
+CLWT,Industrials,Pollution & Treatment Controls
+RKT,Financial Services,Mortgage Finance
+AII,Financial Services,Insurance - Property & Casualty
+CACI,Technology,Information Technology Services
+USIO,Technology,Software - Infrastructure
+WYNN,Consumer Cyclical,Resorts & Casinos
+CSTE,Industrials,Building Products & Equipment
+TBBK,Financial Services,Banks - Regional
+RCL,Consumer Cyclical,Travel Services
+CRH,Basic Materials,Building Materials
+TSLT,その他,
+HMY,Basic Materials,Gold
+CVCO,Consumer Cyclical,Residential Construction
+DLTR,Consumer Defensive,Discount Stores
+TCI,Real Estate,Real Estate Services
+PWP,Financial Services,Capital Markets
+FNWD,Financial Services,Banks - Regional
+WFC,Financial Services,Banks - Diversified
+NNDM,Technology,Computer Hardware
+A,Healthcare,Diagnostics & Research
+ARL,Real Estate,Real Estate Services
+ASLE,Industrials,Airports & Air Services
+LTRN,Healthcare,Biotechnology
+DG,Consumer Defensive,Discount Stores
+CG,Financial Services,Asset Management
+TSQ,Communication Services,Advertising Agencies
+PCSC,Financial Services,Shell Companies
+MITQ,Technology,Communication Equipment
+YUMC,Consumer Cyclical,Restaurants
+ANF,Consumer Cyclical,Apparel Retail
+BSBR,Financial Services,Banks - Regional
+AWX,Industrials,Waste Management
+HCA,Healthcare,Medical Care Facilities
+EDTK,Consumer Defensive,Education & Training Services
+PLTW,その他,
+HRI,Industrials,Rental & Leasing Services
+ALGS,Healthcare,Biotechnology
+TSYY,その他,
+VIPS,Consumer Cyclical,Internet Retail
+APPS,Technology,Software - Application
+LGL,Technology,Scientific & Technical Instruments
+LDI,Financial Services,Mortgage Finance
+LIQT,Industrials,Pollution & Treatment Controls
+RAVE,Consumer Cyclical,Restaurants
+TACT,Technology,Computer Hardware
+ALTI,Financial Services,Asset Management
+GEG,Financial Services,Asset Management
+MOLN,Healthcare,Biotechnology
+COF,Financial Services,Credit Services
+MBAV,Financial Services,Shell Companies
+IRIX,Healthcare,Medical Devices
+OSTX,Healthcare,Biotechnology
+ACHC,Healthcare,Medical Care Facilities
+RDVT,Technology,Software - Application
+STEM,Utilities,Utilities - Renewable
+TMHC,Consumer Cyclical,Residential Construction
+ALNY,Healthcare,Biotechnology
+MTH,Consumer Cyclical,Residential Construction
+TPCS,Industrials,Metal Fabrication
+CEPU,Utilities,Utilities - Regulated Electric
+RMNI,Technology,Software - Application
+WWW,Consumer Cyclical,Footwear & Accessories
+LEGH,Consumer Cyclical,Residential Construction
+FULC,Healthcare,Biotechnology
+JWEL,Consumer Cyclical,Internet Retail
+KTCC,Technology,Computer Hardware
+BLNE,Financial Services,Mortgage Finance
+MOMO,Communication Services,Internet Content & Information
+LEGN,Healthcare,Biotechnology
+API,Technology,Software - Application
+WRAP,Technology,Scientific & Technical Instruments
+MHK,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+SMSI,Technology,Software - Application
+EDU,Consumer Defensive,Education & Training Services
+LUCK,Consumer Cyclical,Leisure
+OPK,Healthcare,Diagnostics & Research
+DTST,Technology,Information Technology Services
+CIX,Industrials,Security & Protection Services
+MCHX,Communication Services,Advertising Agencies
+MDT,Healthcare,Medical Devices
+STNE,Technology,Software - Infrastructure
+GROV,Consumer Defensive,Household & Personal Products
+III,Technology,Information Technology Services
+TMF,その他,
+CCS,Real Estate,Real Estate - Development
+CEG,Utilities,Utilities - Independent Power Producers
+VST,Utilities,Utilities - Independent Power Producers
+LOW,Consumer Cyclical,Home Improvement Retail
+ABVC,Healthcare,Biotechnology
+HAE,Healthcare,Medical Devices
+BRID,Consumer Defensive,Packaged Foods
+MTD,Healthcare,Diagnostics & Research
+RGP,Industrials,Consulting Services
+ARLO,Industrials,Building Products & Equipment
+GANX,Healthcare,Biotechnology
+THO,Consumer Cyclical,Recreational Vehicles
+BRLT,Consumer Cyclical,Luxury Goods
+CRESY,Industrials,Conglomerates
+NMTC,Healthcare,Medical Devices
+SCL,Basic Materials,Specialty Chemicals
+GIGM,Communication Services,Electronic Gaming & Multimedia
+BOOT,Consumer Cyclical,Apparel Retail
+NXPL,Technology,Software - Application
+EVI,Industrials,Industrial Distribution
+SEED,Basic Materials,Agricultural Inputs
+VMC,Basic Materials,Building Materials
+HELE,Consumer Defensive,Household & Personal Products
+META,Communication Services,Internet Content & Information
+MIR,Industrials,Specialty Industrial Machinery
+RGEN,Healthcare,Medical Instruments & Supplies
+HCI,Financial Services,Insurance - Property & Casualty
+KBH,Consumer Cyclical,Residential Construction
+TDOC,Healthcare,Health Information Services
+OFLX,Industrials,Specialty Industrial Machinery
+RADX,Healthcare,Biotechnology
+CRWS,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+RDNT,Healthcare,Diagnostics & Research
+ACAD,Healthcare,Biotechnology
+KT,Communication Services,Telecom Services
+MLM,Basic Materials,Building Materials
+APM,Healthcare,Biotechnology
+KAPA,Healthcare,Biotechnology
+VTS,Energy,Oil & Gas E&P
+LCFY,Communication Services,Internet Content & Information
+ONIT,Financial Services,Mortgage Finance
+EML,Industrials,Tools & Accessories
+PERF,Technology,Software - Application
+KELYA,Industrials,Staffing & Employment Services
+DORM,Consumer Cyclical,Auto Parts
+ASR,Industrials,Airports & Air Services
+FOA,Financial Services,Credit Services
+LRE,Real Estate,Real Estate - Development
+NCLH,Consumer Cyclical,Travel Services
+DHR,Healthcare,Diagnostics & Research
+MARA,Financial Services,Capital Markets
+PRHI,Financial Services,Insurance - Property & Casualty
+MSFT,Technology,Software - Infrastructure
+BSET,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+LEDS,Technology,Semiconductors
+PRQR,Healthcare,Biotechnology
+BBY,Consumer Cyclical,Specialty Retail
+INSE,Consumer Cyclical,Gambling
+ALLE,Industrials,Security & Protection Services
+BRSL,Consumer Cyclical,Gambling
+IPM,Technology,Software - Application
+AUST,Basic Materials,Gold
+SBET,Financial Services,Capital Markets
+SRL,Financial Services,Capital Markets
+FTEK,Industrials,Pollution & Treatment Controls
+IMCR,Healthcare,Biotechnology
+CTOR,Healthcare,Drug Manufacturers - Specialty & Generic
+WGO,Consumer Cyclical,Recreational Vehicles
+ASUR,Technology,Software - Application
+GBR,Real Estate,Real Estate Services
+MTN,Consumer Cyclical,Resorts & Casinos
+RPM,Basic Materials,Specialty Chemicals
+VRME,Industrials,Security & Protection Services
+CKX,Energy,Oil & Gas E&P
+PUBM,Technology,Software - Application
+CHDN,Consumer Cyclical,Gambling
+GGG,Industrials,Specialty Industrial Machinery
+MIST,Healthcare,Biotechnology
+NNVC,Healthcare,Biotechnology
+GPOR,Energy,Oil & Gas E&P
+SCVL,Consumer Cyclical,Apparel Retail
+WB,Communication Services,Internet Content & Information
+VRTS,Financial Services,Asset Management
+XP,Financial Services,Capital Markets
+RIVN,Consumer Cyclical,Auto Manufacturers
+CLPS,Technology,Information Technology Services
+LVO,Communication Services,Internet Content & Information
+ASPN,Industrials,Building Products & Equipment
+TDG,Industrials,Aerospace & Defense
+WINA,Consumer Cyclical,Specialty Retail
+BNED,Consumer Cyclical,Specialty Retail
+OC,Industrials,Building Products & Equipment
+HERO,その他,
+PAX,Financial Services,Asset Management
+LAD,Consumer Cyclical,Auto & Truck Dealerships
+RNAZ,Healthcare,Biotechnology
+CNM,Industrials,Industrial Distribution
+HY,Industrials,Farm & Heavy Construction Machinery
+ASPS,Real Estate,Real Estate Services
+HQY,Healthcare,Health Information Services
+EAT,Consumer Cyclical,Restaurants
+FAZ,その他,
+TAL,Consumer Defensive,Education & Training Services
+OPRT,Financial Services,Credit Services
+VALU,Financial Services,Financial Data & Stock Exchanges
+HD,Consumer Cyclical,Home Improvement Retail
+JHX,Basic Materials,Building Materials
+KIDS,Healthcare,Medical Devices
+MLCO,Consumer Cyclical,Resorts & Casinos
+OKYO,Healthcare,Biotechnology
+CART,Consumer Cyclical,Internet Retail
+CSL,Industrials,Building Products & Equipment
+MAGN,Consumer Defensive,Household & Personal Products
+SSYS,Technology,Computer Hardware
+AOS,Industrials,Specialty Industrial Machinery
+DOMH,Financial Services,Capital Markets
+EXE,Energy,Oil & Gas E&P
+IDT,Communication Services,Telecom Services
+CNDT,Technology,Information Technology Services
+COOK,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+VLTO,Industrials,Pollution & Treatment Controls
+YALA,Technology,Software - Application
+SONY,Technology,Consumer Electronics
+SKYW,Industrials,Airlines
+RMD,Healthcare,Medical Instruments & Supplies
+SGA,Communication Services,Broadcasting
+UA,Consumer Cyclical,Apparel Manufacturing
+USPH,Healthcare,Medical Care Facilities
+LII,Industrials,Building Products & Equipment
+ZSQR,Technology,Software - Infrastructure
+HUIZ,Financial Services,Insurance Brokers
+PTIR,その他,
+BEEM,Technology,Solar
+BRN,Energy,Oil & Gas E&P
+ENVX,Industrials,Electrical Equipment & Parts
+LEN,Consumer Cyclical,Residential Construction
+MMS,Industrials,Specialty Business Services
+PMTS,Financial Services,Credit Services
+MGNI,Communication Services,Advertising Agencies
+AIRI,Industrials,Aerospace & Defense
+CVR,Industrials,Tools & Accessories
+TRU,Financial Services,Financial Data & Stock Exchanges
+NVR,Consumer Cyclical,Residential Construction
+ENR,Industrials,Electrical Equipment & Parts
+FRHC,Financial Services,Financial Conglomerates
+SOUN,Technology,Software - Application
+CALM,Consumer Defensive,Farm Products
+FIP,Industrials,Conglomerates
+SEER,Healthcare,Biotechnology
+BNTC,Healthcare,Biotechnology
+UHS,Healthcare,Medical Care Facilities
+WSO,Industrials,Industrial Distribution
+FDNI,その他,
+VCEL,Healthcare,Biotechnology
+SYK,Healthcare,Medical Devices
+UFPI,Basic Materials,Lumber & Wood Production
+ABEO,Healthcare,Biotechnology
+IGC,Healthcare,Biotechnology
+MRM,Consumer Cyclical,Personal Services
+KWEB,その他,
+OXM,Consumer Cyclical,Apparel Manufacturing
+CCU,Consumer Defensive,Beverages - Brewers
+SKY,Consumer Cyclical,Residential Construction
+EQH,Financial Services,Asset Management
+KRRO,Healthcare,Biotechnology
+QGEN,Healthcare,Diagnostics & Research
+UPBD,Technology,Software - Application
+ELTK,Technology,Electronic Components
+KPRX,Healthcare,Biotechnology
+NUS,Consumer Defensive,Household & Personal Products
+TISI,Industrials,Specialty Business Services
+RZLT,Healthcare,Biotechnology
+LDOS,Technology,Information Technology Services
+BOX,Technology,Software - Infrastructure
+GOOS,Consumer Cyclical,Apparel Manufacturing
+SVV,Consumer Cyclical,Specialty Retail
+BMA,Financial Services,Banks - Regional
+UHAL,Industrials,Rental & Leasing Services
+UWMC,Financial Services,Mortgage Finance
+YCBD,Healthcare,Drug Manufacturers - Specialty & Generic
+ADUS,Healthcare,Medical Care Facilities
+COOT,Consumer Defensive,Packaged Foods
+MSC,Consumer Cyclical,Resorts & Casinos
+YINN,その他,
+GRRR,Technology,Software - Infrastructure
+UAA,Consumer Cyclical,Apparel Manufacturing
+BZUN,Consumer Cyclical,Internet Retail
+BBNX,Healthcare,Medical Devices
+TAP,Consumer Defensive,Beverages - Brewers
+UBER,Technology,Software - Application
+IRTC,Healthcare,Medical Devices
+ADSK,Technology,Software - Application
+ETD,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+ALK,Industrials,Airlines
+CNH,Industrials,Farm & Heavy Construction Machinery
+BILL,Technology,Software - Application
+HUDI,Basic Materials,Steel
+MDWD,Healthcare,Biotechnology
+HEAL,その他,
+TIPT,Financial Services,Insurance - Specialty
+ARHS,Consumer Cyclical,Specialty Retail
+EPAC,Industrials,Specialty Industrial Machinery
+GGR,Consumer Cyclical,Auto Manufacturers
+ISRG,Healthcare,Medical Instruments & Supplies
+PSN,Technology,Information Technology Services
+REBN,Consumer Cyclical,Restaurants
+NEUP,Healthcare,Biotechnology
+ABM,Industrials,Specialty Business Services
+LOPE,Consumer Defensive,Education & Training Services
+CNNE,Consumer Cyclical,Restaurants
+PRKS,Consumer Cyclical,Leisure
+FIZZ,Consumer Defensive,Beverages - Non-Alcoholic
+ARES,Financial Services,Asset Management
+TMUS,Communication Services,Telecom Services
+CLMB,Technology,Electronics & Computer Distribution
+TCX,Technology,Software - Infrastructure
+TRNS,Industrials,Specialty Business Services
+SFIX,Consumer Cyclical,Apparel Retail
+BTBT,Financial Services,Capital Markets
+OPAL,Utilities,Utilities - Regulated Gas
+LOMA,Basic Materials,Building Materials
+RBBN,Technology,Software - Application
+COO,Healthcare,Medical Instruments & Supplies
+PDD,Consumer Cyclical,Internet Retail
+RSSS,Technology,Software - Application
+TTEK,Industrials,Engineering & Construction
+APPF,Technology,Software - Application
+GREE,Financial Services,Capital Markets
+TOON,Communication Services,Entertainment
+CTAS,Industrials,Specialty Business Services
+FARM,Consumer Defensive,Packaged Foods
+BCC,Basic Materials,Lumber & Wood Production
+MQ,Technology,Software - Infrastructure
+TRVG,Communication Services,Internet Content & Information
+CLIR,Industrials,Pollution & Treatment Controls
+AKA,Consumer Cyclical,Apparel Retail
+JKHY,Technology,Information Technology Services
+ONEW,Consumer Cyclical,Specialty Retail
+NEXN,Communication Services,Advertising Agencies
+XPEV,Consumer Cyclical,Auto Manufacturers
+BIRK,Consumer Cyclical,Footwear & Accessories
+SKWD,Financial Services,Insurance - Property & Casualty
+DASH,Consumer Cyclical,Internet Retail
+AFYA,Consumer Defensive,Education & Training Services
+ALRM,Technology,Software - Application
+TOP,Financial Services,Capital Markets
+CRCT,Technology,Computer Hardware
+LPX,Industrials,Building Products & Equipment
+KVUE,Consumer Defensive,Household & Personal Products
+EXPO,Industrials,Engineering & Construction
+PMCB,Healthcare,Biotechnology
+GPI,Consumer Cyclical,Auto & Truck Dealerships
+STLA,Consumer Cyclical,Auto Manufacturers
+KROS,Healthcare,Biotechnology
+TCRX,Healthcare,Biotechnology
+BOW,Financial Services,Insurance - Property & Casualty
+OTIS,Industrials,Specialty Industrial Machinery
+SERV,Industrials,Specialty Industrial Machinery
+ENOV,Healthcare,Medical Devices
+FBL,その他,
+PGR,Financial Services,Insurance - Property & Casualty
+IBN,Financial Services,Banks - Regional
+NAII,Consumer Defensive,Packaged Foods
+ACI,Consumer Defensive,Grocery Stores
+DYAI,Healthcare,Biotechnology
+PDSB,Healthcare,Biotechnology
+SCKT,Technology,Computer Hardware
+AWRE,Technology,Software - Application
+HRL,Consumer Defensive,Packaged Foods
+MNSO,Consumer Cyclical,Specialty Retail
+ATR,Healthcare,Medical Instruments & Supplies
+CWST,Industrials,Waste Management
+YMM,Technology,Software - Application
+ITGR,Healthcare,Medical Devices
+PTON,Consumer Cyclical,Leisure
+SLNG,Energy,Oil & Gas Integrated
+PRMB,Consumer Defensive,Beverages - Non-Alcoholic
+EU,Energy,Uranium
+DLB,Industrials,Specialty Business Services
+DV,Communication Services,Advertising Agencies
+BAH,Industrials,Consulting Services
+ESAB,Industrials,Metal Fabrication
+MANH,Technology,Software - Application
+PRTH,Technology,Software - Infrastructure
+ACET,Healthcare,Biotechnology
+NFLX,Communication Services,Entertainment
+SNT,Industrials,Security & Protection Services
+QQQD,その他,
+TCOM,Consumer Cyclical,Travel Services
+G,Technology,Information Technology Services
+RNXT,Healthcare,Biotechnology
+FKWL,Technology,Communication Equipment
+LTBR,Industrials,Electrical Equipment & Parts
+OLLI,Consumer Defensive,Discount Stores
+RXRX,Healthcare,Biotechnology
+TEM,Healthcare,Health Information Services
+CCEL,Healthcare,Medical Care Facilities
+PRTS,Consumer Cyclical,Auto Parts
+IPAR,Consumer Defensive,Household & Personal Products
+KMB,Consumer Defensive,Household & Personal Products
+RLI,Financial Services,Insurance - Property & Casualty
+TW,Financial Services,Capital Markets
+SLVM,Basic Materials,Paper & Paper Products
+GGAL,Financial Services,Banks - Regional
+ARBE,Technology,Scientific & Technical Instruments
+CULP,Consumer Cyclical,Textile Manufacturing
+MAN,Industrials,Staffing & Employment Services
+MRSH,Financial Services,Insurance Brokers
+PAYO,Technology,Software - Infrastructure
+GWRS,Utilities,Utilities - Regulated Water
+RBRK,Technology,Software - Infrastructure
+ATNM,Healthcare,Biotechnology
+BCG,Financial Services,Asset Management
+OPAD,Real Estate,Real Estate Services
+DKNG,Consumer Cyclical,Gambling
+BBAR,Financial Services,Banks - Regional
+GRAB,Technology,Software - Application
+SLGN,Consumer Cyclical,Packaging & Containers
+ADGM,Healthcare,Medical Devices
+BON,Basic Materials,Specialty Chemicals
+PASG,Healthcare,Biotechnology
+DOX,Technology,Software - Infrastructure
+NWL,Consumer Defensive,Household & Personal Products
+CNVS,Communication Services,Entertainment
+LKQ,Consumer Cyclical,Auto Parts
+COIN,Financial Services,Financial Data & Stock Exchanges
+HNST,Consumer Defensive,Household & Personal Products
+DOYU,Communication Services,Internet Content & Information
+PLMR,Financial Services,Insurance - Property & Casualty
+GYRE,Healthcare,Biotechnology
+APPN,Technology,Software - Infrastructure
+EVEX,Industrials,Aerospace & Defense
+HNI,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+SNAP,Communication Services,Internet Content & Information
+IP,Consumer Cyclical,Packaging & Containers
+KLTR,Technology,Software - Application
+HDL,Consumer Cyclical,Restaurants
+FTLF,Consumer Defensive,Packaged Foods
+JJSF,Consumer Defensive,Packaged Foods
+SNES,Basic Materials,Specialty Chemicals
+TREX,Industrials,Building Products & Equipment
+VIVS,Healthcare,Biotechnology
+OPTT,Industrials,Specialty Industrial Machinery
+UONEK,Communication Services,Broadcasting
+LZ,Industrials,Specialty Business Services
+XRAY,Healthcare,Medical Instruments & Supplies
+AGNT,Real Estate,Real Estate Services
+BLDR,Industrials,Building Products & Equipment
+DCTH,Healthcare,Medical Devices
+SRTS,Healthcare,Medical Devices
+AVD,Basic Materials,Agricultural Inputs
+DXLG,Consumer Cyclical,Apparel Retail
+CNMD,Healthcare,Medical Devices
+FOXF,Consumer Cyclical,Auto Parts
+FOXX,Technology,Consumer Electronics
+SBC,Industrials,Consulting Services
+LUCD,Healthcare,Medical Devices
+MMSI,Healthcare,Medical Instruments & Supplies
+NAVI,Financial Services,Credit Services
+OEC,Basic Materials,Specialty Chemicals
+SLM,Financial Services,Credit Services
+PALD,その他,
+KNSL,Financial Services,Insurance - Property & Casualty
+ISPR,Consumer Defensive,Tobacco
+XLO,Healthcare,Biotechnology
+EXOZ,Healthcare,Biotechnology
+CNF,Financial Services,Mortgage Finance
+RHI,Industrials,Staffing & Employment Services
+EPC,Consumer Defensive,Household & Personal Products
+VRNS,Technology,Software - Infrastructure
+CAG,Consumer Defensive,Packaged Foods
+FND,Consumer Cyclical,Home Improvement Retail
+RARE,Healthcare,Biotechnology
+CAN,Technology,Computer Hardware
+KNDI,Consumer Cyclical,Recreational Vehicles
+IQ,Communication Services,Entertainment
+EP,Energy,Oil & Gas E&P
+MBLY,Consumer Cyclical,Auto Parts
+PSNY,Consumer Cyclical,Auto Manufacturers
+CMG,Consumer Cyclical,Restaurants
+IMSR,Utilities,Utilities - Regulated Electric
+UTZ,Consumer Defensive,Packaged Foods
+KMX,Consumer Cyclical,Auto & Truck Dealerships
+PAYX,Technology,Software - Application
+ASPI,Basic Materials,Chemicals
+CRMD,Healthcare,Biotechnology
+TNON,Healthcare,Medical Devices
+BAX,Healthcare,Medical Instruments & Supplies
+SPWH,Consumer Cyclical,Specialty Retail
+YHC,Consumer Defensive,Beverages - Wineries & Distilleries
+MKTX,Financial Services,Capital Markets
+XOS,Industrials,Farm & Heavy Construction Machinery
+EVO,Healthcare,Drug Manufacturers - Specialty & Generic
+VTSI,Technology,Software - Application
+AVTR,Healthcare,Medical Instruments & Supplies
+USNA,Consumer Defensive,Packaged Foods
+ENTX,Healthcare,Biotechnology
+FORR,Industrials,Consulting Services
+CONY,その他,
+EFX,Industrials,Consulting Services
+GIB,Technology,Information Technology Services
+IBTA,Technology,Software - Application
+ARDT,Healthcare,Medical Care Facilities
+MRDN,Communication Services,Electronic Gaming & Multimedia
+SDS,その他,
+UPST,Financial Services,Credit Services
+CPRT,Industrials,Specialty Business Services
+EEFT,Technology,Software - Infrastructure
+ROCK,Industrials,Building Products & Equipment
+SGRP,Industrials,Specialty Business Services
+COUR,Consumer Defensive,Education & Training Services
+RICK,Consumer Cyclical,Restaurants
+POOL,Industrials,Industrial Distribution
+FLNA,Healthcare,Biotechnology
+PSFE,Technology,Software - Infrastructure
+DSGX,Technology,Software - Application
+TELA,Healthcare,Medical Devices
+ACCS,Communication Services,Advertising Agencies
+NOMD,Consumer Defensive,Packaged Foods
+TELO,Healthcare,Biotechnology
+FRPT,Consumer Defensive,Packaged Foods
+FWDI,Consumer Cyclical,Footwear & Accessories
+VYX,Technology,Information Technology Services
+BBWI,Consumer Cyclical,Specialty Retail
+ATLN,Industrials,Staffing & Employment Services
+SAP,Technology,Software - Application
+BHVN,Healthcare,Biotechnology
+ADBE,Technology,Software - Application
+COIW,その他,
+PPC,Consumer Defensive,Packaged Foods
+EVGN,Healthcare,Biotechnology
+FLUX,Industrials,Electrical Equipment & Parts
+SPHL,Consumer Cyclical,Residential Construction
+WEAV,Healthcare,Health Information Services
+ZLAB,Healthcare,Biotechnology
+OXBR,Financial Services,Insurance - Reinsurance
+NICE,Technology,Software - Application
+NVDD,その他,
+NGVC,Consumer Defensive,Grocery Stores
+SGRY,Healthcare,Medical Care Facilities
+CPNG,Consumer Cyclical,Internet Retail
+CRK,Energy,Oil & Gas E&P
+CBRL,Consumer Cyclical,Restaurants
+CSAN,Energy,Oil & Gas Refining & Marketing
+RBLX,Communication Services,Electronic Gaming & Multimedia
+BTCS,Financial Services,Capital Markets
+ROP,Technology,Software - Application
+FUN,Consumer Cyclical,Leisure
+ZIP,Communication Services,Internet Content & Information
+GGRP,Technology,Software - Infrastructure
+LRN,Consumer Defensive,Education & Training Services
+NWGL,Basic Materials,Lumber & Wood Production
+VTEX,Technology,Software - Application
+EH,Industrials,Aerospace & Defense
+ARCT,Healthcare,Biotechnology
+JANX,Healthcare,Biotechnology
+VRRM,Technology,Information Technology Services
+LAKE,Consumer Cyclical,Apparel Manufacturing
+FIS,Technology,Information Technology Services
+AMS,Healthcare,Medical Care Facilities
+APRE,Healthcare,Biotechnology
+CRVL,Financial Services,Insurance Brokers
+JACK,Consumer Cyclical,Restaurants
+CGC,Healthcare,Drug Manufacturers - Specialty & Generic
+CVM,Healthcare,Biotechnology
+AVPT,Technology,Software - Infrastructure
+COSM,Healthcare,Medical Distribution
+MPU,Communication Services,Entertainment
+DSS,Consumer Cyclical,Packaging & Containers
+LSH,Industrials,Integrated Freight & Logistics
+FUFU,Financial Services,Capital Markets
+ARKR,Consumer Cyclical,Restaurants
+BSX,Healthcare,Medical Devices
+HHS,Industrials,Conglomerates
+KG,Financial Services,Insurance - Reinsurance
+WALD,Consumer Defensive,Household & Personal Products
+EVH,Healthcare,Health Information Services
+ORKT,Technology,Software - Application
+QSI,Healthcare,Medical Devices
+FNUC,Basic Materials,Other Industrial Metals & Mining
+DFLI,Industrials,Electrical Equipment & Parts
+BTMD,Healthcare,Medical Care Facilities
+GRND,Technology,Software - Application
+GT,Consumer Cyclical,Auto Parts
+QRHC,Industrials,Waste Management
+ZEO,Technology,Solar
+SFM,Consumer Defensive,Grocery Stores
+YSG,Consumer Defensive,Household & Personal Products
+GENI,Communication Services,Internet Content & Information
+SPRY,Healthcare,Biotechnology
+BEAT,Healthcare,Health Information Services
+IMRN,Healthcare,Biotechnology
+PLUR,Healthcare,Biotechnology
+STKS,Consumer Cyclical,Restaurants
+DVLT,Technology,Software - Infrastructure
+UCFI,Financial Services,Shell Companies
+ENGS,Industrials,Waste Management
+NSP,Industrials,Staffing & Employment Services
+VGAS,Utilities,Utilities - Renewable
+NWTG,Consumer Cyclical,Leisure
+HFFG,Consumer Defensive,Food Distribution
+BWIN,Financial Services,Insurance Brokers
+TTAN,Technology,Software - Application
+EXFY,Technology,Software - Application
+QID,その他,
+SUPV,Financial Services,Banks - Regional
+VSTM,Healthcare,Biotechnology
+FDS,Financial Services,Financial Data & Stock Exchanges
+GUTS,Healthcare,Biotechnology
+RNTX,Healthcare,Biotechnology
+MSTY,その他,
+AISP,Technology,Software - Infrastructure
+CNET,Communication Services,Advertising Agencies
+BEEP,Industrials,Infrastructure Operations
+GIFT,Communication Services,Internet Content & Information
+WPP,Communication Services,Advertising Agencies
+WIMI,Communication Services,Advertising Agencies
+PRPL,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+TRUP,Financial Services,Insurance - Property & Casualty
+HTLM,Consumer Cyclical,Specialty Retail
+CLW,Basic Materials,Paper & Paper Products
+BCDA,Healthcare,Biotechnology
+BLIV,Technology,Software - Application
+CHPT,Consumer Cyclical,Specialty Retail
+SPXU,その他,
+ACON,Healthcare,Health Information Services
+ZONE,Industrials,Pollution & Treatment Controls
+HKPD,Healthcare,Medical Distribution
+GWH,Industrials,Electrical Equipment & Parts
+MXCT,Healthcare,Medical Devices
+CHWY,Consumer Cyclical,Internet Retail
+DCGO,Healthcare,Medical Care Facilities
+SSTI,Technology,Software - Application
+MLTX,Healthcare,Biotechnology
+AMC,Communication Services,Entertainment
+GOTU,Consumer Defensive,Education & Training Services
+SLP,Healthcare,Health Information Services
+MTEX,Consumer Defensive,Food Distribution
+BANL,Energy,Oil & Gas Midstream
+SOC,Energy,Oil & Gas Drilling
+LFVN,Consumer Defensive,Packaged Foods
+LIVE,Consumer Cyclical,Home Improvement Retail
+PD,Technology,Software - Application
+FEAM,Basic Materials,Specialty Chemicals
+LNSR,Healthcare,Medical Devices
+ROOT,Financial Services,Insurance - Property & Casualty
+PRGO,Healthcare,Drug Manufacturers - Specialty & Generic
+TNXP,Healthcare,Biotechnology
+TWAV,Financial Services,Asset Management
+ACH,Healthcare,Medical Distribution
+TSMZ,その他,
+SKYE,Healthcare,Biotechnology
+COCH,Healthcare,Medical Devices
+MSTR,Technology,Software - Application
+SGLY,Industrials,Integrated Freight & Logistics
+CONI,その他,
+BAFN,Financial Services,Banks - Regional
+SKIN,Consumer Defensive,Household & Personal Products
+COTY,Consumer Defensive,Household & Personal Products
+FEMY,Healthcare,Medical Instruments & Supplies
+GFAI,Industrials,Security & Protection Services
+LULU,Consumer Cyclical,Apparel Retail
+QTI,Healthcare,Medical Devices
+SLAI,Technology,Information Technology Services
+GOGO,Communication Services,Telecom Services
+ATOS,Healthcare,Biotechnology
+LNZA,Industrials,Waste Management
+NSPR,Healthcare,Medical Devices
+MDXH,Healthcare,Diagnostics & Research
+SIEB,Financial Services,Capital Markets
+RXST,Healthcare,Medical Devices
+JUNS,Healthcare,Biotechnology
+MLSS,Healthcare,Medical Instruments & Supplies
+DTSS,Technology,Software - Infrastructure
+CELU,Healthcare,Biotechnology
+LBRDA,Communication Services,Telecom Services
+CDLX,Communication Services,Advertising Agencies
+WKSP,Consumer Cyclical,Auto Parts
+NYXH,Healthcare,Medical Instruments & Supplies
+TJGC,Communication Services,Advertising Agencies
+IT,Technology,Information Technology Services
+FISV,その他,
+BARK,Consumer Cyclical,Specialty Retail
+FMC,Basic Materials,Agricultural Inputs
+LUCY,Healthcare,Medical Instruments & Supplies
+HCAT,Healthcare,Health Information Services
+TSDD,その他,
+CVKD,Healthcare,Biotechnology
+SQQQ,その他,
+CABO,Communication Services,Telecom Services
+UONE,Communication Services,Broadcasting
+SNOA,Healthcare,Drug Manufacturers - Specialty & Generic
+DWTX,Healthcare,Biotechnology
+TSLZ,その他,
+MYPS,Communication Services,Electronic Gaming & Multimedia
+MYO,Healthcare,Medical Devices
+BNGO,Healthcare,Medical Instruments & Supplies
+PAVM,Healthcare,Medical Devices
+SPT,Technology,Software - Application
+UPLD,Technology,Software - Application
+AGMH,Technology,Computer Hardware
+BNC,Industrials,Farm & Heavy Construction Machinery
+ALZN,Healthcare,Biotechnology
+DJT,Communication Services,Internet Content & Information
+NXL,Healthcare,Medical Devices
+INSP,Healthcare,Medical Devices
+WKHS,Consumer Cyclical,Auto Manufacturers
+SLND,Industrials,Engineering & Construction
+NIXX,Industrials,Staffing & Employment Services
+SKBL,Industrials,Engineering & Construction
+TPST,Healthcare,Biotechnology
+ICU,Healthcare,Biotechnology
+QFIN,Financial Services,Credit Services
+NVNI,Technology,Software - Application
+SDM,Communication Services,Advertising Agencies
+BTCT,Technology,Computer Hardware
+MSW,Industrials,Engineering & Construction
+VEEA,Technology,Information Technology Services
+HTOO,Utilities,Utilities - Renewable
+OIO,Financial Services,Asset Management
+UP,Industrials,Airports & Air Services
+LENZ,Healthcare,Biotechnology
+VTGN,Healthcare,Biotechnology
+VVOS,Healthcare,Medical Devices
+BJDX,Healthcare,Medical Devices
+DTCX,Financial Services,Financial Data & Stock Exchanges
+SONM,Technology,Software - Infrastructure
+UVXY,その他,
+CRIS,Healthcare,Biotechnology
+NXGL,Healthcare,Medical Instruments & Supplies
+XBP,Technology,Software - Infrastructure
+OM,Healthcare,Medical Devices
+TDTH,Technology,Information Technology Services
+GMEU,その他,
+QCLS,Technology,Computer Hardware
+ACTU,Healthcare,Biotechnology
+AUID,Technology,Software - Infrastructure
+REED,Consumer Defensive,Beverages - Non-Alcoholic
+AMIX,Healthcare,Medical Devices
+ATHR,Technology,Software - Application
+BTOC,Industrials,Integrated Freight & Logistics
+ANY,Financial Services,Capital Markets
+CLGN,Healthcare,Biotechnology
+SNGX,Healthcare,Biotechnology
+TWG,Consumer Defensive,Food Distribution
+RKDA,Consumer Defensive,Packaged Foods
+CANG,Financial Services,Capital Markets
+DUST,その他,
+VBIO,Healthcare,Biotechnology
+INMB,Healthcare,Biotechnology
+PNBK,Financial Services,Banks - Regional
+PULM,Healthcare,Biotechnology
+HPAI,Technology,Software - Infrastructure
+ARAY,Healthcare,Medical Devices
+TANH,Consumer Defensive,Household & Personal Products
+RTB,Technology,Software - Application
+FNGR,Communication Services,Telecom Services
+BCAB,Healthcare,Biotechnology
+TOPS,Energy,Oil & Gas Midstream
+MSAI,Technology,Electronic Components
+VTAK,Healthcare,Medical Devices
+INBS,Healthcare,Medical Devices
+SELX,Technology,Electronic Components
+SMTK,Technology,Semiconductor Equipment & Materials
+ABTC,Financial Services,Capital Markets
+NCEL,Healthcare,Biotechnology
+SOS,Financial Services,Capital Markets
+JZ,Technology,Information Technology Services
+SURG,Communication Services,Telecom Services
+SOWG,Consumer Defensive,Confectioners
+KWM,Communication Services,Entertainment
+XHLD,Communication Services,Broadcasting
+IVDA,Industrials,Security & Protection Services
+GTBP,Healthcare,Biotechnology
+LMFA,Financial Services,Capital Markets
+TVGN,Healthcare,Biotechnology
+IMNN,Healthcare,Biotechnology
+CJMB,Industrials,Integrated Freight & Logistics
+RITR,Industrials,Engineering & Construction
+BNKK,Financial Services,Asset Management
+SNYR,Healthcare,Medical Distribution
+NOTV,Healthcare,Diagnostics & Research
+MREO,Healthcare,Biotechnology
+ADIL,Healthcare,Biotechnology
+DFDV,Financial Services,Asset Management
+INDP,Healthcare,Biotechnology
+HIND,Healthcare,Biotechnology
+WCT,Technology,Software - Application
+GOCO,Financial Services,Insurance Brokers
+VSTD,Consumer Cyclical,Restaurants
+ORGN,Basic Materials,Chemicals
+XAIR,Healthcare,Medical Devices
+MSS,Consumer Defensive,Grocery Stores
+OGEN,Healthcare,Biotechnology
+MBRX,Healthcare,Biotechnology
+AIFC,Technology,Software - Infrastructure
+MWYN,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+FGNX,Financial Services,Asset Management
+BIOX,Basic Materials,Agricultural Inputs
+GNLN,Consumer Defensive,Tobacco
+KUST,Communication Services,Entertainment
+APUS,Healthcare,Drug Manufacturers - Specialty & Generic
+BOXL,Technology,Consumer Electronics
+DSY,Consumer Defensive,Household & Personal Products
+WFF,Industrials,Specialty Industrial Machinery
+CENN,Consumer Cyclical,Auto Manufacturers
+VSME,Communication Services,Advertising Agencies
+AEMD,Healthcare,Medical Devices
+FBLG,Healthcare,Biotechnology
+CUPR,Healthcare,Medical Instruments & Supplies
+FRGT,Technology,Software - Application
+DCOY,Healthcare,Biotechnology
+CHAI,Communication Services,Internet Content & Information
+TNMG,Communication Services,Publishing
+BNBX,Financial Services,Asset Management
+CCTG,Industrials,Electrical Equipment & Parts
+DOGZ,Consumer Cyclical,Leisure
+BGMS,Healthcare,Biotechnology
+DJTU,その他,
+EDHL,Communication Services,Advertising Agencies
+PTLE,Consumer Cyclical,Specialty Retail
+AVX,Technology,Software - Infrastructure
+RETO,Basic Materials,Building Materials
+NUWE,Healthcare,Medical Devices
+LCDL,その他,
+NCT,Industrials,Marine Shipping
+BGM,Healthcare,Drug Manufacturers - Specialty & Generic
+OLOX,Industrials,Metal Fabrication
+TRUG,Consumer Cyclical,Leisure
+NVVE,Consumer Cyclical,Specialty Retail
+RDGT,Healthcare,Pharmaceutical Retailers
+IVF,Healthcare,Medical Devices
+YYGH,Consumer Cyclical,Personal Services
+VMAR,Consumer Cyclical,Recreational Vehicles
+CDT,Healthcare,Biotechnology
+ZNB,Communication Services,Entertainment
+AAME,Financial Services,Insurance - Life
+METCB,Basic Materials,Coking Coal
+GROW,Financial Services,Asset Management
+MRKR,Healthcare,Biotechnology
+ZDGE,Communication Services,Internet Content & Information
+PHAR,Healthcare,Biotechnology
+HURC,Industrials,Specialty Industrial Machinery
+LSTA,Healthcare,Biotechnology
+BOSC,Technology,Communication Equipment
+DLPN,Communication Services,Advertising Agencies
+YTRA,Consumer Cyclical,Travel Services
+GNLX,Healthcare,Biotechnology
+AYTU,Healthcare,Drug Manufacturers - Specialty & Generic
+ANIX,Healthcare,Biotechnology
+RYM,Consumer Defensive,Tobacco
+ASPC,Financial Services,Shell Companies
+VANI,Healthcare,Biotechnology
+BRNS,Healthcare,Biotechnology
+YJ,Consumer Cyclical,Internet Retail
+WDH,Financial Services,Insurance - Diversified
+CSBR,Healthcare,Biotechnology
+MCRB,Healthcare,Biotechnology
+FHTX,Healthcare,Biotechnology
+SMID,Basic Materials,Building Materials
+CLAR,Consumer Cyclical,Leisure
+CTXR,Healthcare,Biotechnology
+XBIO,Healthcare,Biotechnology
+MNOV,Healthcare,Biotechnology
+VRCA,Healthcare,Biotechnology
+ACFN,Technology,Scientific & Technical Instruments
+IDAI,Technology,Software - Application
+AMTD,Financial Services,Asset Management
+SOCL,その他,
+RFL,Real Estate,Real Estate Services
+FINW,Financial Services,Banks - Regional
+EBIZ,その他,
+BRFH,Consumer Defensive,Beverages - Non-Alcoholic
+PLRX,Healthcare,Biotechnology
+UG,Consumer Defensive,Household & Personal Products
+STXS,Healthcare,Medical Instruments & Supplies
+MOGU,Consumer Cyclical,Internet Retail
+BYSI,Healthcare,Biotechnology
+MGIH,Consumer Cyclical,Packaging & Containers
+CTRM,Industrials,Marine Shipping
+KBAB,その他,
+TCRT,Healthcare,Biotechnology
+FPH,Real Estate,Real Estate - Development
+XELB,Consumer Cyclical,Apparel Manufacturing
+CPHC,Consumer Cyclical,Resorts & Casinos
+OTLY,Consumer Defensive,Packaged Foods
+HCM,Healthcare,Drug Manufacturers - Specialty & Generic
+JYNT,Healthcare,Medical Care Facilities
+SINT,Healthcare,Medical Devices
+MDIA,Communication Services,Broadcasting
+SAMG,Financial Services,Asset Management
+MHH,Industrials,Staffing & Employment Services
+MEGL,Financial Services,Capital Markets
+HTT,Financial Services,Credit Services
+XBIT,Healthcare,Biotechnology
+CEPO,Financial Services,Shell Companies
+CBAT,Industrials,Electrical Equipment & Parts
+RDIB,Communication Services,Entertainment
+KWY,Financial Services,Asset Management
+KYNB,Healthcare,Biotechnology
+LMNR,Consumer Defensive,Farm Products
+MGX,Healthcare,Biotechnology
+GTIM,Consumer Cyclical,Restaurants
+AOUT,Consumer Cyclical,Leisure
+VHI,Basic Materials,Chemicals
+UFI,Consumer Cyclical,Textile Manufacturing
+TULP,Communication Services,Advertising Agencies
+COYA,Healthcare,Biotechnology
+ADXN,Healthcare,Biotechnology
+MIRA,Healthcare,Drug Manufacturers - General
+HKD,Technology,Software - Application
+RMTI,Healthcare,Drug Manufacturers - Specialty & Generic
+MNTK,Basic Materials,Specialty Chemicals
+BMRA,Healthcare,Medical Devices
+FLL,Consumer Cyclical,Resorts & Casinos
+SCWO,Industrials,Pollution & Treatment Controls
+VIOT,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+BOLT,Healthcare,Biotechnology
+KTTA,Healthcare,Biotechnology
+BGI,Consumer Cyclical,Luxury Goods
+VIRC,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+ENLV,Healthcare,Biotechnology
+RDI,Communication Services,Entertainment
+FEBO,Technology,Consumer Electronics
+AIFU,Financial Services,Insurance Brokers
+GNE,Utilities,Utilities - Regulated Electric
+IH,Consumer Defensive,Education & Training Services
+NHTC,Consumer Cyclical,Internet Retail
+UCL,Communication Services,Telecom Services
+WPRT,Consumer Cyclical,Auto Parts
+KPLT,Technology,Software - Infrastructure
+CSPI,Technology,Information Technology Services
+ELUT,Healthcare,Medical Devices
+TRSG,Industrials,Metal Fabrication
+NTRB,Healthcare,Biotechnology
+CNTY,Consumer Cyclical,Resorts & Casinos
+KOSS,Technology,Consumer Electronics
+PHUN,Technology,Software - Application
+TOPP,Industrials,Trucking
+TKNO,Healthcare,Drug Manufacturers - Specialty & Generic
+VYNE,Healthcare,Biotechnology
+XPON,Industrials,Electrical Equipment & Parts
+GENK,Consumer Cyclical,Restaurants
+BRIA,Consumer Cyclical,Apparel Retail
+AIMD,Technology,Scientific & Technical Instruments
+RPID,Healthcare,Medical Devices
+MRT,Technology,Software - Application
+MNDO,Technology,Software - Application
+UEIC,Technology,Consumer Electronics
+RENT,Consumer Cyclical,Apparel Retail
+BLIN,Technology,Software - Infrastructure
+INTS,Healthcare,Biotechnology
+LEXX,Healthcare,Biotechnology
+PETS,Healthcare,Pharmaceutical Retailers
+HGBL,Financial Services,Capital Markets
+INCR,Healthcare,Drug Manufacturers - Specialty & Generic
+GAIA,Communication Services,Entertainment
+GHG,Consumer Cyclical,Lodging
+EBON,Technology,Computer Hardware
+JG,Technology,Software - Application
+CLRO,Technology,Communication Equipment
+INTZ,Technology,Software - Infrastructure
+DRIO,Healthcare,Health Information Services
+CTSO,Healthcare,Medical Devices
+OMSE,Energy,Oil & Gas Equipment & Services
+NRSN,Healthcare,Biotechnology
+CINT,Technology,Software - Infrastructure
+NVX,Industrials,Electrical Equipment & Parts
+INLX,Technology,Software - Application
+GDTC,Healthcare,Biotechnology
+FTHM,Real Estate,Real Estate Services
+LSF,Consumer Defensive,Packaged Foods
+MBIO,Healthcare,Biotechnology
+NRDY,Technology,Software - Application
+HSCS,Healthcare,Medical Devices
+LITS,Healthcare,Biotechnology
+LUNG,Healthcare,Medical Devices
+SMXT,Technology,Solar
+WVVI,Consumer Defensive,Beverages - Wineries & Distilleries
+VERU,Healthcare,Biotechnology
+NCTY,Financial Services,Capital Markets
+LFWD,Healthcare,Medical Devices
+IPDN,Industrials,Staffing & Employment Services
+STSS,Healthcare,Medical Instruments & Supplies
+PCSA,Healthcare,Biotechnology
+REFR,Technology,Electronic Components
+BMGL,Healthcare,Medical Care Facilities
+REE,Consumer Cyclical,Auto Parts
+AQMS,Industrials,Waste Management
+AMCI,Technology,Computer Hardware
+HIHO,Industrials,Metal Fabrication
+TEAD,Communication Services,Internet Content & Information
+IMTE,Technology,Electronic Components
+YHGJ,Consumer Cyclical,Packaging & Containers
+MYSZ,Technology,Software - Application
+TIL,Healthcare,Biotechnology
+HOWL,Healthcare,Biotechnology
+INAB,Healthcare,Biotechnology
+LPA,Real Estate,Real Estate - Development
+CMMB,Healthcare,Biotechnology
+UFG,Industrials,Marine Shipping
+CRVO,Healthcare,Biotechnology
+SWVL,Industrials,Railroads
+CALC,Healthcare,Biotechnology
+AIXC,Technology,Software - Infrastructure
+JFIN,Financial Services,Credit Services
+SNTI,Healthcare,Biotechnology
+HYFM,Industrials,Farm & Heavy Construction Machinery
+MERC,Basic Materials,Paper & Paper Products
+DUO,Real Estate,Real Estate Services
+XYF,Financial Services,Credit Services
+DH,Healthcare,Health Information Services
+XCUR,Healthcare,Biotechnology
+GTEC,Consumer Cyclical,Auto Parts
+NCNA,Healthcare,Biotechnology
+SORA,Consumer Cyclical,Luxury Goods
+CISO,Technology,Software - Infrastructure
+BBLG,Healthcare,Biotechnology
+GELS,Healthcare,Drug Manufacturers - Specialty & Generic
+AREN,Communication Services,Internet Content & Information
+SEAT,Communication Services,Internet Content & Information
+EXOD,Technology,Software - Infrastructure
+LPSN,Technology,Software - Application
+AMBR,Technology,Software - Infrastructure
+CSAI,Technology,Software - Infrastructure
+JSPR,Healthcare,Biotechnology
+NEON,Technology,Electronic Components
+TAOP,Technology,Software - Infrastructure
+ZSTK,Financial Services,Asset Management
+BIVI,Healthcare,Biotechnology
+VSEE,Healthcare,Health Information Services
+TGL,Technology,Software - Application
+TVRD,Healthcare,Biotechnology
+RAY,Consumer Defensive,Household & Personal Products
+NVNO,Healthcare,Medical Devices
+STKH,Consumer Defensive,Packaged Foods
+NXTS,Basic Materials,Agricultural Inputs
+GRI,Healthcare,Biotechnology
+APVO,Healthcare,Biotechnology
+ARBK,Financial Services,Capital Markets
+REVB,Healthcare,Biotechnology
+HSDT,Financial Services,Asset Management
+GIBO,Communication Services,Internet Content & Information
