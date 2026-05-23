@@ -19,51 +19,44 @@ ADV_MIN_MIL    = 5.0
 HIGH52_PCT     = 20.0
 PERIOD         = '3y'
 
-# ============================================================
-#  マネックス証券 取扱銘柄リスト（ローカルCSVから読み込み）
-# ============================================================
 def get_monex_tickers():
     try:
-        # エンコーディングを試す
         for enc in ['shift_jis', 'utf-8', 'cp932']:
             try:
                 df = pd.read_csv('data/Monex_US_LIST.csv',
                                  encoding=enc, on_bad_lines='skip')
-                print(f'✅ 読み込み成功（{enc}）')
+                print(f'読み込み成功({enc}): {df.shape}')
                 print(f'カラム: {df.columns.tolist()}')
                 print(df.head(3))
                 break
             except Exception:
                 continue
 
-        # ティッカー列を探す
         for col in df.columns:
             col_lower = str(col).lower()
             if any(k in col_lower for k in ['ticker','symbol','コード','code']):
                 tickers = df[col].dropna().astype(str).str.strip()
+                tickers = tickers.str.replace('$', '', regex=False)
                 tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}$')]
                 if len(tickers) > 10:
-                    print(f'✅ {len(tickers)}銘柄取得（列: {col}）')
+                    print(f'列({col})から{len(tickers)}銘柄取得')
                     return tickers.tolist()
 
-        # 全列をチェック
         for col in df.columns:
             tickers = df[col].dropna().astype(str).str.strip()
+            tickers = tickers.str.replace('$', '', regex=False)
             tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}$')]
             if len(tickers) > 100:
-                print(f'✅ {len(tickers)}銘柄取得（列: {col}）')
+                print(f'列({col})から{len(tickers)}銘柄取得')
                 return tickers.tolist()
 
-        print('⚠️ ティッカー列が見つかりません')
+        print('ティッカー列が見つかりません')
         return []
 
     except Exception as e:
-        print(f'⚠️ CSV読み込み失敗: {e}')
+        print(f'CSV読み込み失敗: {e}')
         return []
 
-# ============================================================
-#  スクリーニング関数
-# ============================================================
 def calc_ema(series, span):
     return series.ewm(span=span, adjust=False).mean()
 
@@ -135,5 +128,42 @@ def screen_ticker(ticker, spx_close):
             'SPY_RS'       : round(spx_rs, 3),
         }
     except Exception as e:
-               print(f'{ticker} error: {e}')
+        print(f'{ticker} error: {e}')
+        return None
 
+if __name__ == '__main__':
+    print('SPY取得中...')
+    spx_raw = yf.download(BENCHMARK, period=PERIOD, interval='1wk',
+                          progress=False, auto_adjust=True)
+    if isinstance(spx_raw.columns, pd.MultiIndex):
+        spx_raw.columns = spx_raw.columns.get_level_values(0)
+    spx_close = spx_raw['Close'].astype(float).dropna()
+
+    print('マネックス銘柄リスト読み込み中...')
+    tickers = get_monex_tickers()
+
+    if len(tickers) == 0:
+        print('銘柄リスト取得失敗')
+        exit(1)
+
+    print(f'{len(tickers)}銘柄をスキャン中...')
+    results = []
+    for idx, ticker in enumerate(tickers, 1):
+        result = screen_ticker(ticker, spx_close)
+        if result:
+            results.append(result)
+        if idx % 50 == 0:
+            passed = sum(1 for r in results if r['all_pass'])
+            print(f'{idx}/{len(tickers)} 完了 | クリア: {passed}銘柄')
+
+    if len(results) == 0:
+        print('結果が0件')
+        exit(1)
+
+    df = pd.DataFrame(results).sort_values(['score','銘柄RS'], ascending=[False,False])
+    os.makedirs('data', exist_ok=True)
+    df.to_csv('data/results.csv', index=False, encoding='utf-8-sig')
+    today = datetime.date.today().strftime('%Y-%m-%d')
+    with open('data/last_updated.txt', 'w') as f:
+        f.write(today)
+    print(f'完了！全条件クリア: {df["all_pass"].sum()}銘柄')
