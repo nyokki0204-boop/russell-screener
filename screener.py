@@ -135,4 +135,5 @@ def screen_ticker(ticker, spx_close):
             'SPY_RS'       : round(spx_rs, 3),
         }
     except Exception as e:
-        print(f'  
+               print(f'{ticker} error: {e}')
+
