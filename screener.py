@@ -1,6 +1,7 @@
 import yfinance as yf
 import pandas as pd
 import numpy as np
+import requests
 import warnings
 import datetime
 import os
@@ -19,34 +20,39 @@ ADV_MIN_MIL    = 5.0
 HIGH52_PCT     = 20.0
 PERIOD         = '3y'
 
-TICKERS = [
-    'ACLS','AGIO','ALGT','AMKR','ANF','ARLO','ASGN','ASTE',
-    'ATRC','AXNX','BILL','BLKB','BRC','BRKL','CABO','CARG',
-    'CATO','CCOI','CHEF','CLBK','CNXN','COLD','COLL','CRVL',
-    'CSGS','CSWI','DAN','DIOD','DLX','DORM','EFC','EFSC',
-    'ENVA','EPC','EPRT','EVTC','EXPO','FCFS','FELE','FLNG',
-    'FORM','FOXF','FULT','GBX','GDEN','GKOS','GTLS','HALO',
-    'HAYW','HBI','HIMS','HLNE','HOMB','HOPE','HTLF','HUBG',
-    'IBP','ICFI','IDCC','IESC','INVA','IOSP','IPGP','ITRI',
-    'JBSS','JELD','JJSF','JOBY','KAI','KFRC','KMT','KRYS',
-    'LANC','LAUR','LBRT','LCII','LGND','LKFN','LMAT','LNTH',
-    'LOVE','LRN','MARA','MATX','MBUU','MCRI','MGNX','MGPI',
-    'MGRC','MMSI','MNKD','MRCY','MTRN','MXCT','MYFW','NARI',
-    'NATR','NBTB','NCMI','NKTR','NMIH','NRDS','NTST','NVAX',
-    'NVST','OFG','OMCL','OPCH','OSIS','PAHC','PAYO','PCRX',
-    'PDCO','PDFS','PFBC','PGNY','PINC','PLXS','PLUS','PNTG',
-    'POWL','PRVA','PSMT','PTGX','PUMP','PVAC','RAMP','RBBN',
-    'RDN','RDNT','RELY','REVG','RMBS','ROCK','RUSHA','RXRX',
-    'SABR','SASR','SBCF','SBOW','SCSC','SFNC','SHOO','SITM',
-    'SKWD','SLP','SMPL','SNEX','SPSC','SPTN','SQSP','SRRK',
-    'STBA','STEP','STRA','SUPN','SWBI','TBBK','TDW','TGLS',
-    'TILE','TMDX','TNET','TOWN','TRHC','TRNO','TRUP','TTGT',
-    'UDMY','UFCS','UMBF','UNFI','UNIT','UPWK','USPH','UVSP',
-    'VCEL','VCTR','VIRT','VIVO','VNET','VRTS','VSCO','VSTS',
-    'WAFD','WASH','WERN','WFRD','WIFI','WRBY','WSBC','WTFC',
-    'WWW','XNCR','XPEL','YEXT','YELP','ZEUS','ZETA',
-]
+# ============================================================
+#  マネックス証券 取扱銘柄リスト取得
+# ============================================================
+def get_monex_tickers():
+    url = 'https://mxp1.monex.co.jp/pc/pdfroot/public/50/99/Monex_US_LIST.csv'
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    try:
+        r = requests.get(url, headers=headers, timeout=20)
+        r.encoding = 'shift_jis'
+        from io import StringIO
+        df = pd.read_csv(StringIO(r.text), on_bad_lines='skip')
+        print(f'カラム一覧: {df.columns.tolist()}')
+        print(df.head(3))
+        # ティッカー列を探す
+        for col in df.columns:
+            if 'ticker' in col.lower() or 'symbol' in col.lower() or 'コード' in col or '銘柄コード' in col:
+                tickers = df[col].dropna().astype(str).str.strip()
+                tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}$')]
+                print(f'✅ マネックス銘柄リスト取得: {len(tickers)}銘柄')
+                return tickers.tolist()
+        # 見つからない場合は1列目を試す
+        col = df.columns[0]
+        tickers = df[col].dropna().astype(str).str.strip()
+        tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}$')]
+        print(f'✅ マネックス銘柄リスト取得（1列目）: {len(tickers)}銘柄')
+        return tickers.tolist()
+    except Exception as e:
+        print(f'⚠️ マネックスCSV取得失敗: {e}')
+        return []
 
+# ============================================================
+#  スクリーニング関数
+# ============================================================
 def calc_ema(series, span):
     return series.ewm(span=span, adjust=False).mean()
 
@@ -101,7 +107,7 @@ def screen_ticker(ticker, spx_close):
 
         return {
             'ticker'      : ticker,
-            'sector'      : 'Russell2000',
+            'sector'      : 'Monex',
             'score'       : score,
             'all_pass'    : all_pass,
             '①EMA並び'    : '✅' if cond_ema    else '❌',
@@ -121,6 +127,9 @@ def screen_ticker(ticker, spx_close):
         print(f'  {ticker} エラー: {e}')
         return None
 
+# ============================================================
+#  メイン実行
+# ============================================================
 if __name__ == '__main__':
     print('📥 SPY取得中...')
     spx_raw = yf.download(BENCHMARK, period=PERIOD, interval='1wk',
@@ -129,23 +138,31 @@ if __name__ == '__main__':
         spx_raw.columns = spx_raw.columns.get_level_values(0)
     spx_close = spx_raw['Close'].astype(float).dropna()
 
-    print(f'📋 {len(TICKERS)}銘柄をスキャン中...')
+    print('📋 マネックス銘柄リスト取得中...')
+    tickers = get_monex_tickers()
+
+    if len(tickers) == 0:
+        print('⚠️ 銘柄リスト取得失敗')
+        exit(1)
+
+    print(f'🚀 {len(tickers)}銘柄をスキャン中...')
     results = []
-    for idx, ticker in enumerate(TICKERS, 1):
+    for idx, ticker in enumerate(tickers, 1):
         result = screen_ticker(ticker, spx_close)
         if result:
             results.append(result)
-        if idx % 20 == 0:
+        if idx % 50 == 0:
             passed = sum(1 for r in results if r['all_pass'])
-            print(f'  {idx}/{len(TICKERS)} 完了 | クリア: {passed}銘柄')
+            print(f'  {idx}/{len(tickers)} 完了 | クリア: {passed}銘柄')
 
     if len(results) == 0:
         print('⚠️ 結果が0件でした')
-    else:
-        df = pd.DataFrame(results).sort_values(['score','銘柄RS'], ascending=[False,False])
-        os.makedirs('data', exist_ok=True)
-        df.to_csv('data/results.csv', index=False, encoding='utf-8-sig')
-        today = datetime.date.today().strftime('%Y-%m-%d')
-        with open('data/last_updated.txt', 'w') as f:
-            f.write(today)
-        print(f'✅ 完了！全条件クリア: {df["all_pass"].sum()}銘柄')
+        exit(1)
+
+    df = pd.DataFrame(results).sort_values(['score','銘柄RS'], ascending=[False,False])
+    os.makedirs('data', exist_ok=True)
+    df.to_csv('data/results.csv', index=False, encoding='utf-8-sig')
+    today = datetime.date.today().strftime('%Y-%m-%d')
+    with open('data/last_updated.txt', 'w') as f:
+        f.write(today)
+    print(f'✅ 完了！全条件クリア: {df["all_pass"].sum()}銘柄')
