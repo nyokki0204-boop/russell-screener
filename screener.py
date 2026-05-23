@@ -21,38 +21,25 @@ PERIOD         = '3y'
 
 def get_monex_tickers():
     try:
-        for enc in ['shift_jis', 'utf-8', 'cp932']:
+        for enc in ['shift_jis', 'cp932', 'utf-8']:
             try:
-                df = pd.read_csv('data/Monex_US_LIST.csv',
-                                 encoding=enc, on_bad_lines='skip')
-                print(f'読み込み成功({enc}): {df.shape}')
-                print(f'カラム: {df.columns.tolist()}')
-                print(df.head(3))
-                break
-            except Exception:
-                continue
-
-        for col in df.columns:
-            col_lower = str(col).lower()
-            if any(k in col_lower for k in ['ticker','symbol','コード','code']):
-                tickers = df[col].dropna().astype(str).str.strip()
-                tickers = tickers.str.replace('$', '', regex=False)
+                df = pd.read_csv(
+                    'data/Monex_US_LIST.csv',
+                    header=None,
+                    skiprows=1,
+                    encoding=enc,
+                    on_bad_lines='skip'
+                )
+                tickers = df[0].dropna().astype(str).str.strip()
                 tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}$')]
-                if len(tickers) > 10:
-                    print(f'列({col})から{len(tickers)}銘柄取得')
+                if len(tickers) > 100:
+                    print(f'読み込み成功({enc}): {len(tickers)}銘柄')
                     return tickers.tolist()
-
-        for col in df.columns:
-            tickers = df[col].dropna().astype(str).str.strip()
-            tickers = tickers.str.replace('$', '', regex=False)
-            tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}$')]
-            if len(tickers) > 100:
-                print(f'列({col})から{len(tickers)}銘柄取得')
-                return tickers.tolist()
-
-        print('ティッカー列が見つかりません')
+            except Exception as e:
+                print(f'{enc}失敗: {e}')
+                continue
+        print('全エンコーディング失敗')
         return []
-
     except Exception as e:
         print(f'CSV読み込み失敗: {e}')
         return []
@@ -152,7 +139,7 @@ if __name__ == '__main__':
         result = screen_ticker(ticker, spx_close)
         if result:
             results.append(result)
-        if idx % 50 == 0:
+        if idx % 100 == 0:
             passed = sum(1 for r in results if r['all_pass'])
             print(f'{idx}/{len(tickers)} 完了 | クリア: {passed}銘柄')
 
