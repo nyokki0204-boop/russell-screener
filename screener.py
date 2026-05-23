@@ -38,11 +38,21 @@ def get_monex_tickers():
             except Exception as e:
                 print(f'{enc}失敗: {e}')
                 continue
-        print('全エンコーディング失敗')
         return []
     except Exception as e:
         print(f'CSV読み込み失敗: {e}')
         return []
+
+def get_sector(ticker):
+    try:
+        info = yf.Ticker(ticker).info
+        sector = info.get('sector', '')
+        industry = info.get('industry', '')
+        if sector:
+            return sector, industry
+        return 'その他', ''
+    except Exception:
+        return 'その他', ''
 
 def calc_ema(series, span):
     return series.ewm(span=span, adjust=False).mean()
@@ -96,9 +106,13 @@ def screen_ticker(ticker, spx_close):
         score    = sum(conds)
         all_pass = all(conds)
 
+        # セクター取得
+        sector, industry = get_sector(ticker)
+
         return {
             'ticker'      : ticker,
-            'sector'      : 'Monex',
+            'sector'      : sector,
+            'industry'    : industry,
             'score'       : score,
             'all_pass'    : all_pass,
             '①EMA並び'    : '✅' if cond_ema    else '❌',
