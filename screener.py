@@ -1,16 +1,11 @@
 import yfinance as yf
 import pandas as pd
 import numpy as np
-import requests
-from bs4 import BeautifulSoup
 import warnings
 import datetime
 import os
 warnings.filterwarnings('ignore')
 
-# ============================================================
-#  設定
-# ============================================================
 EMA_FAST       = 10
 EMA_MID        = 20
 EMA_SLOW       = 40
@@ -24,35 +19,38 @@ ADV_MIN_MIL    = 5.0
 HIGH52_PCT     = 20.0
 PERIOD         = '3y'
 
-# ============================================================
-#  Russell 2000銘柄リスト取得
-# ============================================================
-def get_russell2000_tickers():
-    url = 'https://www.ishares.com/us/products/239710/ISHARES-RUSSELL-2000-ETF/1467271812596.ajax?fileType=csv&fileName=IWM_holdings&dataType=fund'
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    try:
-        r = requests.get(url, headers=headers, timeout=20)
-        lines = r.text.splitlines()
-        start = next(i for i, l in enumerate(lines) if l.startswith('Ticker,'))
-        from io import StringIO
-        df = pd.read_csv(StringIO('\n'.join(lines[start:])), on_bad_lines='skip')
-        df = df[['Ticker', 'Name', 'Sector']].dropna()
-        df = df[df['Ticker'].str.match(r'^[A-Z]{1,5}$')]
-        df.columns = ['ticker', 'name', 'sector']
-        if len(df) > 100:
-            print(f'✅ {len(df)}銘柄取得')
-            return df.reset_index(drop=True)
-    except Exception as e:
-        print(f'⚠️ 取得失敗: {e}')
-    return pd.DataFrame(columns=['ticker','name','sector'])
+TICKERS = [
+    'ACLS','AGIO','ALGT','AMKR','ANF','ARLO','ASGN','ASTE',
+    'ATRC','AXNX','BILL','BLKB','BRC','BRKL','CABO','CARG',
+    'CATO','CCOI','CHEF','CLBK','CNXN','COLD','COLL','CRVL',
+    'CSGS','CSWI','DAN','DIOD','DLX','DORM','EFC','EFSC',
+    'ENVA','EPC','EPRT','EVTC','EXPO','FCFS','FELE','FLNG',
+    'FORM','FOXF','FULT','GBX','GDEN','GKOS','GTLS','HALO',
+    'HAYW','HBI','HIMS','HLNE','HOMB','HOPE','HTLF','HUBG',
+    'IBP','ICFI','IDCC','IESC','INVA','IOSP','IPGP','ITRI',
+    'JBSS','JELD','JJSF','JOBY','KAI','KFRC','KMT','KRYS',
+    'LANC','LAUR','LBRT','LCII','LGND','LKFN','LMAT','LNTH',
+    'LOVE','LRN','MARA','MATX','MBUU','MCRI','MGNX','MGPI',
+    'MGRC','MMSI','MNKD','MRCY','MTRN','MXCT','MYFW','NARI',
+    'NATR','NBTB','NCMI','NKTR','NMIH','NRDS','NTST','NVAX',
+    'NVST','OFG','OMCL','OPCH','OSIS','PAHC','PAYO','PCRX',
+    'PDCO','PDFS','PFBC','PGNY','PINC','PLXS','PLUS','PNTG',
+    'POWL','PRVA','PSMT','PTGX','PUMP','PVAC','RAMP','RBBN',
+    'RDN','RDNT','RELY','REVG','RMBS','ROCK','RUSHA','RXRX',
+    'SABR','SASR','SBCF','SBOW','SCSC','SFNC','SHOO','SITM',
+    'SKWD','SLP','SMPL','SNEX','SPSC','SPTN','SQSP','SRRK',
+    'STBA','STEP','STRA','SUPN','SWBI','TBBK','TDW','TGLS',
+    'TILE','TMDX','TNET','TOWN','TRHC','TRNO','TRUP','TTGT',
+    'UDMY','UFCS','UMBF','UNFI','UNIT','UPWK','USPH','UVSP',
+    'VCEL','VCTR','VIRT','VIVO','VNET','VRTS','VSCO','VSTS',
+    'WAFD','WASH','WERN','WFRD','WIFI','WRBY','WSBC','WTFC',
+    'WWW','XNCR','XPEL','YEXT','YELP','ZEUS','ZETA',
+]
 
-# ============================================================
-#  スクリーニング関数
-# ============================================================
 def calc_ema(series, span):
     return series.ewm(span=span, adjust=False).mean()
 
-def screen_ticker(ticker, sector, spx_close):
+def screen_ticker(ticker, spx_close):
     try:
         raw = yf.download(ticker, period=PERIOD, interval='1wk',
                           progress=False, auto_adjust=True)
@@ -68,20 +66,17 @@ def screen_ticker(ticker, sector, spx_close):
         high   = df['High'].astype(float)
         volume = df['Volume'].astype(float)
 
-        # ① EMA
         ema_f = calc_ema(close, EMA_FAST)
         ema_m = calc_ema(close, EMA_MID)
         ema_s = calc_ema(close, EMA_SLOW)
         cond_ema = bool(ema_f.iloc[-1] > ema_m.iloc[-1] > ema_s.iloc[-1])
 
-        # ② 出来高急増
         vol_avg     = volume.rolling(VOL_AVG_LEN).mean()
         recent_vols = volume.iloc[-VOL_LOOKBACK:].values
         recent_avgs = vol_avg.iloc[-VOL_LOOKBACK:].values
         cond_volume = bool(np.any(recent_vols >= recent_avgs * VOL_MULTIPLIER))
         vol_ratio   = float(volume.iloc[-1] / vol_avg.iloc[-1]) if vol_avg.iloc[-1] > 0 else 0.0
 
-        # ③ RS
         spx_al = spx_close.reindex(close.index, method='ffill').dropna()
         common = close.index.intersection(spx_al.index)
         if len(common) < RS_LEN + 2:
@@ -90,13 +85,11 @@ def screen_ticker(ticker, sector, spx_close):
         spx_rs = float(spx_al[common].iloc[-1] / spx_al[common].iloc[-RS_LEN-1])
         cond_rs = bool(stk_rs > spx_rs)
 
-        # ④ 平均売買代金
         dollar_vol     = close * volume
         avg_dollar_vol = float(dollar_vol.rolling(ADV_LEN).mean().iloc[-1])
         adv_mil        = avg_dollar_vol / 1000000.0
         cond_adv       = bool(adv_mil >= ADV_MIN_MIL)
 
-        # ⑤ 52週高値圏
         high52        = float(high.iloc[-52:].max()) if len(high) >= 52 else float(high.max())
         current_close = float(close.iloc[-1])
         pct_from_high = (high52 - current_close) / high52 * 100
@@ -108,7 +101,7 @@ def screen_ticker(ticker, sector, spx_close):
 
         return {
             'ticker'      : ticker,
-            'sector'      : sector,
+            'sector'      : 'Russell2000',
             'score'       : score,
             'all_pass'    : all_pass,
             '①EMA並び'    : '✅' if cond_ema    else '❌',
@@ -124,12 +117,10 @@ def screen_ticker(ticker, sector, spx_close):
             '銘柄RS'       : round(stk_rs, 3),
             'SPY_RS'       : round(spx_rs, 3),
         }
-    except Exception:
+    except Exception as e:
+        print(f'  {ticker} エラー: {e}')
         return None
 
-# ============================================================
-#  メイン実行
-# ============================================================
 if __name__ == '__main__':
     print('📥 SPY取得中...')
     spx_raw = yf.download(BENCHMARK, period=PERIOD, interval='1wk',
@@ -138,30 +129,23 @@ if __name__ == '__main__':
         spx_raw.columns = spx_raw.columns.get_level_values(0)
     spx_close = spx_raw['Close'].astype(float).dropna()
 
-    print('📋 銘柄リスト取得中...')
-    russell = get_russell2000_tickers()
-    print(f'対象: {len(russell)}銘柄')
-
+    print(f'📋 {len(TICKERS)}銘柄をスキャン中...')
     results = []
-    total   = len(russell)
-    for idx, row in russell.iterrows():
-        ticker = row['ticker']
-        sector = row['sector']
-        result = screen_ticker(ticker, sector, spx_close)
+    for idx, ticker in enumerate(TICKERS, 1):
+        result = screen_ticker(ticker, spx_close)
         if result:
             results.append(result)
-        if (idx + 1) % 20 == 0:
+        if idx % 20 == 0:
             passed = sum(1 for r in results if r['all_pass'])
-            print(f'  {idx+1}/{total} 完了 | クリア: {passed}銘柄')
+            print(f'  {idx}/{len(TICKERS)} 完了 | クリア: {passed}銘柄')
 
-    df = pd.DataFrame(results).sort_values(['score','銘柄RS'], ascending=[False,False])
-
-    os.makedirs('data', exist_ok=True)
-    df.to_csv('data/results.csv', index=False, encoding='utf-8-sig')
-
-    today = datetime.date.today().strftime('%Y-%m-%d')
-    with open('data/last_updated.txt', 'w') as f:
-        f.write(today)
-
-    print(f'✅ 完了！全条件クリア: {df["all_pass"].sum()}銘柄')
-    print(f'   data/results.csv に保存しました')
+    if len(results) == 0:
+        print('⚠️ 結果が0件でした')
+    else:
+        df = pd.DataFrame(results).sort_values(['score','銘柄RS'], ascending=[False,False])
+        os.makedirs('data', exist_ok=True)
+        df.to_csv('data/results.csv', index=False, encoding='utf-8-sig')
+        today = datetime.date.today().strftime('%Y-%m-%d')
+        with open('data/last_updated.txt', 'w') as f:
+            f.write(today)
+        print(f'✅ 完了！全条件クリア: {df["all_pass"].sum()}銘柄')
