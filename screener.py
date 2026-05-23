@@ -24,7 +24,7 @@ def get_monex_tickers():
         for enc in ['shift_jis', 'cp932', 'utf-8']:
             try:
                 df = pd.read_csv(
-                    'data/Monex_US_LIST.csv',
+                    'Monex_US_LIST.csv',
                     header=None,
                     skiprows=1,
                     encoding=enc,
