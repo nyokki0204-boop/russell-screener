@@ -1,4 +1,5 @@
-name: Weekly Russell 2000 Scan
+nnamename: Weekly Russell 2000 Scan
+
 
 on:
   schedule:
