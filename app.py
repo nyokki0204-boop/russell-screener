@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
 import numpy as np
 import os
 import warnings
@@ -19,10 +18,10 @@ st.caption("マネックス証券 米国株 強い上昇トレンド銘柄（週
 DATA_PATH    = 'data/results.csv'
 UPDATED_PATH = 'data/last_updated.txt'
 HISTORY_PATH = 'data/history.csv'
+PASS_PATH    = 'data/pass_history.csv'
 
 if not os.path.exists(DATA_PATH):
     st.warning('⚠️ まだスキャン結果がありません。')
-    st.info('GitHub Actionsが毎週土曜日に自動スキャンします。')
     st.stop()
 
 df = pd.read_csv(DATA_PATH)
@@ -41,9 +40,6 @@ col2.metric('全条件クリア', f'{df["all_pass"].sum()}銘柄')
 col3.metric('スコア4以上', f'{(df["score"]>=4).sum()}銘柄')
 col4.metric('セクター数', f'{df["sector"].nunique()}')
 
-# ============================================================
-#  列名の確認（高値条件の列名が変わっている場合に対応）
-# ============================================================
 high_col = '⑤高値圏10-30%' if '⑤高値圏10-30%' in df.columns else '⑤高値圏'
 check_cols = ['①EMA並び','②出来高急増','③RS優位','④売買代金', high_col]
 
@@ -66,8 +62,9 @@ def color_check(val):
 # ============================================================
 #  タブ
 # ============================================================
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab_new, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     '🚀 全条件クリア',
+    '🆕 新規・脱落',
     '🔶 スコア4以上',
     '📂 セクター別',
     '📈 推移グラフ',
@@ -91,6 +88,76 @@ with tab1:
     else:
         st.warning('該当銘柄なし')
 
+with tab_new:
+    st.subheader('🆕 新規クリア・📤 脱落銘柄')
+    if not os.path.exists(PASS_PATH):
+        st.info('履歴データがまだありません。次回スキャンから表示されます。')
+    else:
+        ph = pd.read_csv(PASS_PATH)
+        dates = sorted(ph['date'].unique())
+
+        if len(dates) < 2:
+            st.info('比較データがまだありません。2週分以上のデータが必要です。')
+        else:
+            this_week = dates[-1]
+            last_week = dates[-2]
+
+            this_set = set(ph[ph['date']==this_week]['ticker'])
+            last_set = set(ph[ph['date']==last_week]['ticker'])
+
+            new_tickers  = this_set - last_set
+            out_tickers  = last_set - this_set
+            cont_tickers = this_set & last_set
+
+            c1, c2, c3 = st.columns(3)
+            c1.metric('🆕 新規クリア', f'{len(new_tickers)}銘柄')
+            c2.metric('✅ 継続', f'{len(cont_tickers)}銘柄')
+            c3.metric('📤 脱落', f'{len(out_tickers)}銘柄')
+
+            st.caption(f'比較: {this_week}（今週）vs {last_week}（先週）')
+
+            # 新規クリア銘柄
+            st.subheader(f'🆕 新規クリア: {len(new_tickers)}銘柄')
+            if len(new_tickers) > 0:
+                df_new = df[df['ticker'].isin(new_tickers)].reset_index(drop=True)
+                df_new.index += 1
+                st.dataframe(
+                    df_new[cols_display].style
+                    .map(color_score, subset=['score'])
+                    .map(color_check, subset=[c for c in check_cols if c in df_new.columns]),
+                    use_container_width=True, height=350
+                )
+                st.code(','.join(df_new['ticker'].tolist()))
+            else:
+                st.write('新規銘柄なし')
+
+            # 脱落銘柄
+            st.subheader(f'📤 脱落: {len(out_tickers)}銘柄')
+            if len(out_tickers) > 0:
+                # 先週のデータから情報を取得
+                df_out = ph[(ph['date']==last_week) & (ph['ticker'].isin(out_tickers))].copy()
+                df_out = df_out[['ticker','sector','industry','銘柄RS']].reset_index(drop=True)
+                df_out.index += 1
+                # 今週のスコアを追加
+                df_out = df_out.merge(df[['ticker','score']], on='ticker', how='left')
+                df_out['今週のスコア'] = df_out['score'].fillna('未スキャン')
+                df_out = df_out.drop(columns=['score'])
+                st.dataframe(df_out, use_container_width=True, height=350)
+            else:
+                st.write('脱落銘柄なし')
+
+            # 継続銘柄
+            with st.expander(f'✅ 継続: {len(cont_tickers)}銘柄'):
+                if len(cont_tickers) > 0:
+                    df_cont = df[df['ticker'].isin(cont_tickers)].reset_index(drop=True)
+                    df_cont.index += 1
+                    st.dataframe(
+                        df_cont[cols_display].style
+                        .map(color_score, subset=['score'])
+                        .map(color_check, subset=[c for c in check_cols if c in df_cont.columns]),
+                        use_container_width=True, height=400
+                    )
+
 with tab2:
     df_near = df[(df['score']>=4) & (~df['all_pass'])].reset_index(drop=True)
     df_near.index += 1
@@ -102,7 +169,7 @@ with tab2:
             .map(color_check, subset=[c for c in check_cols if c in df_near.columns]),
             use_container_width=True, height=500
         )
-        st.subheader('📋 TradingViewウォッチリスト用（4以上）')
+        st.subheader('📋 TradingViewウォッチリスト用')
         st.code(','.join(df_near['ticker'].tolist()))
     else:
         st.warning('該当銘柄なし')
@@ -111,10 +178,23 @@ with tab3:
     st.subheader('📂 セクター別表示')
     sectors  = sorted(df['sector'].dropna().unique().tolist())
     selected = st.selectbox('セクターを選択', ['全セクター'] + sectors)
-    score_min = st.slider('最低スコア', 0, 5, 3)
 
-    df_sec = df[df['score'] >= score_min] if selected == '全セクター' \
-             else df[(df['sector'] == selected) & (df['score'] >= score_min)]
+    score_filter = st.selectbox('スコアで絞り込み', ['すべて', '5（全条件クリア）', '4のみ', '3のみ', '2以下'])
+
+    if selected == '全セクター':
+        df_sec = df.copy()
+    else:
+        df_sec = df[df['sector'] == selected].copy()
+
+    if score_filter == '5（全条件クリア）':
+        df_sec = df_sec[df_sec['score'] == 5]
+    elif score_filter == '4のみ':
+        df_sec = df_sec[df_sec['score'] == 4]
+    elif score_filter == '3のみ':
+        df_sec = df_sec[df_sec['score'] == 3]
+    elif score_filter == '2以下':
+        df_sec = df_sec[df_sec['score'] <= 2]
+
     df_sec = df_sec.reset_index(drop=True)
     df_sec.index += 1
 
@@ -133,13 +213,12 @@ with tab4:
     st.subheader('📈 条件クリア銘柄数の推移')
 
     if not os.path.exists(HISTORY_PATH):
-        st.info('履歴データがまだありません。スキャンを重ねると表示されます。')
+        st.info('履歴データがまだありません。')
     else:
         hist = pd.read_csv(HISTORY_PATH)
         hist['date'] = pd.to_datetime(hist['date'])
         hist = hist.sort_values('date')
 
-        # ── 全体推移グラフ ──────────────────────────────
         fig, ax = plt.subplots(figsize=(12, 4), facecolor='#0d1117')
         ax.set_facecolor('#0d1117')
         ax.tick_params(colors='#aaaaaa', labelsize=9)
@@ -158,7 +237,6 @@ with tab4:
         plt.tight_layout()
         st.pyplot(fig)
 
-        # ── セクター別推移 ──────────────────────────────
         st.subheader('📂 セクター別クリア銘柄数の推移')
         sec_cols = [c for c in hist.columns if c.startswith('sec_')]
 
@@ -189,7 +267,6 @@ with tab4:
             plt.tight_layout()
             st.pyplot(fig2)
 
-        # ── 前週比テーブル ──────────────────────────────
         st.subheader('📊 週次サマリー（前週比）')
         disp = hist[['date','all_pass','score4plus','avg_rs']].copy()
         disp['date'] = disp['date'].dt.strftime('%Y-%m-%d')
@@ -202,13 +279,22 @@ with tab4:
             'score4plus': 'スコア4以上',
             'avg_rs'    : '平均RS',
         })
-        st.dataframe(disp.iloc[::-1].reset_index(drop=True),
-                     use_container_width=True)
+        st.dataframe(disp.iloc[::-1].reset_index(drop=True), use_container_width=True)
 
 with tab5:
     st.subheader(f'📋 全銘柄: {len(df)}銘柄')
-    score_filter = st.slider('最低スコア ', 0, 5, 0)
-    df_filtered = df[df['score'] >= score_filter].reset_index(drop=True)
+    score_filter2 = st.selectbox('スコアで絞り込み ', ['すべて', '5（全条件クリア）', '4のみ', '3のみ', '2以下'])
+    if score_filter2 == '5（全条件クリア）':
+        df_filtered = df[df['score'] == 5]
+    elif score_filter2 == '4のみ':
+        df_filtered = df[df['score'] == 4]
+    elif score_filter2 == '3のみ':
+        df_filtered = df[df['score'] == 3]
+    elif score_filter2 == '2以下':
+        df_filtered = df[df['score'] <= 2]
+    else:
+        df_filtered = df
+    df_filtered = df_filtered.reset_index(drop=True)
     df_filtered.index += 1
     st.dataframe(
         df_filtered[cols_display].style
