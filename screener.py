@@ -15,7 +15,7 @@ VOL_MULTIPLIER  = 2.0
 RS_LEN          = 52
 BENCHMARK       = 'SPY'
 ADV_LEN         = 20
-ADV_MIN_MIL     = 5.0
+ADV_MIN_MIL     = 10.0
 HIGH52_PCT_MIN  = 10.0  # 高値から最低10%下
 HIGH52_PCT_MAX  = 30.0  # 高値から最大30%下
 PERIOD          = '3y'
@@ -92,7 +92,8 @@ def screen_ticker(ticker, spx_close, sector_cache=None):
             return None
         stk_rs  = float(close[common].iloc[-1] / close[common].iloc[-RS_LEN-1])
         spx_rs  = float(spx_al[common].iloc[-1] / spx_al[common].iloc[-RS_LEN-1])
-        cond_rs = bool(stk_rs > spx_rs)
+        cond_rs = bool(stk_rs > spx_rs * 1.1)
+
 
         # ④ 平均売買代金
         dollar_vol     = close * volume
