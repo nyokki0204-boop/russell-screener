@@ -1,7 +1,7 @@
 name: Scan
 on:
   schedule:
-    - cron: '0 20 * * 6'
+    - cron: '0 22 * * 5'
   workflow_dispatch:
 jobs:
   scan:
