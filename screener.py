@@ -16,8 +16,9 @@ RS_LEN          = 52
 BENCHMARK       = 'SPY'
 ADV_LEN         = 20
 ADV_MIN_MIL     = 10.0
-HIGH52_PCT_MIN  = 10.0  # 高値から最低10%下
-HIGH52_PCT_MAX  = 30.0  # 高値から最大30%下
+RS_MULTIPLIER   = 1.1
+HIGH52_PCT_MIN  = 10.0
+HIGH52_PCT_MAX  = 30.0
 PERIOD          = '3y'
 
 def get_monex_tickers():
@@ -72,36 +73,30 @@ def screen_ticker(ticker, spx_close, sector_cache=None):
         high   = df['High'].astype(float)
         volume = df['Volume'].astype(float)
 
-        # ① EMA
         ema_f    = calc_ema(close, EMA_FAST)
         ema_m    = calc_ema(close, EMA_MID)
         ema_s    = calc_ema(close, EMA_SLOW)
         cond_ema = bool(ema_f.iloc[-1] > ema_m.iloc[-1] > ema_s.iloc[-1])
 
-        # ② 出来高急増
         vol_avg     = volume.rolling(VOL_AVG_LEN).mean()
         recent_vols = volume.iloc[-VOL_LOOKBACK:].values
         recent_avgs = vol_avg.iloc[-VOL_LOOKBACK:].values
         cond_volume = bool(np.any(recent_vols >= recent_avgs * VOL_MULTIPLIER))
         vol_ratio   = float(volume.iloc[-1] / vol_avg.iloc[-1]) if vol_avg.iloc[-1] > 0 else 0.0
 
-        # ③ RS
         spx_al = spx_close.reindex(close.index, method='ffill').dropna()
         common = close.index.intersection(spx_al.index)
         if len(common) < RS_LEN + 2:
             return None
         stk_rs  = float(close[common].iloc[-1] / close[common].iloc[-RS_LEN-1])
         spx_rs  = float(spx_al[common].iloc[-1] / spx_al[common].iloc[-RS_LEN-1])
-        cond_rs = bool(stk_rs > spx_rs * 1.1)
+        cond_rs = bool(stk_rs > spx_rs * RS_MULTIPLIER)
 
-
-        # ④ 平均売買代金
         dollar_vol     = close * volume
         avg_dollar_vol = float(dollar_vol.rolling(ADV_LEN).mean().iloc[-1])
         adv_mil        = avg_dollar_vol / 1000000.0
         cond_adv       = bool(adv_mil >= ADV_MIN_MIL)
 
-        # ⑤ 52週高値から10〜30%以内
         high52        = float(high.iloc[-52:].max()) if len(high) >= 52 else float(high.max())
         current_close = float(close.iloc[-1])
         pct_from_high = (high52 - current_close) / high52 * 100
@@ -111,7 +106,6 @@ def screen_ticker(ticker, spx_close, sector_cache=None):
         score    = sum(conds)
         all_pass = all(conds)
 
-        # セクター取得（キャッシュ優先）
         if sector_cache is not None and ticker in sector_cache.index:
             sector   = sector_cache.loc[ticker, 'sector']
             industry = sector_cache.loc[ticker, 'industry']
@@ -119,23 +113,24 @@ def screen_ticker(ticker, spx_close, sector_cache=None):
             sector, industry = get_sector(ticker)
 
         return {
-            'ticker'      : ticker,
-            'sector'      : sector,
-            'industry'    : industry,
-            'score'       : score,
-            'all_pass'    : all_pass,
-            '①EMA並び'    : '✅' if cond_ema    else '❌',
-            '②出来高急増'  : '✅' if cond_volume else '❌',
-            '③RS優位'     : '✅' if cond_rs     else '❌',
-            '④売買代金'    : '✅' if cond_adv    else '❌',
-            '⑤高値圏10-30%': '✅' if cond_52wk  else '❌',
-            '現在値'       : round(current_close, 2),
-            '52週高値'     : round(high52, 2),
-            '高値乖離%'    : round(pct_from_high, 1),
-            '出来高倍率'   : round(vol_ratio, 2),
-            '売買代金(M$)' : round(adv_mil, 1),
-            '銘柄RS'       : round(stk_rs, 3),
-            'SPY_RS'       : round(spx_rs, 3),
+            'ticker'        : ticker,
+            'sector'        : sector,
+            'industry'      : industry,
+            'score'         : score,
+            'all_pass'      : all_pass,
+            '①EMA並び'      : '✅' if cond_ema    else '❌',
+            '②出来高急増'    : '✅' if cond_volume else '❌',
+            '③RS優位'       : '✅' if cond_rs     else '❌',
+            '④売買代金'      : '✅' if cond_adv    else '❌',
+            '⑤高値圏10-30%' : '✅' if cond_52wk   else '❌',
+            '現在値'         : round(current_close, 2),
+            '52週高値'       : round(high52, 2),
+            '高値乖離%'      : round(pct_from_high, 1),
+            '出来高倍率'     : round(vol_ratio, 2),
+            '売買代金(M$)'   : round(adv_mil, 1),
+            '銘柄RS'         : round(stk_rs, 3),
+            'SPY_RS'         : round(spx_rs, 3),
+            'RS倍率'         : round(stk_rs / spx_rs, 3) if spx_rs > 0 else 0,
         }
     except Exception as e:
         print(f'{ticker} error: {e}')
@@ -157,7 +152,6 @@ def save_history(df, today):
         'score4plus': score4,
         'avg_rs'    : avg_rs,
     }
-
     for sec, cnt in sector_counts.items():
         col = f'sec_{sec[:15]}'
         row[col] = cnt
@@ -175,6 +169,22 @@ def save_history(df, today):
     history.to_csv(history_path, index=False, encoding='utf-8-sig')
     print(f'履歴保存完了: {len(history)}週分')
 
+def save_pass_history(df, today):
+    pass_path = 'data/pass_history.csv'
+    df_pass = df[df['all_pass']][['ticker','sector','industry','銘柄RS','RS倍率','高値乖離%']].copy()
+    df_pass['date'] = today
+    df_pass = df_pass[['date','ticker','sector','industry','銘柄RS','RS倍率','高値乖離%']]
+
+    if os.path.exists(pass_path):
+        old = pd.read_csv(pass_path)
+        old = old[old['date'] != today]
+        all_data = pd.concat([old, df_pass], ignore_index=True)
+    else:
+        all_data = df_pass
+
+    all_data.to_csv(pass_path, index=False, encoding='utf-8-sig')
+    print(f'クリア銘柄履歴保存: {len(df_pass)}銘柄 / 累計{len(all_data)}行')
+
 if __name__ == '__main__':
     print('SPY取得中...')
     spx_raw = yf.download(BENCHMARK, period=PERIOD, interval='1wk',
@@ -183,7 +193,6 @@ if __name__ == '__main__':
         spx_raw.columns = spx_raw.columns.get_level_values(0)
     spx_close = spx_raw['Close'].astype(float).dropna()
 
-    # セクターキャッシュ読み込み
     sector_cache = None
     if os.path.exists('data/sector_cache.csv'):
         sector_cache = pd.read_csv('data/sector_cache.csv').set_index('ticker')
@@ -224,5 +233,5 @@ if __name__ == '__main__':
         f.write(today)
 
     save_history(df, today)
+    save_pass_history(df, today)
     print(f'完了！全条件クリア: {df["all_pass"].sum()}銘柄')
-    print(f'高値乖離10-30%: {df["⑤高値圏10-30%"].eq("✅").sum()}銘柄該当')
