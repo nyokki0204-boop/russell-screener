@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="ラッセル候補">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>ラッセル候補 | 米国株スクリーナー</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="mark">R</span><div><strong>ラッセル候補</strong><small>マネックス取扱米国株・週次スキャン</small></div></div><button id="refresh" class="icon-btn" aria-label="最新データを再取得">↻</button></header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">WEEKLY SCREEN</div>
+      <h1>強い銘柄を、<br>次のチャートへ。</h1>
+      <div id="status" class="status" role="status">データを読み込み中…</div>
+      <div id="metrics" class="metrics" hidden></div>
+    </section>
+    <nav id="tabs" class="tabs" aria-label="表示する候補" hidden>
+      <button data-tab="new" class="active" aria-current="page">新規 <span data-count="new"></span></button>
+      <button data-tab="pass">全条件 <span data-count="pass"></span></button>
+      <button data-tab="near">あと1条件 <span data-count="near"></span></button>
+      <button data-tab="out">脱落 <span data-count="out"></span></button>
+      <button data-tab="all">全銘柄 <span data-count="all"></span></button>
+      <button data-tab="trend">推移・内訳</button>
+    </nav>
+    <section id="results" hidden>
+      <div class="section-head"><div><h2 id="section-title"></h2><p id="section-subtitle"></p></div><button id="copy" class="text-btn" hidden>銘柄をコピー</button></div>
+      <div id="filters" class="filters"><label class="search-label"><span class="sr-only">ティッカー・業種を検索</span><input id="search" type="search" placeholder="ティッカー・業種を検索" autocomplete="off"></label><label class="sr-only" for="sector">セクター</label><select id="sector"><option value="">全セクター</option></select><label class="sr-only" for="score">スコア</label><select id="score"><option value="">全スコア</option><option value="5">5点</option><option value="4">4点</option><option value="3">3点</option><option value="low">2点以下</option></select></div>
+      <p id="result-count" class="result-count"></p><div id="cards" class="cards"></div><button id="more" class="more" hidden>さらに表示</button>
+      <div id="trend" hidden></div>
+    </section>
+    <footer><a href="https://nyokki0204-boop.github.io/mychart/mychart.html" target="_blank" rel="noopener">mychartを開く ↗</a><span>データ: yfinance / マネックス取扱銘柄</span></footer>
+  </main>
+</body>
+</html>
